@@ -1484,4 +1484,4 @@ columns:
   python_date_format: null
 version: 1.0.0
 database_uuid: 5d7f2eda-5d5e-d0e5-6b88-cc4cf8710813
-data: https://raw.githubusercontent.com/apache-superset/examples-data/master/datasets/examples/fcc_survey_2018.csv.gz
+data: https://raw.githubusercontent.com/preset-io/public-examples/master/data/fcc_survey_2018.csv.gz
