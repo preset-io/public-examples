@@ -12,5 +12,5 @@ To add a new example:
 4. Copy all the files from `charts/` and `dashboards/` to this repo.
 5. Copy any files from `datasets/` that don't exist in this repo.
 6. Do not copy `metadata.yaml` or `databases/examples.yaml`.
-7. For every new dataset file added, export the table data to CSV and put the file in the `data/` directory.
+7. For every new dataset file added, export the table data to CSV, compress with `gzip`, and put the file in the `data/` directory.
 8. Edit the dataset file, and add an attribute `data` that points to the URL of the data (see [this example](https://github.com/preset-io/public-examples/blob/master/datasets/examples/FCC_2018_Survey.yaml)).
