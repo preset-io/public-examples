@@ -1,4 +1,4 @@
-table_name: World Bank Health Data
+table_name: wb_health_population
 main_dttm_col: year
 description: "<!--\nLicensed to the Apache Software Foundation (ASF) under one\nor\
   \ more contributor license agreements.  See the NOTICE file\ndistributed with this\
