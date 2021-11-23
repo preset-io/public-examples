@@ -28,9 +28,7 @@ params:
   - exclusive
   url_params: {}
   viz_type: pie
-query_context: '{"datasource":{"id":23,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[],"extras":{"time_range_endpoints":["inclusive","exclusive"],"having":"","having_druid":[],"where":""},"applied_time_extras":{},"columns":["ethnic_minority"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"timeseries_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"result_format":"json","result_type":"full"}'
-cache_timeout: null
+query_context: null
 uuid: def07750-b5c0-0b69-6228-cb2330916166
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469
