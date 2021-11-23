@@ -22,8 +22,7 @@ params:
   viz_type: histogram
   x_axis_label: age
   y_axis_label: count
-query_context: '{"datasource":{"id":23,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[],"extras":{"time_range_endpoints":["inclusive","exclusive"],"having":"","having_druid":[],"where":""},"applied_time_extras":{},"columns":[],"metrics":[],"annotation_layers":[],"row_limit":10000,"timeseries_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"result_format":"json","result_type":"full"}'
+query_context: null
 cache_timeout: null
 uuid: 5f1ea868-604e-f69d-a241-5daa83ff33be
 version: 1.0.0

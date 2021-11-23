@@ -40,9 +40,7 @@ params:
   treemap_ratio: 1.618033988749895
   url_params: {}
   viz_type: treemap
-query_context: '{"datasource":{"id":23,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[{"col":"developer_type","op":"==","val":"Currently
-  A Developer"},{"col":"communite_time","op":"!=","val":"NULL"}],"extras":{"time_range_endpoints":["inclusive","exclusive"],"having":"","having_druid":[],"where":""},"applied_time_extras":{},"columns":["communite_time"],"metrics":["count"],"annotation_layers":[],"timeseries_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"result_format":"json","result_type":"full"}'
+query_context: null
 cache_timeout: null
 uuid: 097c05c9-2dd2-481d-813d-d6c0c12b4a3d
 version: 1.0.0

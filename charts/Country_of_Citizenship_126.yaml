@@ -46,8 +46,7 @@ params:
   - exclusive
   url_params: {}
   viz_type: world_map
-query_context: '{"datasource":{"id":23,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[],"extras":{"time_range_endpoints":["inclusive","exclusive"],"having":"","having_druid":[],"where":""},"applied_time_extras":{},"columns":[],"metrics":["count",{"aggregate":"COUNT","column":{"column_name":"country_live","description":null,"expression":null,"filterable":true,"groupby":true,"id":1570,"is_dttm":false,"python_date_format":null,"type":"TEXT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"COUNT(country_live)","optionName":"metric_azxwoyei39f_d7xgzshjnw6","sqlExpression":null}],"annotation_layers":[],"timeseries_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"result_format":"json","result_type":"full"}'
+query_context: null
 cache_timeout: null
 uuid: 2ba66056-a756-d6a3-aaec-0c243fb7062e
 version: 1.0.0
