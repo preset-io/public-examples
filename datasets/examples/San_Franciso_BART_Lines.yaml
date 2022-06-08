@@ -1,4 +1,4 @@
-table_name: San Franciso BART Lines
+table_name: San Francisco BART Lines
 main_dttm_col: null
 description: BART lines
 default_endpoint: null
