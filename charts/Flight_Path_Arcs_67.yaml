@@ -1,4 +1,4 @@
-slice_name: Flight path arcs
+slice_name: Flight Path Arcs
 viz_type: deck_arc
 params:
   color_picker:
