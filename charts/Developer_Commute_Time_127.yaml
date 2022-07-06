@@ -1,4 +1,4 @@
-slice_name: Commute Time
+slice_name: Developer Commute Time
 viz_type: treemap
 params:
   adhoc_filters:
