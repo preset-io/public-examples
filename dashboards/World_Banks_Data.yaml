@@ -40,7 +40,7 @@ position:
     meta:
       chartId: 35
       height: 38
-      sliceName: Growth Rate
+      sliceName: Country Growth Rate
       width: 6
       uuid: 7126aed3-c70b-4f5c-a0c7-5aea4b32607c
     type: CHART

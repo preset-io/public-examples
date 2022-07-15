@@ -1,4 +1,4 @@
-slice_name: Commute Time
+slice_name: Time Spent Commuting
 viz_type: treemap
 params:
   adhoc_filters:

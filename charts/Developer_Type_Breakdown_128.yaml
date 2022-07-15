@@ -1,4 +1,4 @@
-slice_name: Breakdown of Developer Type
+slice_name: Developer Type Breakdown
 viz_type: table
 params:
   adhoc_filters: []

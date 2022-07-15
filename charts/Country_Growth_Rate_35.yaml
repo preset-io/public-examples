@@ -1,4 +1,4 @@
-slice_name: Growth Rate
+slice_name: Country Growth Rate
 viz_type: line
 params:
   compare_lag: '10'

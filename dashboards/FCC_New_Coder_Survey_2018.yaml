@@ -75,7 +75,7 @@ position:
     meta:
       chartId: 127
       height: 69
-      sliceName: Commute Time
+      sliceName: Time Spent Commuting
       uuid: 097c05c9-2dd2-481d-813d-d6c0c12b4a3d
       width: 5
     parents:
@@ -257,7 +257,7 @@ position:
     meta:
       chartId: 128
       height: 50
-      sliceName: Breakdown of Developer Type
+      sliceName: Developer Type Breakdown
       uuid: b8386be8-f44e-6535-378c-2aa2ba461286
       width: 4
     parents:
