@@ -11,8 +11,7 @@ params:
   - country_code
   limit: '25'
   markup_type: markdown
-  metrics:
-  - sum__SP_POP_TOTL
+  metric: sum__SP_POP_TOTL
   row_limit: 5000
   show_bubbles: true
   since: '1960-01-01'
