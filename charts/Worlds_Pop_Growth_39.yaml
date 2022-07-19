@@ -15,6 +15,7 @@ params:
   row_limit: 5000
   show_bubbles: true
   since: '1960-01-01'
+  stack: Stack
   time_range: '2014-01-01 : 2014-01-02'
   time_range_endpoints:
   - inclusive
