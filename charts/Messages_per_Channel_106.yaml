@@ -1,5 +1,5 @@
 slice_name: Messages per Channel
-viz_type: area
+viz_type: echarts_area
 params:
   adhoc_filters:
   - clause: WHERE
@@ -76,7 +76,7 @@ params:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: area
+  viz_type: echarts_area
   x_axis_format: smart_date
   x_axis_showminmax: true
   x_ticks_layout: auto

@@ -1,5 +1,5 @@
 slice_name: Proportion of Revenue by Product Line
-viz_type: area
+viz_type: echarts_area
 params:
   adhoc_filters: []
   annotation_layers: []
@@ -49,7 +49,7 @@ params:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: area
+  viz_type: echarts_area
   x_axis_format: smart_date
   x_ticks_layout: auto
   y_axis_bounds:
