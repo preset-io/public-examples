@@ -7,8 +7,7 @@ params:
   groupby:
   - country_name
   label_colors: {}
-  metrics:
-  - count
+  metrics: count
   number_format: SMART_NUMBER
   queryFields:
     groupby: groupby
