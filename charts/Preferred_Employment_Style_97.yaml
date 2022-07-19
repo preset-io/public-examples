@@ -26,8 +26,7 @@ params:
   groupby:
   - job_pref
   label_colors: {}
-  metrics:
-  - count
+  metric: count
   number_format: SMART_NUMBER
   queryFields:
     groupby: groupby
