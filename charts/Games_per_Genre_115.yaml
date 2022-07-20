@@ -60,8 +60,7 @@ params:
     X360: '#A868B7'
     XB: '#D3B3DA'
     XOne: '#FF7F44'
-  metrics:
-  - count
+  metric: count
   number_format: SMART_NUMBER
   queryFields:
     groupby: groupby
