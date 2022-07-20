@@ -69,6 +69,7 @@ params:
   show_controls: false
   show_legend: true
   slice_id: 2395
+  stack: Stack
   stacked_style: stream
   time_grain_sqla: P1D
   time_range: No filter
