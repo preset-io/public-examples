@@ -95,6 +95,7 @@ params:
   show_brush: auto
   show_legend: false
   slice_id: 659
+  stack: Stack
   stacked_style: stream
   time_grain_sqla: null
   time_range: No filter
