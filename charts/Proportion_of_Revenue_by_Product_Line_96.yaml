@@ -42,6 +42,7 @@ params:
   row_limit: null
   show_brush: auto
   show_legend: true
+  stack: Expand
   stacked_style: stack
   time_grain_sqla: P1M
   time_range: '2003-01-01T00:00:00 : 2005-06-01T00:00:00'
