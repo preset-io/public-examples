@@ -1,5 +1,5 @@
 slice_name: Treemap
-viz_type: treemap
+viz_type: treemap_v2
 params:
   compare_lag: '10'
   compare_suffix: o10Y
@@ -11,8 +11,7 @@ params:
   - country_code
   limit: '25'
   markup_type: markdown
-  metrics:
-  - sum__SP_POP_TOTL
+  metric: sum__SP_POP_TOTL
   row_limit: 5000
   show_bubbles: true
   since: '1960-01-01'
@@ -21,7 +20,7 @@ params:
   - inclusive
   - exclusive
   until: now
-  viz_type: treemap
+  viz_type: treemap_v2
 query_context: null
 cache_timeout: null
 uuid: f5858a60-39df-4260-a42e-0704beac0471

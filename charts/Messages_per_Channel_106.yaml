@@ -1,5 +1,5 @@
 slice_name: Messages per Channel
-viz_type: area
+viz_type: echarts_area
 params:
   adhoc_filters:
   - clause: WHERE
@@ -69,6 +69,7 @@ params:
   show_controls: false
   show_legend: true
   slice_id: 2395
+  stack: Stack
   stacked_style: stream
   time_grain_sqla: P1D
   time_range: No filter
@@ -76,7 +77,7 @@ params:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: area
+  viz_type: echarts_area
   x_axis_format: smart_date
   x_axis_showminmax: true
   x_ticks_layout: auto

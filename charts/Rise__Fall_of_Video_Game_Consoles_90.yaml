@@ -1,5 +1,5 @@
 slice_name: Rise & Fall of Video Game Consoles
-viz_type: area
+viz_type: echarts_area
 params:
   adhoc_filters: []
   annotation_layers: []
@@ -95,6 +95,7 @@ params:
   show_brush: auto
   show_legend: false
   slice_id: 659
+  stack: Stack
   stacked_style: stream
   time_grain_sqla: null
   time_range: No filter
@@ -104,7 +105,7 @@ params:
   url_params:
     preselect_filters: '{"1389": {"platform": ["PS", "PS2", "PS3", "PS4"], "genre":
       null, "__time_range": "No filter"}}'
-  viz_type: area
+  viz_type: echarts_area
   x_axis_format: smart_date
   x_axis_label: Year Published
   x_axis_showminmax: true
