@@ -5,6 +5,7 @@ expose_in_sqllab: true
 allow_run_async: false
 allow_ctas: false
 allow_cvas: false
+allow_dml: true
 allow_csv_upload: true
 extra:
   allows_virtual_table_explore: true
