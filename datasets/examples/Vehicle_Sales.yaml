@@ -1,5 +1,5 @@
 table_name: Vehicle Sales
-main_dttm_col: OrderDate
+main_dttm_col: order_date
 description: null
 default_endpoint: null
 offset: 0
