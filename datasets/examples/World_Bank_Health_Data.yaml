@@ -320,7 +320,7 @@ metrics:
   extra: null
   warning_text: null
 - metric_name: sum__SP_POP_TOTL
-  verbose_name: null
+  verbose_name: Population Total
   metric_type: null
   expression: sum("SP_POP_TOTL")
   description: null
