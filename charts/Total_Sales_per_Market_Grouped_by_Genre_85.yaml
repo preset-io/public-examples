@@ -1,0 +1,132 @@
+slice_name: Total Sales per Market (Grouped by Genre)
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 2__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 17
+  x_axis: genre
+  x_axis_sort_asc: true
+  x_axis_sort_series: sum
+  x_axis_sort_series_ascending: false
+  metrics:
+  - aggregate: SUM
+    column:
+      column_name: na_sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 883
+      is_dttm: false
+      optionName: _col_NA_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    isNew: false
+    label: North America
+    optionName: metric_3pl6jwmyd72_p9o4j2xxgyp
+    sqlExpression: null
+  - aggregate: SUM
+    column:
+      column_name: eu_sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 884
+      is_dttm: false
+      optionName: _col_EU_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    isNew: false
+    label: Europe
+    optionName: metric_e8rdyfxxjdu_6dgyhf7xcne
+    sqlExpression: null
+  - aggregate: SUM
+    column:
+      column_name: jp_sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 885
+      is_dttm: false
+      optionName: _col_JP_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    isNew: false
+    label: Japan
+    optionName: metric_6gesefugzy6_517l3wowdwu
+    sqlExpression: null
+  - aggregate: SUM
+    column:
+      column_name: other_sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 886
+      is_dttm: false
+      optionName: _col_Other_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    isNew: false
+    label: Other
+    optionName: metric_cf6kbre28f_2sg5b5pfq5a
+    sqlExpression: null
+  groupby: []
+  adhoc_filters:
+  - clause: WHERE
+    subject: year
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_desc: true
+  row_limit: null
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title: Genre
+  x_axis_title_margin: 50
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  sort_series_ascending: false
+  color_scheme: supersetColors
+  stack: Stack
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 45
+  y_axis_format: SMART_NUMBER
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards: []
+cache_timeout: null
+uuid: 4b976d92-f61a-4df6-9b14-d29516c20e5d
+version: 1.0.0
+dataset_uuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
