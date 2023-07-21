@@ -1,4 +1,4 @@
-database_name: spider_examples
+database_name: ai_assist_examples
 sqlalchemy_uri: spider://
 cache_timeout: null
 expose_in_sqllab: true
