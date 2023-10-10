@@ -21,7 +21,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: sunburst
-query_context: null
 cache_timeout: null
 uuid: f69c556f-15fe-4a82-a8bb-69d5b6954123
 version: 1.0.0

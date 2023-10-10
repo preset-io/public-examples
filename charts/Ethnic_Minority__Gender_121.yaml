@@ -38,7 +38,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: sankey
-query_context: null
 cache_timeout: null
 uuid: 4880e4f4-b701-4be0-86f3-e7e89432e83b
 version: 1.0.0

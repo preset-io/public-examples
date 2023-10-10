@@ -70,7 +70,6 @@ params:
   - null
   y_axis_format: null
   y_axis_label: Revenue ($)
-query_context: null
 cache_timeout: null
 uuid: db9609e4-9b78-4a32-87a7-4d9e19d51cd8
 version: 1.0.0

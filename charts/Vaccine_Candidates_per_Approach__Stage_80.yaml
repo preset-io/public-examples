@@ -32,7 +32,6 @@ params:
   - null
   y_axis_format: SMART_NUMBER
   yscale_interval: null
-query_context: null
 cache_timeout: null
 uuid: 0c953c84-0c9a-418d-be9f-2894d2a2cee0
 version: 1.0.0

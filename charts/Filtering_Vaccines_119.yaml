@@ -34,7 +34,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: filter_box
-query_context: null
 cache_timeout: null
 uuid: c29381ce-0e99-4cf3-bf0f-5f55d6b94176
 version: 1.0.0

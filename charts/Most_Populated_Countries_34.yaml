@@ -21,7 +21,6 @@ params:
   - exclusive
   until: '2014-01-02'
   viz_type: table
-query_context: null
 cache_timeout: null
 uuid: 301fee78-3a6e-4740-be8d-41ab1504b46b
 version: 1.0.0

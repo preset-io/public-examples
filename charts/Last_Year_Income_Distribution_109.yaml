@@ -37,7 +37,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: histogram
-query_context: null
 cache_timeout: null
 uuid: a2ec5256-94b4-43c4-b8c7-b83f70c5d4df
 version: 1.0.0

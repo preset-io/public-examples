@@ -20,7 +20,6 @@ params:
   treemap_ratio: 1.618033988749895
   url_params: {}
   viz_type: treemap_v2
-query_context: null
 cache_timeout: null
 uuid: e2f5a8a7-feb0-4f79-bc6b-01fe55b98b3c
 version: 1.0.0

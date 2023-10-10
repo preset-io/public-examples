@@ -38,7 +38,6 @@ params:
   - exclusive
   viz_type: chord
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: f2a8731b-3d8c-4d86-9d33-7c0a3e64d21c
 version: 1.0.0

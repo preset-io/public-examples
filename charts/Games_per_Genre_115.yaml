@@ -75,7 +75,6 @@ params:
     preselect_filters: '{"1389": {"platform": ["PS", "PS2", "PS3", "PS4"], "genre":
       null, "__time_range": "No filter"}}'
   viz_type: treemap_v2
-query_context: null
 cache_timeout: null
 uuid: 0499bdec-0837-44f3-ae8a-8c670de81afd
 version: 1.0.0

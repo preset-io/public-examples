@@ -35,7 +35,6 @@ params:
   url_params: {}
   viz_type: big_number_total
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: c3d643cd-fd6f-4659-a5b7-59402487a8d0
 version: 1.0.0

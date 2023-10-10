@@ -56,7 +56,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: table
-query_context: null
 cache_timeout: null
 uuid: 2a5e562b-ab37-1b9b-1de3-1be4335c8e83
 version: 1.0.0

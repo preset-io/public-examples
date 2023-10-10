@@ -39,7 +39,6 @@ params:
     width: 669
     zoom: 9.51847667620428
   viz_type: deck_path
-query_context: null
 cache_timeout: null
 uuid: 8501a452-8a3d-4234-aee2-9528835a09a3
 version: 1.0.0

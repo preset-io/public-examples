@@ -67,7 +67,6 @@ params:
   - null
   y_axis_format: null
   y_axis_label: Total Sales
-query_context: null
 cache_timeout: null
 uuid: 692aca26-a526-85db-c94c-411c91cc1077
 version: 1.0.0

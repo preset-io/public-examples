@@ -22,7 +22,6 @@ params:
   - exclusive
   until: now
   viz_type: echarts_area
-query_context: null
 cache_timeout: null
 uuid: 48349bcc-90c0-48d9-8352-0b04e016a7fc
 version: 1.0.0

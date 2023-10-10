@@ -98,7 +98,6 @@ params:
   y_axis_format: SMART_NUMBER
   y_axis_label: '# of Games Published'
   y_axis_showminmax: true
-query_context: null
 cache_timeout: null
 uuid: 0f8976aa-7bb4-40c7-860b-64445a51aaaf
 version: 1.0.0

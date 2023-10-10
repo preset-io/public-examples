@@ -36,7 +36,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: pie
-query_context: null
 cache_timeout: null
 uuid: a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65
 version: 1.0.0

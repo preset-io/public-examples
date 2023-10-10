@@ -22,7 +22,6 @@ params:
   - exclusive
   until: '2014-01-02'
   viz_type: line
-query_context: null
 cache_timeout: null
 uuid: 7126aed3-c70b-4f5c-a0c7-5aea4b32607c
 version: 1.0.0

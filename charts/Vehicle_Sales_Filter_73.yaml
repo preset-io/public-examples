@@ -28,7 +28,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: filter_box
-query_context: null
 cache_timeout: null
 uuid: a5689df7-98fc-7c51-602c-ebd92dc3ec70
 version: 1.0.0

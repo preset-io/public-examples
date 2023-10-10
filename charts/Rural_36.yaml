@@ -29,7 +29,6 @@ params:
   - exclusive
   until: '2014-01-02'
   viz_type: world_map
-query_context: null
 cache_timeout: null
 uuid: d6c6b77c-e103-45d7-9280-4933e4a07c7e
 version: 1.0.0

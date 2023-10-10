@@ -76,7 +76,6 @@ params:
     width: 667
     zoom: 11.133995608594631
   viz_type: deck_polygon
-query_context: null
 cache_timeout: null
 uuid: 169d45c9-1905-48ea-893a-2c86015dd9ae
 version: 1.0.0

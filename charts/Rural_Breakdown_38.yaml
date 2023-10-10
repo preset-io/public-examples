@@ -30,7 +30,6 @@ params:
   - exclusive
   until: '2011-01-02'
   viz_type: sunburst
-query_context: null
 cache_timeout: null
 uuid: 67cb721e-0b08-4131-b65e-8f8e37075e74
 version: 1.0.0

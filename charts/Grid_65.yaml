@@ -32,7 +32,6 @@ params:
     pitch: 53.470800300695146
     zoom: 12.699690845482069
   viz_type: deck_grid
-query_context: null
 cache_timeout: null
 uuid: 3d6edc6b-bae6-4dec-96d6-48f8740cf88b
 version: 1.0.0

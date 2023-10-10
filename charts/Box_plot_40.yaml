@@ -23,7 +23,6 @@ params:
   viz_type: box_plot
   whisker_options: Min/max (no outliers)
   x_ticks_layout: staggered
-query_context: null
 cache_timeout: null
 uuid: 228bc8c0-0a9b-457f-839c-47df43a6c213
 version: 1.0.0

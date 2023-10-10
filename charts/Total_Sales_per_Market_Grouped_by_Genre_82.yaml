@@ -162,7 +162,6 @@ params:
   x_axis_label: Genre
   x_ticks_layout: flat
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: d8bf948e-46fd-4380-9f9c-a950c34bcc92
 version: 1.0.0

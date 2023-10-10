@@ -21,7 +21,6 @@ params:
   - exclusive
   until: now
   viz_type: treemap_v2
-query_context: null
 cache_timeout: null
 uuid: f5858a60-39df-4260-a42e-0704beac0471
 version: 1.0.0

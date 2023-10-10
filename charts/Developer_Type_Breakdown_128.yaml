@@ -28,7 +28,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: table
-query_context: null
 cache_timeout: null
 uuid: b8386be8-f44e-6535-378c-2aa2ba461286
 version: 1.0.0

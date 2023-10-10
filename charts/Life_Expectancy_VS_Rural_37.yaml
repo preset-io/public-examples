@@ -44,7 +44,6 @@ params:
   viz_type: bubble
   x: sum__SP_RUR_TOTL_ZS
   y: sum__SP_DYN_LE00_IN
-query_context: null
 cache_timeout: null
 uuid: e947e868-2f65-45b0-b3d8-174da5a38c5b
 version: 1.0.0

@@ -55,7 +55,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: world_map
-query_context: null
 cache_timeout: null
 uuid: 5596e0f6-78a9-465d-8325-7139c794a06a
 version: 1.0.0

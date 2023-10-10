@@ -21,7 +21,6 @@ params:
   viz_type: dist_bar
   x_ticks_layout: auto
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: 392f293e-0892-4316-bd41-c927b65606a4
 version: 1.0.0

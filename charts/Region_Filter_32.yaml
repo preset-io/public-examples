@@ -32,7 +32,6 @@ params:
   - exclusive
   until: '2014-01-02'
   viz_type: filter_box
-query_context: null
 cache_timeout: null
 uuid: 48edbb9c-6c68-486b-9f56-4710e4a6a813
 version: 1.0.0

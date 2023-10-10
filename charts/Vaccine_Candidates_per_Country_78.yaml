@@ -40,7 +40,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: world_map
-query_context: null
 cache_timeout: null
 uuid: ddc91df6-fb40-4826-bdca-16b85af1c024
 version: 1.0.0

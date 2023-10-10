@@ -38,7 +38,6 @@ params:
     width: 997
     zoom: 2.929837070560775
   viz_type: deck_arc
-query_context: null
 cache_timeout: null
 uuid: 15601df9-9078-4013-956d-bd67f487157a
 version: 1.0.0

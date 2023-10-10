@@ -60,7 +60,6 @@ params:
   viz_type: box_plot
   whiskerOptions: Tukey
   x_ticks_layout: "45\xB0"
-query_context: null
 cache_timeout: null
 uuid: 02f546ae-1bf4-bd26-8bc2-14b9279c8a62
 version: 1.0.0

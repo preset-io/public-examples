@@ -40,7 +40,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: horizon
-query_context: null
 cache_timeout: null
 uuid: cf0da099-b3ab-4d94-ab62-cf353ac3c611
 version: 1.0.0

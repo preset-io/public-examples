@@ -113,7 +113,6 @@ params:
   viz_type: dist_bar
   x_ticks_layout: staggered
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: a40879d5-653a-42fe-9314-bbe88ad26e92
 version: 1.0.0

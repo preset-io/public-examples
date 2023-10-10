@@ -35,7 +35,6 @@ params:
     pitch: 4.750411100577438
     zoom: 12.729132798697304
   viz_type: deck_scatter
-query_context: null
 cache_timeout: null
 uuid: 68e72304-7fba-4adb-8696-c4fe99d5db4a
 version: 1.0.0

@@ -31,7 +31,6 @@ params:
     pitch: 4.750411100577438
     zoom: 14.161641703941438
   viz_type: deck_screengrid
-query_context: null
 cache_timeout: null
 uuid: 25c0c0c3-865d-4178-8a90-90127544cdd6
 version: 1.0.0

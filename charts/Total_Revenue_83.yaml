@@ -36,7 +36,6 @@ params:
   url_params: {}
   viz_type: big_number_total
   y_axis_format: $,.2f
-query_context: null
 cache_timeout: null
 uuid: 7b12a243-88e0-4dc5-ac33-9a840bb0ac5a
 version: 1.0.0

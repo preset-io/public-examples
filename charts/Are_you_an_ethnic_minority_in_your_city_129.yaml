@@ -28,7 +28,6 @@ params:
   - exclusive
   url_params: {}
   viz_type: pie
-query_context: null
 uuid: def07750-b5c0-0b69-6228-cb2330916166
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

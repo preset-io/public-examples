@@ -19,7 +19,6 @@ params:
   - exclusive
   until: '2014-01-02'
   viz_type: big_number
-query_context: null
 cache_timeout: null
 uuid: 6e9c71ae-faae-4aff-8f08-e0c29e692e8c
 version: 1.0.0

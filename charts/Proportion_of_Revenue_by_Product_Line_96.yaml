@@ -57,7 +57,6 @@ params:
   - null
   - null
   y_axis_format: SMART_NUMBER
-query_context: null
 cache_timeout: null
 uuid: 08aff161-f60c-4cb3-a225-dc9b1140d2e3
 version: 1.0.0
