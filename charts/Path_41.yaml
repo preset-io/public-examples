@@ -19,6 +19,7 @@ params:
   line_column: path_json
   line_type: json
   line_width: 150
+  line_width_unit: meters
   mapbox_style: mapbox://styles/mapbox/light-v9
   reverse_long_lat: false
   row_limit: 5000
