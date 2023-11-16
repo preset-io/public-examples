@@ -2,7 +2,7 @@ slice_name: Life Expectancy VS Rural %
 description: null
 certified_by: null
 certification_details: null
-viz_type: bubble
+viz_type: bubble_v2
 params:
   adhoc_filters:
   - clause: WHERE
