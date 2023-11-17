@@ -1,0 +1,79 @@
+slice_name: Quarterly Sales (By Product Line)
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 3__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 34
+  x_axis: order_date
+  time_grain_sqla: P3M
+  x_axis_sort_asc: true
+  x_axis_sort_series: name
+  x_axis_sort_series_ascending: true
+  metrics:
+  - aggregate: SUM
+    column:
+      column_name: sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 917
+      is_dttm: false
+      optionName: _col_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: SUM(Sales)
+    optionName: metric_tjn8bh6y44_7o4etwsqhal
+    sqlExpression: null
+  groupby:
+  - product_line
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  rolling_type: null
+  time_compare: null
+  comparison_type: null
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title: Quarter starting
+  x_axis_title_margin: 75
+  y_axis_title: Revenue ($)
+  y_axis_title_margin: 50
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  stack: Stack
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: '%m/%d/%Y'
+  xAxisLabelRotation: '-45'
+  y_axis_format: null
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards: []
+cache_timeout: null
+uuid: 4a574e8f-4044-435d-a267-d4ad239182d2
+version: 1.0.0
+dataset_uuid: e8623bb9-5e00-f531-506a-19607f5f8005
