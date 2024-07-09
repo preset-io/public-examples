@@ -4,7 +4,7 @@ description: null
 default_endpoint: null
 offset: 0
 cache_timeout: null
-schema: null
+schema: public
 sql: SELECT c.name AS channel_name, u.name AS member_name FROM "Slack Channels and
   Members" cm JOIN "Slack Channels" c ON cm.channel_id = c.id JOIN "Slack Users" u
   ON cm.user_id = u.id
@@ -13,6 +13,8 @@ template_params: null
 filter_select_enabled: true
 fetch_values_predicate: null
 extra: null
+normalize_columns: false
+always_filter_main_dttm: false
 uuid: 3d9c0054-b31b-4102-92de-b1ef9f9e5e77
 metrics:
 - metric_name: count
@@ -21,6 +23,7 @@ metrics:
   expression: count(*)
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 columns:
@@ -29,20 +32,24 @@ columns:
   is_dttm: false
   is_active: true
   type: null
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: null
   description: null
   python_date_format: null
+  extra: null
 - column_name: member_name
   verbose_name: null
   is_dttm: false
   is_active: true
   type: null
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: null
   description: null
   python_date_format: null
+  extra: null
 version: 1.0.0
 database_uuid: a2dc77af-e654-49bb-b321-40f6b559a1ee

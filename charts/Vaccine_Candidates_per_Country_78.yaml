@@ -1,0 +1,33 @@
+slice_name: Vaccine Candidates per Country
+description: null
+certified_by: null
+certification_details: null
+viz_type: treemap_v2
+params:
+  adhoc_filters: []
+  color_scheme: presetColors
+  datasource: 69__table
+  groupby:
+  - country_name
+  label_colors: {}
+  metric: count
+  number_format: SMART_NUMBER
+  queryFields:
+    groupby: groupby
+    metrics: metrics
+  row_limit: 10000
+  time_range: No filter
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  treemap_ratio: 1.618033988749895
+  url_params: {}
+  viz_type: treemap_v2
+  annotation_layers: []
+query_context: '{"datasource":{"id":20,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["country_name"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_scheme":"presetColors","datasource":"20__table","groupby":["country_name"],"label_colors":{},"metric":"count","number_format":"SMART_NUMBER","queryFields":{"groupby":"groupby","metrics":"metrics"},"row_limit":10000,"slice_id":78,"time_range":"No
+  filter","time_range_endpoints":["inclusive","exclusive"],"treemap_ratio":1.618033988749895,"url_params":{},"viz_type":"treemap_v2","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 2183ab84-4989-4954-8787-4447b1204964
+version: 1.0.0
+dataset_uuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0

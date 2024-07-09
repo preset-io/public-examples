@@ -1,0 +1,62 @@
+slice_name: Seasonality of Revenue (per Product Line)
+description: null
+certified_by: null
+certification_details: null
+viz_type: box_plot
+params:
+  datasource: 3__table
+  viz_type: box_plot
+  slice_id: 86
+  columns:
+  - order_date
+  temporal_columns_lookup:
+    order_date: true
+  groupby:
+  - product_line
+  metrics:
+  - aggregate: SUM
+    column:
+      column_name: sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 917
+      is_dttm: false
+      optionName: _col_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: (Sales)
+    optionName: metric_e3kxby3hnjs_nfd4adbcnsn
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  whiskerOptions: Tukey
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: modernSunset
+  x_ticks_layout: auto
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 9
+  - 12
+query_context: '{"datasource":{"id":3,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["order_date","product_line"],"metrics":[{"aggregate":"SUM","column":{"column_name":"sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_dttm":false,"optionName":"_col_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"(Sales)","optionName":"metric_e3kxby3hnjs_nfd4adbcnsn","sqlExpression":null}],"annotation_layers":[],"series_columns":["product_line"],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"boxplot","options":{"whisker_type":"tukey","groupby":["product_line"],"metrics":["(Sales)"]}}]}],"form_data":{"datasource":"3__table","viz_type":"box_plot","slice_id":86,"columns":["order_date"],"temporal_columns_lookup":{"order_date":true},"groupby":["product_line"],"metrics":[{"aggregate":"SUM","column":{"column_name":"sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_dttm":false,"optionName":"_col_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"(Sales)","optionName":"metric_e3kxby3hnjs_nfd4adbcnsn","sqlExpression":null}],"adhoc_filters":[{"clause":"WHERE","subject":"order_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"whiskerOptions":"Tukey","x_axis_title_margin":15,"y_axis_title_margin":15,"y_axis_title_position":"Left","color_scheme":"modernSunset","x_ticks_layout":"auto","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[9,12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0eb953a3-b5e8-4e81-9f7e-b33b94801720
+version: 1.0.0
+dataset_uuid: e8623bb9-5e00-f531-506a-19607f5f8005

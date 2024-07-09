@@ -1,0 +1,66 @@
+slice_name: New Members per Month
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number
+params:
+  datasource: 11__table
+  viz_type: big_number
+  slice_id: 117
+  x_axis: date
+  time_grain_sqla: P1M
+  metric:
+    aggregate: SUM
+    column:
+      column_name: new_members
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 1849
+      is_dttm: false
+      optionName: _col_New Members
+      python_date_format: null
+      type: BIGINT
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: SUM(New Members)
+    optionName: metric_7pksdivmphp_bicn1fji7en
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  compare_lag: 1
+  compare_suffix: MoM
+  show_trend_line: true
+  start_y_axis_at_zero: true
+  color_picker:
+    r: 7
+    g: 149
+    b: 238
+    a: 1
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  time_format: smart_date
+  rolling_type: None
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":11,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1M","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1M","columnType":"BASE_AXIS","sqlExpression":"date","label":"date","expressionType":"SQL"}],"metrics":[{"aggregate":"SUM","column":{"column_name":"new_members","description":null,"expression":null,"filterable":true,"groupby":true,"id":1849,"is_dttm":false,"optionName":"_col_New
+  Members","python_date_format":null,"type":"BIGINT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(New
+  Members)","optionName":"metric_7pksdivmphp_bicn1fji7en","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["date"],"columns":[],"aggregates":{"SUM(New
+  Members)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"11__table","viz_type":"big_number","slice_id":117,"x_axis":"date","time_grain_sqla":"P1M","metric":{"aggregate":"SUM","column":{"column_name":"new_members","description":null,"expression":null,"filterable":true,"groupby":true,"id":1849,"is_dttm":false,"optionName":"_col_New
+  Members","python_date_format":null,"type":"BIGINT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(New
+  Members)","optionName":"metric_7pksdivmphp_bicn1fji7en","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","subject":"date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"compare_lag":1,"compare_suffix":"MoM","show_trend_line":true,"start_y_axis_at_zero":true,"color_picker":{"r":7,"g":149,"b":238,"a":1},"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","rolling_type":"None","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0eb3637f-6b5f-49e3-aecd-0a6effb6fe4a
+version: 1.0.0
+dataset_uuid: 9dd99cda-ff6b-4575-9a74-684d06e871ab

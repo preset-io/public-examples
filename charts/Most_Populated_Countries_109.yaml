@@ -1,0 +1,54 @@
+slice_name: Most Populated Countries
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 1__table
+  viz_type: table
+  slice_id: 109
+  query_mode: aggregate
+  groupby:
+  - country_name
+  temporal_columns_lookup:
+    year: true
+  metrics:
+  - sum__SP_POP_TOTL
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    subject: year
+    operator: TEMPORAL_RANGE
+    comparator: '2014-01-01 : 2014-01-02'
+    expressionType: SIMPLE
+  time_comparison: r
+  adhoc_custom:
+  - clause: WHERE
+    subject: year
+    operator: TEMPORAL_RANGE
+    comparator: '2014-01-01 : 2014-01-02'
+    expressionType: SIMPLE
+  order_by_cols: []
+  row_limit: 5000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  comparison_color_scheme: Green
+  conditional_formatting:
+  - column: sum__SP_POP_TOTL
+    colorScheme: '#ACE1C4'
+    operator: None
+  extra_form_data: {}
+  dashboards:
+  - 11
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"year","op":"TEMPORAL_RANGE","val":"2014-01-01
+  : 2014-01-02"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["country_name"],"metrics":["sum__SP_POP_TOTL"],"orderby":[["sum__SP_POP_TOTL",false]],"annotation_layers":[],"row_limit":5000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"1__table","viz_type":"table","slice_id":109,"query_mode":"aggregate","groupby":["country_name"],"temporal_columns_lookup":{"year":true},"metrics":["sum__SP_POP_TOTL"],"all_columns":[],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"2014-01-01
+  : 2014-01-02","expressionType":"SIMPLE"}],"time_comparison":"r","adhoc_custom":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"2014-01-01
+  : 2014-01-02","expressionType":"SIMPLE"}],"order_by_cols":[],"row_limit":5000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"comparison_color_scheme":"Green","conditional_formatting":[{"column":"sum__SP_POP_TOTL","colorScheme":"#ACE1C4","operator":"None"}],"extra_form_data":{},"dashboards":[11],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: be0a65e6-83be-4083-8d56-f81f3cc179a1
+version: 1.0.0
+dataset_uuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168

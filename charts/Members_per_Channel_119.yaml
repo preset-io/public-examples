@@ -1,0 +1,34 @@
+slice_name: Members per Channel
+description: null
+certified_by: null
+certification_details: null
+viz_type: treemap_v2
+params:
+  adhoc_filters: []
+  color_scheme: supersetColors
+  datasource: 57__table
+  groupby:
+  - channel_name
+  label_colors: {}
+  metric: count
+  number_format: SMART_NUMBER
+  queryFields:
+    groupby: groupby
+    metrics: metrics
+  row_limit: null
+  slice_id: 2396
+  time_range: No filter
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  treemap_ratio: 1.618033988749895
+  url_params: {}
+  viz_type: treemap_v2
+  annotation_layers: []
+query_context: '{"datasource":{"id":9,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["channel_name"],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_scheme":"supersetColors","datasource":"9__table","groupby":["channel_name"],"label_colors":{},"metric":"count","number_format":"SMART_NUMBER","queryFields":{"groupby":"groupby","metrics":"metrics"},"row_limit":null,"slice_id":119,"time_range":"No
+  filter","time_range_endpoints":["inclusive","exclusive"],"treemap_ratio":1.618033988749895,"url_params":{},"viz_type":"treemap_v2","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0161513a-79d4-4dc6-94f7-5c6cbf9e5cff
+version: 1.0.0
+dataset_uuid: 3d9c0054-b31b-4102-92de-b1ef9f9e5e77

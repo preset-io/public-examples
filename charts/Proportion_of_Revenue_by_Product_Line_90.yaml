@@ -1,0 +1,72 @@
+slice_name: Proportion of Revenue by Product Line
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_area
+params:
+  adhoc_filters: []
+  annotation_layers: []
+  bottom_margin: auto
+  color_scheme: supersetColors
+  comparison_type: values
+  contribution: true
+  datasource: 23__table
+  granularity_sqla: order_date
+  groupby:
+  - product_line
+  label_colors: {}
+  line_interpolation: linear
+  metrics:
+  - aggregate: SUM
+    column:
+      column_name: sales
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 917
+      is_dttm: false
+      optionName: _col_Sales
+      python_date_format: null
+      type: DOUBLE PRECISION
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: (Sales)
+    optionName: metric_3is69ofceho_6d0ezok7ry6
+    sqlExpression: null
+  order_desc: true
+  queryFields:
+    groupby: groupby
+    metrics: metrics
+  rich_tooltip: true
+  rolling_type: None
+  row_limit: null
+  show_brush: auto
+  show_legend: true
+  stack: Expand
+  stacked_style: stack
+  time_grain_sqla: P1M
+  time_range: '2003-01-01T00:00:00 : 2005-06-01T00:00:00'
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  url_params: {}
+  viz_type: echarts_area
+  x_axis_format: smart_date
+  x_ticks_layout: auto
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+query_context: '{"datasource":{"id":3,"type":"table"},"force":false,"queries":[{"time_range":"2003-01-01T00:00:00
+  : 2005-06-01T00:00:00","granularity":"order_date","filters":[],"extras":{"time_grain_sqla":"P1M","having":"","where":""},"applied_time_extras":{},"columns":["product_line"],"metrics":[{"aggregate":"SUM","column":{"column_name":"sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_dttm":false,"optionName":"_col_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"(Sales)","optionName":"metric_3is69ofceho_6d0ezok7ry6","sqlExpression":null}],"orderby":[[{"aggregate":"SUM","column":{"column_name":"sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_dttm":false,"optionName":"_col_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"(Sales)","optionName":"metric_3is69ofceho_6d0ezok7ry6","sqlExpression":null},false]],"annotation_layers":[],"series_columns":["product_line"],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"is_timeseries":true,"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["__timestamp"],"columns":["product_line"],"aggregates":{"(Sales)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"bottom_margin":"auto","color_scheme":"supersetColors","comparison_type":"values","contribution":true,"datasource":"3__table","granularity_sqla":"order_date","groupby":["product_line"],"label_colors":{},"line_interpolation":"linear","metrics":[{"aggregate":"SUM","column":{"column_name":"sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_dttm":false,"optionName":"_col_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"(Sales)","optionName":"metric_3is69ofceho_6d0ezok7ry6","sqlExpression":null}],"order_desc":true,"queryFields":{"groupby":"groupby","metrics":"metrics"},"rich_tooltip":true,"rolling_type":"None","row_limit":null,"show_brush":"auto","show_legend":true,"slice_id":90,"stack":"Expand","stacked_style":"stack","time_grain_sqla":"P1M","time_range":"2003-01-01T00:00:00
+  : 2005-06-01T00:00:00","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"echarts_area","x_axis_format":"smart_date","x_ticks_layout":"auto","y_axis_bounds":[null,null],"y_axis_format":"SMART_NUMBER","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: ea178dec-1f70-467b-84c6-a439ee3f76db
+version: 1.0.0
+dataset_uuid: e8623bb9-5e00-f531-506a-19607f5f8005
