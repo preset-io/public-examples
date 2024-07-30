@@ -2,16 +2,19 @@ dashboard_title: Video Game Sales
 description: null
 css: ''
 slug: null
-uuid: c7bc10f4-6a2d-7569-caae-bbc91864ee11
+certified_by: ''
+certification_details: ''
+published: true
+uuid: ced3e9ba-6da3-4d0f-af93-a6ef01809d6a
 position:
   CHART-7mKdnU7OUJ:
     children: []
     id: CHART-7mKdnU7OUJ
     meta:
-      chartId: 61
-      height: 80
+      chartId: 102
+      height: 61
       sliceName: Games per Genre
-      uuid: 0499bdec-0837-44f3-ae8a-8c670de81afd
+      uuid: 24fcb734-1b2e-433e-b7fb-a856fead24bc
       width: 5
     parents:
     - ROOT_ID
@@ -23,59 +26,60 @@ position:
     children: []
     id: CHART-8OG3UJX-Tn
     meta:
-      chartId: 1
-      height: 54
+      chartId: 94
+      height: 63
       sliceName: '# of Games That Hit 100k in Sales By Release Year'
       sliceNameOverride: 'Top 10 Consoles, by # of Hit Games'
-      uuid: 2b69887b-23e3-b46d-d38c-8ea11856c555
-      width: 6
+      uuid: 2aec7bc1-fd87-4545-947e-99b231f29d49
+      width: 5
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-7kAf1blYU
+    - ROW-Gt_PgGzxB
     type: CHART
   CHART-LXFq6K7idm:
     children: []
     id: CHART-LXFq6K7idm
     meta:
-      chartId: 85
-      height: 80
+      chartId: 95
+      height: 60
       sliceName: Total Sales per Market (Grouped by Genre)
-      uuid: 4b976d92-f61a-4df6-9b14-d29516c20e5d
-      width: 6
+      uuid: f03d64b3-eaa1-4f75-ad8b-f4fe4be3747b
+      width: 12
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-2_QXp8aNq
-    - ROW-fjg6YQBkH
+    - ROW-P9Ejc98q3
     type: CHART
   CHART-W02beJK7ms:
     children: []
     id: CHART-W02beJK7ms
     meta:
-      chartId: 36
-      height: 54
+      chartId: 98
+      height: 38
       sliceName: Publishers With Most Titles
       sliceNameOverride: Top 10 Games (by Global Sales)
-      uuid: d20b7324-3b80-24d4-37e2-3bd583b66713
+      uuid: 6190c96e-b564-4f0a-b24a-c45d4651089b
       width: 3
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-7kAf1blYU
+    - ROW-qgbcVY2gUS
+    - COLUMN-VZXUbkPyZi
     type: CHART
   CHART-XFag0yZdLk:
     children: []
     id: CHART-XFag0yZdLk
     meta:
-      chartId: 48
+      chartId: 100
       height: 54
       sliceName: Most Dominant Platforms
       sliceNameOverride: Publishers of Top 25 Games
-      uuid: 1810975a-f6d4-07c3-495c-c3b535d01f21
-      width: 3
+      uuid: b7246f70-7920-4747-87bd-73bf6c08f701
+      width: 5
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
@@ -86,10 +90,10 @@ position:
     children: []
     id: CHART-XVIYTeubZh
     meta:
-      chartId: 62
-      height: 80
+      chartId: 103
+      height: 61
       sliceName: Games
-      uuid: 2a5e562b-ab37-1b9b-1de3-1be4335c8e83
+      uuid: 7b79d4b1-0f1a-464f-9e96-b34617bba92c
       width: 7
     parents:
     - ROOT_ID
@@ -101,26 +105,26 @@ position:
     children: []
     id: CHART-_sx22yawJO
     meta:
-      chartId: 39
+      chartId: 99
       height: 62
       sliceName: Popular Genres Across Platforms
-      uuid: 326fc7e5-b7f1-448e-8a6f-80d0e7ce0b64
-      width: 6
+      uuid: a964c204-14ea-441b-9e46-64c7a65e521c
+      width: 7
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-NuR8GFQTO
+    - ROW-Gt_PgGzxB
     type: CHART
   CHART-u0_Ge0ebIP:
     children: []
     id: CHART-u0_Ge0ebIP
     meta:
-      chartId: 80
-      height: 80
+      chartId: 101
+      height: 66
       sliceName: Games per Genre over time
-      uuid: 915fca33-c2b6-4f8e-afdd-d5061b03d35d
-      width: 6
+      uuid: 242c48f4-da00-45b9-a180-c9ee15bab4ee
+      width: 12
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
@@ -131,33 +135,47 @@ position:
     children: []
     id: CHART-wW9Ctlmehl
     meta:
-      chartId: 84
-      height: 62
+      chartId: 96
+      height: 54
       sliceName: 'Top 10 Games: Proportion of Sales in Markets'
-      uuid: f770a369-8dfe-4133-8ecc-559c0db5703d
-      width: 6
+      uuid: 82991665-979f-4406-9d0d-4fb747fb5b14
+      width: 7
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-NuR8GFQTO
+    - ROW-7kAf1blYU
     type: CHART
   CHART-wt6ZO8jRXZ:
     children: []
     id: CHART-wt6ZO8jRXZ
     meta:
-      chartId: 30
-      height: 72
+      chartId: 97
+      height: 58
       sliceName: Rise & Fall of Video Game Consoles
       sliceNameOverride: Global Sales per Console
-      uuid: 83b0e2d0-d38b-d980-ed8e-e1c9846361b6
-      width: 12
+      uuid: a80b15d9-24d2-494b-a994-f09b9fd97a98
+      width: 8
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-XT1DsNA_V
+    - ROW-qgbcVY2gUS
     type: CHART
+  COLUMN-VZXUbkPyZi:
+    children:
+    - MARKDOWN-JOZKOjVc3a
+    - CHART-W02beJK7ms
+    id: COLUMN-VZXUbkPyZi
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-97PVJa11D_
+    - TAB-lg-5ymUDgm
+    - ROW-qgbcVY2gUS
+    type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children: []
@@ -174,38 +192,28 @@ position:
     children: []
     id: MARKDOWN-JOZKOjVc3a
     meta:
-      code: "## \U0001F3AEVideo Game Sales\n\nThis dashboard visualizes sales & platform\
-        \ data on video games that sold more than 100k copies. The data was last updated\
-        \ in early 2017.\n\n[Original dataset](https://www.kaggle.com/gregorut/videogamesales)"
+      code: "### \U0001F3AEVideo Game Sales\n\n<span style=\"font-size:0.8em;\">\n\
+        This dashboard visualizes sales & platform data on video games that sold more\
+        \ than 100k copies. The data was last updated in early 2017.\n\n[Original\
+        \ dataset](https://www.kaggle.com/gregorut/videogamesales)\n\n</span>"
       height: 18
-      width: 12
+      width: 4
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
-    - ROW-0F99WDC-sz
+    - ROW-qgbcVY2gUS
+    - COLUMN-VZXUbkPyZi
     type: MARKDOWN
   ROOT_ID:
     children:
     - TABS-97PVJa11D_
     id: ROOT_ID
     type: ROOT
-  ROW-0F99WDC-sz:
-    children:
-    - MARKDOWN-JOZKOjVc3a
-    id: ROW-0F99WDC-sz
-    meta:
-      background: BACKGROUND_TRANSPARENT
-    parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    type: ROW
   ROW-7kAf1blYU:
     children:
-    - CHART-W02beJK7ms
     - CHART-XFag0yZdLk
-    - CHART-8OG3UJX-Tn
+    - CHART-wW9Ctlmehl
     id: ROW-7kAf1blYU
     meta:
       '0': ROOT_ID
@@ -215,35 +223,32 @@ position:
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
     type: ROW
-  ROW-NuR8GFQTO:
+  ROW-Gt_PgGzxB:
     children:
     - CHART-_sx22yawJO
-    - CHART-wW9Ctlmehl
-    id: ROW-NuR8GFQTO
+    - CHART-8OG3UJX-Tn
+    id: ROW-Gt_PgGzxB
     meta:
-      '0': ROOT_ID
-      '1': TABS-97PVJa11D_
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-lg-5ymUDgm
     type: ROW
-  ROW-XT1DsNA_V:
+  ROW-P9Ejc98q3:
     children:
-    - CHART-wt6ZO8jRXZ
-    id: ROW-XT1DsNA_V
+    - CHART-LXFq6K7idm
+    id: ROW-P9Ejc98q3
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
     - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
+    - TAB-2_QXp8aNq
     type: ROW
   ROW-fjg6YQBkH:
     children:
     - CHART-u0_Ge0ebIP
-    - CHART-LXFq6K7idm
     id: ROW-fjg6YQBkH
     meta:
       background: BACKGROUND_TRANSPARENT
@@ -251,6 +256,18 @@ position:
     - ROOT_ID
     - TABS-97PVJa11D_
     - TAB-2_QXp8aNq
+    type: ROW
+  ROW-qgbcVY2gUS:
+    children:
+    - COLUMN-VZXUbkPyZi
+    - CHART-wt6ZO8jRXZ
+    id: ROW-qgbcVY2gUS
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-97PVJa11D_
+    - TAB-lg-5ymUDgm
     type: ROW
   ROW-yP9SB89PZ:
     children:
@@ -268,6 +285,7 @@ position:
     children:
     - ROW-yP9SB89PZ
     - ROW-fjg6YQBkH
+    - ROW-P9Ejc98q3
     id: TAB-2_QXp8aNq
     meta:
       text: "\U0001F93F Explore Trends"
@@ -277,10 +295,9 @@ position:
     type: TAB
   TAB-lg-5ymUDgm:
     children:
-    - ROW-0F99WDC-sz
-    - ROW-XT1DsNA_V
+    - ROW-qgbcVY2gUS
     - ROW-7kAf1blYU
-    - ROW-NuR8GFQTO
+    - ROW-Gt_PgGzxB
     id: TAB-lg-5ymUDgm
     meta:
       text: Overview
@@ -302,289 +319,150 @@ metadata:
   expanded_slices: {}
   refresh_frequency: 0
   default_filters: '{}'
-  color_scheme: supersetColors
-  label_colors:
-    '0': '#1FA8C9'
-    '1': '#454E7C'
-    '2600': '#666666'
-    Europe: '#5AC189'
-    Japan: '#FF7F44'
-    North America: '#666666'
-    Other: '#E04355'
-    PS2: '#FCC700'
-    X360: '#A868B7'
-    PS3: '#3CCCCB'
-    Wii: '#A38F79'
-    DS: '#8FD3E4'
-    PS: '#A1A6BD'
-    GBA: '#ACE1C4'
-    PSP: '#FEC0A1'
-    PS4: '#B2B2B2'
-    PC: '#EFA1AA'
-    GB: '#FDE380'
-    XB: '#D3B3DA'
-    NES: '#9EE5E5'
-    3DS: '#D1C6BC'
-    N64: '#1FA8C9'
-    SNES: '#454E7C'
-    GC: '#5AC189'
-    XOne: '#FF7F44'
-    WiiU: '#E04355'
-    PSV: '#FCC700'
-    SAT: '#A868B7'
-    GEN: '#3CCCCB'
-    DC: '#A38F79'
-    SCD: '#8FD3E4'
-    NG: '#A1A6BD'
-    WS: '#ACE1C4'
-    TG16: '#FEC0A1'
-    3DO: '#B2B2B2'
-    GG: '#EFA1AA'
-    PCFX: '#FDE380'
-    Nintendo: '#D3B3DA'
-    Take-Two Interactive: '#9EE5E5'
-    Microsoft Game Studios: '#D1C6BC'
-    Action: '#1FA8C9'
-    Adventure: '#454E7C'
-    Fighting: '#5AC189'
-    Misc: '#FF7F44'
-    Platform: '#666666'
-    Puzzle: '#E04355'
-    Racing: '#FCC700'
-    Role-Playing: '#A868B7'
-    Shooter: '#3CCCCB'
-    Simulation: '#A38F79'
-    Sports: '#8FD3E4'
-    Strategy: '#A1A6BD'
+  color_scheme: rainbow--test-
   chart_configuration:
-    '1':
-      id: 1
+    '94':
+      id: 94
       crossFilters:
         scope: global
         chartsInScope:
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
-    '30':
-      id: 30
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+    '95':
+      id: 95
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
-    '36':
-      id: 36
+        - 94
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+    '96':
+      id: 96
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
-    '48':
-      id: 48
+        - 94
+        - 95
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+    '97':
+      id: 97
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 60
-        - 61
-        - 62
-    '61':
-      id: 61
+        - 94
+        - 95
+        - 96
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+    '98':
+      id: 98
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 62
-    '62':
-      id: 62
+        - 94
+        - 95
+        - 96
+        - 97
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+    '100':
+      id: 100
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-    '80':
-      id: 80
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 101
+        - 102
+        - 103
+    '101':
+      id: 101
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
-    '84':
-      id: 84
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 102
+        - 103
+    '102':
+      id: 102
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
-    '85':
-      id: 85
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 103
+    '103':
+      id: 103
       crossFilters:
         scope: global
         chartsInScope:
-        - 1
-        - 7
-        - 17
-        - 23
-        - 30
-        - 36
-        - 39
-        - 48
-        - 60
-        - 61
-        - 62
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
   global_chart_configuration:
     scope:
       rootPath:
       - ROOT_ID
       excluded: []
     chartsInScope:
-    - 1
-    - 7
-    - 17
-    - 23
-    - 30
-    - 36
-    - 39
-    - 48
-    - 60
-    - 61
-    - 62
-  color_scheme_domain:
-  - '#1FA8C9'
-  - '#454E7C'
-  - '#5AC189'
-  - '#FF7F44'
-  - '#666666'
-  - '#E04355'
-  - '#FCC700'
-  - '#A868B7'
-  - '#3CCCCB'
-  - '#A38F79'
-  - '#8FD3E4'
-  - '#A1A6BD'
-  - '#ACE1C4'
-  - '#FEC0A1'
-  - '#B2B2B2'
-  - '#EFA1AA'
-  - '#FDE380'
-  - '#D3B3DA'
-  - '#9EE5E5'
-  - '#D1C6BC'
-  shared_label_colors:
-    '2600': '#666666'
-    Nintendo: '#D3B3DA'
-    Take-Two Interactive: '#9EE5E5'
-    Microsoft Game Studios: '#D1C6BC'
-    count: '#1FA8C9'
-    PS2: '#FCC700'
-    X360: '#A868B7'
-    PS3: '#3CCCCB'
-    Wii: '#A38F79'
-    DS: '#8FD3E4'
-    PS: '#A1A6BD'
-    GBA: '#ACE1C4'
-    PSP: '#FEC0A1'
-    PS4: '#B2B2B2'
-    PC: '#EFA1AA'
-    GB: '#FDE380'
-    XB: '#D3B3DA'
-    NES: '#9EE5E5'
-    3DS: '#D1C6BC'
-    N64: '#1FA8C9'
-    SNES: '#454E7C'
-    GC: '#5AC189'
-    XOne: '#FF7F44'
-    WiiU: '#E04355'
-    PSV: '#FCC700'
-    SAT: '#A868B7'
-    GEN: '#3CCCCB'
-    DC: '#A38F79'
-    SCD: '#8FD3E4'
-    NG: '#A1A6BD'
-    WS: '#ACE1C4'
-    TG16: '#FEC0A1'
-    3DO: '#B2B2B2'
-    GG: '#EFA1AA'
-    PCFX: '#FDE380'
-    Action: '#1FA8C9'
-    Sports: '#8FD3E4'
-    Misc: '#FF7F44'
-    Role-Playing: '#A868B7'
-    Shooter: '#3CCCCB'
-    Adventure: '#454E7C'
-    Racing: '#FCC700'
-    Platform: '#666666'
-    Simulation: '#A38F79'
-    Fighting: '#5AC189'
-    Strategy: '#A1A6BD'
-    Puzzle: '#E04355'
-    North America: '#666666'
-    Europe: '#5AC189'
-    Japan: '#FF7F44'
-    Other: '#E04355'
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
   cross_filters_enabled: true
   native_filter_configuration:
   - id: NATIVE_FILTER-nxhnW0THq
@@ -737,4 +615,59 @@ metadata:
     tabsInScope:
     - TAB-lg-5ymUDgm
     - TAB-2_QXp8aNq
+  filter_bar_orientation: HORIZONTAL
+  label_colors: {}
+  color_scheme_domain: []
+  shared_label_colors:
+    '2600': '#ffec43'
+    count: '#2fc096'
+    PS2: '#2fc096'
+    X360: '#01dfff'
+    PS3: '#153ae0'
+    Wii: '#850ad6'
+    DS: '#ff4a96'
+    PS: '#f40000'
+    GBA: '#ff8901'
+    PSP: '#ffbc0a'
+    PS4: '#ffec43'
+    PC: '#41ed86'
+    GB: '#2fc096'
+    XB: '#01dfff'
+    NES: '#153ae0'
+    3DS: '#850ad6'
+    N64: '#ff4a96'
+    SNES: '#f40000'
+    GC: '#ff8901'
+    XOne: '#ffbc0a'
+    WiiU: '#41ed86'
+    PSV: '#2fc096'
+    SAT: '#01dfff'
+    GEN: '#153ae0'
+    DC: '#850ad6'
+    SCD: '#ff4a96'
+    NG: '#f40000'
+    WS: '#ff8901'
+    TG16: '#ffbc0a'
+    3DO: '#ffec43'
+    GG: '#41ed86'
+    PCFX: '#2fc096'
+    Nintendo: '#2fc096'
+    Take-Two Interactive: '#01dfff'
+    Microsoft Game Studios: '#153ae0'
+    North America: '#2fc096'
+    Europe: '#01dfff'
+    Japan: '#153ae0'
+    Other: '#850ad6'
+    Action: '#2fc096'
+    Sports: '#01dfff'
+    Misc: '#153ae0'
+    Role-Playing: '#850ad6'
+    Shooter: '#ff4a96'
+    Adventure: '#f40000'
+    Racing: '#ff8901'
+    Platform: '#ffbc0a'
+    Simulation: '#ffec43'
+    Fighting: '#41ed86'
+    Strategy: '#2fc096'
+    Puzzle: '#01dfff'
 version: 1.0.0
