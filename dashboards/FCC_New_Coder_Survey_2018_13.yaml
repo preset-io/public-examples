@@ -2,21 +2,23 @@ dashboard_title: FCC New Coder Survey 2018
 description: null
 css: ''
 slug: null
-uuid: 5b12b583-8204-08e9-392c-422209c29787
+certified_by: ''
+certification_details: ''
+published: true
+uuid: b11a0cc6-1932-44d6-bdcf-b73582f8b229
 position:
   CHART--0GPGmD-pO:
     children: []
     id: CHART--0GPGmD-pO
     meta:
-      chartId: 71
-      height: 48
+      chartId: 139
+      height: 50
       sliceName: 'Current Developers: Is this your first development job?'
       sliceNameOverride: Is this your first development job?
-      uuid: bfe5a8e6-146f-ef59-5e6c-13d519b236a8
+      uuid: bd2892ad-701b-469b-bbbd-4391fc9247e6
       width: 2
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-b7USYEngT
@@ -25,14 +27,13 @@ position:
     children: []
     id: CHART--w_Br1tPP3
     meta:
-      chartId: 32
+      chartId: 125
       height: 51
       sliceName: "\u2708\uFE0F Relocation ability"
-      uuid: a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65
+      uuid: 3dfd670c-6038-47ba-b783-386d3e4d9ca7
       width: 3
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW-DR80aHJA2c
@@ -41,14 +42,13 @@ position:
     children: []
     id: CHART-0-zzTwBINh
     meta:
-      chartId: 53
-      height: 49
+      chartId: 129
+      height: 50
       sliceName: Last Year Income Distribution
-      uuid: a2ec5256-94b4-43c4-b8c7-b83f70c5d4df
+      uuid: 2fe774e8-3815-46eb-9725-cefcd56f1789
       width: 3
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-b7USYEngT
@@ -57,14 +57,13 @@ position:
     children: []
     id: CHART-37fu7fO6Z0
     meta:
-      chartId: 70
+      chartId: 138
       height: 69
       sliceName: Degrees vs Income
-      uuid: 02f546ae-1bf4-bd26-8bc2-14b9279c8a62
+      uuid: 617fae11-aaf7-475b-aa2a-3b08b8f2f6a6
       width: 7
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-kNjtGVFpp
@@ -73,14 +72,13 @@ position:
     children: []
     id: CHART-5QwNlSbXYU
     meta:
-      chartId: 24
+      chartId: 124
       height: 69
       sliceName: Time Spent Commuting
-      uuid: 097c05c9-2dd2-481d-813d-d6c0c12b4a3d
+      uuid: 20029333-2ef7-4175-b44b-30e34213593f
       width: 5
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-kNjtGVFpp
@@ -89,15 +87,14 @@ position:
     children: []
     id: CHART-FKuVqq4kaA
     meta:
-      chartId: 4
+      chartId: 122
       height: 50
       sliceName: Work Location Preference
       sliceNameOverride: Work Location Preference
-      uuid: e6b09c28-98cf-785f-4caf-320fd4fca802
+      uuid: 792aea5b-2fc7-4ef7-8a53-a381cd79ee9f
       width: 3
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW-DR80aHJA2c
@@ -106,14 +103,13 @@ position:
     children: []
     id: CHART-JnpdZOhVer
     meta:
-      chartId: 56
+      chartId: 133
       height: 50
       sliceName: Highest degree held
-      uuid: 9f7d2b9c-6b3a-69f9-f03e-d3a141514639
+      uuid: 208b8d07-faeb-43fb-839e-469c77dc4af1
       width: 2
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW--BIzjz9F0
@@ -123,14 +119,13 @@ position:
     children: []
     id: CHART-LjfhrUkEef
     meta:
-      chartId: 64
-      height: 68
+      chartId: 136
+      height: 74
       sliceName: First Time Developer & Commute Time
-      uuid: 067c4a1e-ae03-4c0c-8e2a-d2c0f4bf43c3
+      uuid: 638db144-6fb4-4876-b91a-a3b2f4740f46
       width: 5
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-s3l4os7YY
@@ -139,31 +134,31 @@ position:
     children: []
     id: CHART-Q3pbwsH3id
     meta:
-      chartId: 77
-      height: 50
+      chartId: 142
+      height: 32
       sliceName: Are you an ethnic minority in your city?
       sliceNameOverride: Minority Status (in their city)
-      uuid: def07750-b5c0-0b69-6228-cb2330916166
-      width: 3
+      uuid: 36a14da9-7cbc-4899-9295-111c2feb5095
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-mOvr_xWm1
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
+    - ROW-GdqwD9sfVk
     type: CHART
   CHART-QVql08s5Bv:
     children: []
     id: CHART-QVql08s5Bv
     meta:
-      chartId: 65
+      chartId: 137
       height: 50
       sliceName: First Time Developer?
-      uuid: edc75073-8f33-4123-a28d-cd6dfb33cade
+      uuid: 156affb9-b30f-43a3-ab3d-92ffc528e2eb
       width: 3
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-b7USYEngT
@@ -172,31 +167,28 @@ position:
     children: []
     id: CHART-UtSaz4pfV6
     meta:
-      chartId: 78
+      chartId: 140
       height: 50
       sliceName: Age distribution of respondents
-      uuid: 5f1ea868-604e-f69d-a241-5daa83ff33be
-      width: 3
+      uuid: 6c611338-3711-4dd3-ace0-a157878217df
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     - ROW-UsW-_RPAb
-    - COLUMN-OJ5spdMmNh
     type: CHART
   CHART-VvFbGxi3X_:
     children: []
     id: CHART-VvFbGxi3X_
     meta:
-      chartId: 22
-      height: 62
+      chartId: 123
+      height: 50
       sliceName: Top 15 Languages Spoken at Home
-      uuid: 03a74c97-52fc-cf87-233c-d4275f8c550c
+      uuid: c3b4dcdb-45f8-4242-b618-b7cabefa8f56
       width: 3
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     - ROW-UsW-_RPAb
@@ -206,15 +198,14 @@ position:
     children: []
     id: CHART-XHncHuS5pZ
     meta:
-      chartId: 45
-      height: 41
+      chartId: 127
+      height: 51
       sliceName: Number of Aspiring Developers
       sliceNameOverride: What type of work would you prefer?
-      uuid: a0e5329f-224e-6fc8-efd2-d37d0f546ee8
+      uuid: c8069370-c08c-47a7-b473-d0e674e33917
       width: 2
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW-DR80aHJA2c
@@ -223,30 +214,30 @@ position:
     children: []
     id: CHART-YSzS5GOOLf
     meta:
-      chartId: 68
-      height: 54
+      chartId: 135
+      height: 33
       sliceName: Ethnic Minority & Gender
-      uuid: 4880e4f4-b701-4be0-86f3-e7e89432e83b
-      width: 3
+      uuid: d00c4a0d-aa71-4532-8ea5-5f7061cbef0d
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-mOvr_xWm1
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
+    - ROW-bNPMRkNJHA
     type: CHART
   CHART-ZECnzPz8Bi:
     children: []
     id: CHART-ZECnzPz8Bi
     meta:
-      chartId: 51
+      chartId: 128
       height: 74
       sliceName: Location of Current Developers
-      uuid: 5596e0f6-78a9-465d-8325-7139c794a06a
+      uuid: 38ff3cda-28de-4550-8b4f-4dc30721023f
       width: 7
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-s3l4os7YY
@@ -255,47 +246,45 @@ position:
     children: []
     id: CHART-aytwlT4GAq
     meta:
-      chartId: 69
-      height: 42
+      chartId: 130
+      height: 50
       sliceName: Developer Type Breakdown
-      uuid: b8386be8-f44e-6535-378c-2aa2ba461286
-      width: 6
+      uuid: defc1c38-5e5c-4a7b-918f-430b3cf3044c
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-y-GwJPgxLr
+    - ROW-UsW-_RPAb
     type: CHART
   CHART-fLpTSAHpAO:
     children: []
     id: CHART-fLpTSAHpAO
     meta:
-      chartId: 74
-      height: 118
+      chartId: 141
+      height: 38
       sliceName: Country of Citizenship
-      uuid: 2ba66056-a756-d6a3-aaec-0c243fb7062e
-      width: 9
+      uuid: db2ecafe-e954-499a-9015-bac7390bf61a
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-UsW-_RPAb
+    - ROW-y-GwJPgxLr
+    - COLUMN-VtZDYpyVji
     type: CHART
   CHART-lQVSAw0Or3:
     children: []
     id: CHART-lQVSAw0Or3
     meta:
-      chartId: 55
+      chartId: 132
       height: 100
       sliceName: How do you prefer to work?
       sliceNameOverride: Preferred Employment Style vs Degree
-      uuid: cb8998ab-9f93-4f0f-4e4b-3bfe4b0dea9d
+      uuid: 351c2179-ddbc-44e5-a106-3d1329c311b9
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW--BIzjz9F0
@@ -304,31 +293,31 @@ position:
     children: []
     id: CHART-o-JPAWMZK-
     meta:
-      chartId: 59
-      height: 50
+      chartId: 134
+      height: 32
       sliceName: Gender
-      uuid: 0f6b447c-828c-e71c-87ac-211bc412b214
-      width: 3
+      uuid: 215f8a20-6fc5-47a8-aa58-01cd3ce52692
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-mOvr_xWm1
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
+    - ROW-bNPMRkNJHA
     type: CHART
   CHART-v22McUFMtx:
     children: []
     id: CHART-v22McUFMtx
     meta:
-      chartId: 54
+      chartId: 131
       height: 52
       sliceName: How much do you expect to earn? ($0 - 100k)
       sliceNameOverride: "\U0001F4B2Expected Income (excluding outliers)"
-      uuid: 6d0ceb30-2008-d19c-d285-cf77dc764433
+      uuid: 4118d9b6-870a-4f09-aecd-60705616be5c
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW--BIzjz9F0
@@ -338,14 +327,13 @@ position:
     children: []
     id: CHART-wxWVtlajRF
     meta:
-      chartId: 38
+      chartId: 126
       height: 104
       sliceName: Preferred Employment Style
-      uuid: bff88053-ccc4-92f2-d6f5-de83e950e8cd
+      uuid: 82f815a8-c295-4815-bf88-1b03d65f1da1
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW--BIzjz9F0
@@ -360,7 +348,6 @@ position:
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW--BIzjz9F0
@@ -368,22 +355,47 @@ position:
   COLUMN-OJ5spdMmNh:
     children:
     - CHART-VvFbGxi3X_
-    - CHART-UtSaz4pfV6
     id: COLUMN-OJ5spdMmNh
     meta:
       background: BACKGROUND_TRANSPARENT
-      width: 3
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     - ROW-UsW-_RPAb
     type: COLUMN
+  COLUMN-VtZDYpyVji:
+    children:
+    - MARKDOWN-__u6CsUyfh
+    - CHART-fLpTSAHpAO
+    id: COLUMN-VtZDYpyVji
+    meta:
+      background: BACKGROUND_WHITE
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-L-d9eyOE-b
+    - TAB-AsMaxdYL_t
+    - ROW-y-GwJPgxLr
+    type: COLUMN
+  COLUMN-xodr8GpFWO:
+    children:
+    - ROW-GdqwD9sfVk
+    - ROW-bNPMRkNJHA
+    id: COLUMN-xodr8GpFWO
+    meta:
+      background: BACKGROUND_WHITE
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-L-d9eyOE-b
+    - TAB-AsMaxdYL_t
+    - ROW-y-GwJPgxLr
+    type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
-    children:
-    - TABS-L-d9eyOE-b
+    children: []
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -421,7 +433,6 @@ position:
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     - ROW-DR80aHJA2c
@@ -459,7 +470,6 @@ position:
       width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     - ROW-b7USYEngT
@@ -471,6 +481,10 @@ position:
       code: '## FreeCodeCamp New Coder Survey 2018
 
 
+        <span style="font-size:0.8em;">
+
+
+
         Every year, FCC surveys its user base (mostly budding softwware developers)
         to learn more about their interests, backgrounds, goals, job status, and socioeconomic
         features. This dashboard visualizes survey data from the 2018 survey.
@@ -480,39 +494,45 @@ position:
 
         - [Dataset](https://github.com/freeCodeCamp/2018-new-coder-survey)
 
-        - [FCC Blog Post](https://www.freecodecamp.org/news/we-asked-20-000-people-who-they-are-and-how-theyre-learning-to-code-fff5d668969/)'
-      height: 42
-      width: 6
+        - [FCC Blog Post](https://www.freecodecamp.org/news/we-asked-20-000-people-who-they-are-and-how-theyre-learning-to-code-fff5d668969/)
+
+
+
+        </span>'
+      height: 27
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     - ROW-y-GwJPgxLr
+    - COLUMN-VtZDYpyVji
     type: MARKDOWN
   MARKDOWN-zc2mWxZeox:
     children: []
     id: MARKDOWN-zc2mWxZeox
     meta:
-      code: "# Demographics\n\nFreeCodeCamp is a completely-online community of people\
-        \ learning to code and consists of aspiring & current developers from all\
-        \ over the world. That doesn't necessarily mean that acccess to these types\
-        \ of opportunities are evenly distributed. \n\nThe following charts can begin\
-        \ to help us understand:\n\n- the original citizenship of the survey respondents\n\
-        - minority representation among both aspiring and current developers\n- their\
-        \ age distribution\n- household languages"
-      height: 52
-      width: 3
+      code: "## Demographics\n\n<span style=\"font-size:0.8em;\">\n\nFreeCodeCamp\
+        \ is a completely-online community of people learning to code and consists\
+        \ of aspiring & current developers from all over the world. That doesn't necessarily\
+        \ mean that acccess to these types of opportunities are evenly distributed.\
+        \ \n\nThe following charts can begin to help us understand:\n\n- the original\
+        \ citizenship of the survey respondents\n- minority representation among both\
+        \ aspiring and current developers\n- their age distribution\n- household languages\n\
+        \n\n</span>"
+      height: 32
+      width: 4
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
-    - ROW-mOvr_xWm1
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
+    - ROW-GdqwD9sfVk
     type: MARKDOWN
   ROOT_ID:
     children:
-    - GRID_ID
+    - TABS-L-d9eyOE-b
     id: ROOT_ID
     type: ROOT
   ROW--BIzjz9F0:
@@ -525,7 +545,6 @@ position:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
     type: ROW
@@ -540,20 +559,33 @@ position:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-YT6eNksV-
+    type: ROW
+  ROW-GdqwD9sfVk:
+    children:
+    - MARKDOWN-zc2mWxZeox
+    - CHART-Q3pbwsH3id
+    id: ROW-GdqwD9sfVk
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-L-d9eyOE-b
+    - TAB-AsMaxdYL_t
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
     type: ROW
   ROW-UsW-_RPAb:
     children:
     - COLUMN-OJ5spdMmNh
-    - CHART-fLpTSAHpAO
+    - CHART-aytwlT4GAq
+    - CHART-UtSaz4pfV6
     id: ROW-UsW-_RPAb
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     type: ROW
@@ -568,9 +600,22 @@ position:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
+    type: ROW
+  ROW-bNPMRkNJHA:
+    children:
+    - CHART-o-JPAWMZK-
+    - CHART-YSzS5GOOLf
+    id: ROW-bNPMRkNJHA
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-L-d9eyOE-b
+    - TAB-AsMaxdYL_t
+    - ROW-y-GwJPgxLr
+    - COLUMN-xodr8GpFWO
     type: ROW
   ROW-kNjtGVFpp:
     children:
@@ -581,24 +626,8 @@ position:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
-    type: ROW
-  ROW-mOvr_xWm1:
-    children:
-    - MARKDOWN-zc2mWxZeox
-    - CHART-Q3pbwsH3id
-    - CHART-o-JPAWMZK-
-    - CHART-YSzS5GOOLf
-    id: ROW-mOvr_xWm1
-    meta:
-      background: BACKGROUND_TRANSPARENT
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-L-d9eyOE-b
-    - TAB-AsMaxdYL_t
     type: ROW
   ROW-s3l4os7YY:
     children:
@@ -609,34 +638,30 @@ position:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-l_9I0aNYZ
     type: ROW
   ROW-y-GwJPgxLr:
     children:
-    - MARKDOWN-__u6CsUyfh
-    - CHART-aytwlT4GAq
+    - COLUMN-VtZDYpyVji
+    - COLUMN-xodr8GpFWO
     id: ROW-y-GwJPgxLr
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     - TAB-AsMaxdYL_t
     type: ROW
   TAB-AsMaxdYL_t:
     children:
     - ROW-y-GwJPgxLr
-    - ROW-mOvr_xWm1
     - ROW-UsW-_RPAb
     id: TAB-AsMaxdYL_t
     meta:
       text: Overview
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     type: TAB
   TAB-YT6eNksV-:
@@ -648,7 +673,6 @@ position:
       text: "\U0001F680 Aspiring Developers"
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     type: TAB
   TAB-l_9I0aNYZ:
@@ -661,7 +685,6 @@ position:
       text: "\U0001F4BB Current Developers"
     parents:
     - ROOT_ID
-    - GRID_ID
     - TABS-L-d9eyOE-b
     type: TAB
   TABS-L-d9eyOE-b:
@@ -673,441 +696,366 @@ position:
     meta: {}
     parents:
     - ROOT_ID
-    - GRID_ID
     type: TABS
 metadata:
   timed_refresh_immune_slices: []
   expanded_slices: {}
   refresh_frequency: 0
   default_filters: '{}'
-  color_scheme: supersetColors
-  label_colors:
-    '0': '#FCC700'
-    '1': '#A868B7'
-    '15': '#3CCCCB'
-    '30': '#A38F79'
-    '45': '#8FD3E4'
-    age: '#1FA8C9'
-    Yes,: '#1FA8C9'
-    Female: '#454E7C'
-    Prefer: '#5AC189'
-    No,: '#FF7F44'
-    Male: '#666666'
-    Prefer not to say: '#E04355'
-    Ph.D.: '#FCC700'
-    associate's degree: '#A868B7'
-    bachelor's degree: '#3CCCCB'
-    high school diploma or equivalent (GED): '#A38F79'
-    master's degree (non-professional): '#8FD3E4'
-    no high school (secondary school): '#A1A6BD'
-    professional degree (MBA, MD, JD, etc.): '#ACE1C4'
-    some college credit, no degree: '#FEC0A1'
-    some high school: '#B2B2B2'
-    trade, technical, or vocational training: '#EFA1AA'
-    No, not an ethnic minority: '#1FA8C9'
-    Yes, an ethnic minority: '#454E7C'
-    <NULL>: '#5AC189'
-    'Yes': '#FF7F44'
-    'No': '#666666'
-    last_yr_income: '#E04355'
-    More: '#A1A6BD'
-    Less: '#ACE1C4'
-    I: '#FEC0A1'
-    expected_earn: '#B2B2B2'
-    'Yes: Willing To': '#EFA1AA'
-    'No: Not Willing to': '#FDE380'
-    No Answer: '#D3B3DA'
-    In an Office (with Other Developers): '#9EE5E5'
-    No Preference: '#D1C6BC'
-    From Home: '#1FA8C9'
+  color_scheme: supersetAndPresetColors
   chart_configuration:
-    '4':
-      id: 4
+    '122':
+      id: 122
       crossFilters:
         scope: global
         chartsInScope:
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '22':
-      id: 22
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '123':
+      id: 123
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '24':
-      id: 24
+        - 122
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '124':
+      id: 124
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '32':
-      id: 32
+        - 122
+        - 123
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '125':
+      id: 125
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '38':
-      id: 38
+        - 122
+        - 123
+        - 124
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '126':
+      id: 126
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '51':
-      id: 51
+        - 122
+        - 123
+        - 124
+        - 125
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '128':
+      id: 128
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '56':
-      id: 56
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '130':
+      id: 130
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '59':
-      id: 59
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '133':
+      id: 133
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '65':
-      id: 65
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '134':
+      id: 134
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '69':
-      id: 69
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '137':
+      id: 137
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 70
-        - 71
-        - 74
-        - 77
-        - 78
-    '70':
-      id: 70
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 142
+    '138':
+      id: 138
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 71
-        - 74
-        - 77
-        - 78
-    '74':
-      id: 74
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 139
+        - 140
+        - 141
+        - 142
+    '141':
+      id: 141
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 77
-        - 78
-    '77':
-      id: 77
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 142
+    '142':
+      id: 142
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
-        - 22
-        - 24
-        - 32
-        - 38
-        - 45
-        - 51
-        - 53
-        - 54
-        - 55
-        - 56
-        - 59
-        - 64
-        - 65
-        - 67
-        - 68
-        - 69
-        - 70
-        - 71
-        - 74
-        - 78
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 137
+        - 138
+        - 139
+        - 140
+        - 141
   global_chart_configuration:
     scope:
       rootPath:
       - ROOT_ID
       excluded: []
     chartsInScope:
-    - 4
-    - 22
-    - 24
-    - 32
-    - 38
-    - 45
-    - 51
-    - 53
-    - 54
-    - 55
-    - 56
-    - 59
-    - 64
-    - 65
-    - 67
-    - 68
-    - 69
-    - 70
-    - 71
-    - 74
-    - 77
-    - 78
-  color_scheme_domain:
-  - '#1FA8C9'
-  - '#454E7C'
-  - '#5AC189'
-  - '#FF7F44'
-  - '#666666'
-  - '#E04355'
-  - '#FCC700'
-  - '#A868B7'
-  - '#3CCCCB'
-  - '#A38F79'
-  - '#8FD3E4'
-  - '#A1A6BD'
-  - '#ACE1C4'
-  - '#FEC0A1'
-  - '#B2B2B2'
-  - '#EFA1AA'
-  - '#FDE380'
-  - '#D3B3DA'
-  - '#9EE5E5'
-  - '#D1C6BC'
+    - 122
+    - 123
+    - 124
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+    - 132
+    - 133
+    - 134
+    - 135
+    - 136
+    - 137
+    - 138
+    - 139
+    - 140
+    - 141
+    - 142
   native_filter_configuration:
   - id: NATIVE_FILTER-wp8Hzv-s3
     controlValues:
@@ -1362,40 +1310,43 @@ metadata:
     - TAB-AsMaxdYL_t
     - TAB-YT6eNksV-
     - TAB-l_9I0aNYZ
-  shared_label_colors:
-    No, not an ethnic minority: '#1FA8C9'
-    Yes, an ethnic minority: '#454E7C'
-    No Answer: '#D3B3DA'
-    Male: '#666666'
-    Female: '#454E7C'
-    <NULL>: '#5AC189'
-    Prefer not to say: '#E04355'
-    age: '#1FA8C9'
-    count: '#FF7F44'
-    expected_earn: '#B2B2B2'
-    In an Office (with Other Developers): '#9EE5E5'
-    No Preference: '#D1C6BC'
-    From Home: '#1FA8C9'
-    'Yes: Willing To': '#EFA1AA'
-    'No: Not Willing to': '#FDE380'
-    'Yes': '#FF7F44'
-    'No': '#666666'
-    last_yr_income: '#E04355'
-    30 to 44 minutes: '#A868B7'
-    45 to 60 minutes: '#FCC700'
-    More than 60 minutes: '#E04355'
-    15 to 29 minutes: '#FCC700'
-    Less than 15 minutes: '#A868B7'
-    I work from home: '#3CCCCB'
-    Ph.D.: '#FCC700'
-    associate's degree: '#A868B7'
-    bachelor's degree: '#3CCCCB'
-    high school diploma or equivalent (GED): '#A38F79'
-    master's degree (non-professional): '#8FD3E4'
-    no high school (secondary school): '#A1A6BD'
-    professional degree (MBA, MD, JD, etc.): '#ACE1C4'
-    some college credit, no degree: '#FEC0A1'
-    some high school: '#B2B2B2'
-    trade, technical, or vocational training: '#EFA1AA'
   cross_filters_enabled: true
+  filter_bar_orientation: HORIZONTAL
+  label_colors: {}
+  shared_label_colors:
+    age: '#004960'
+    No, not an ethnic minority: '#7DCDE1'
+    Yes, an ethnic minority: '#20A7C9'
+    No Answer: '#20A7C9'
+    Male: '#A9D3E1'
+    Female: '#2893B3'
+    <NULL>: '#20A7C9'
+    Prefer not to say: '#5CC0DA'
+    expected_earn: '#004960'
+    In an Office (with Other Developers): '#2893B3'
+    No Preference: '#20A7C9'
+    From Home: '#5CC0DA'
+    'Yes: Willing To': '#2893B3'
+    'No: Not Willing to': '#20A7C9'
+    count: '#004960'
+    'No': '#2893B3'
+    30 to 44 minutes: '#2893B3'
+    45 to 60 minutes: '#20A7C9'
+    'Yes': '#004960'
+    More than 60 minutes: '#A9D3E1'
+    15 to 29 minutes: '#C6ECE1'
+    Less than 15 minutes: '#AAE2D2'
+    I work from home: '#71CFB4'
+    last_yr_income: '#004960'
+    Ph.D.: '#004960'
+    associate's degree: '#2893B3'
+    bachelor's degree: '#20A7C9'
+    high school diploma or equivalent (GED): '#5CC0DA'
+    master's degree (non-professional): '#7DCDE1'
+    no high school (secondary school): '#A9D3E1'
+    professional degree (MBA, MD, JD, etc.): '#C6ECE1'
+    some college credit, no degree: '#AAE2D2'
+    some high school: '#71CFB4'
+    trade, technical, or vocational training: '#2FC096'
+  color_scheme_domain: []
 version: 1.0.0

@@ -62,7 +62,9 @@ params:
   - null
   y_axis_format: SMART_NUMBER
   yscale_interval: null
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: cb8998ab-9f93-4f0f-4e4b-3bfe4b0dea9d
+uuid: 351c2179-ddbc-44e5-a106-3d1329c311b9
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

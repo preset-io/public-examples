@@ -1,69 +1,66 @@
-slice_name: Degrees vs Income
+slice_name: Highest degree held
 description: null
 certified_by: null
 certification_details: null
-viz_type: box_plot
+viz_type: table
 params:
   adhoc_filters:
   - clause: WHERE
-    comparator: '1'
+    comparator: '0'
     expressionType: SIMPLE
-    filterOptionName: filter_s1jzmdwgeg_p3er4w56uy
+    filterOptionName: filter_qzz67uip1ue_jw3rr6tzo3a
     isExtra: false
     isNew: false
     operator: ==
     sqlExpression: null
     subject: is_software_dev
-  - clause: WHERE
-    comparator: '200000'
-    expressionType: SIMPLE
-    filterOptionName: filter_ojzq4njnuog_zj0dux944z
-    isExtra: false
-    isNew: false
-    operator: <=
-    sqlExpression: null
-    subject: last_yr_income
-  color_scheme: supersetColors
-  columns: []
+  all_columns: []
+  color_pn: true
   datasource: 42__table
   granularity_sqla: time_start
   groupby:
   - school_degree
   metrics:
-  - aggregate: SUM
+  - count
+  order_by_cols: []
+  order_desc: true
+  percent_metrics:
+  - aggregate: COUNT
     column:
-      column_name: last_yr_income
+      column_name: school_degree
       description: null
       expression: null
       filterable: true
       groupby: true
-      id: 1589
+      id: 1574
       is_dttm: false
       python_date_format: null
-      type: DOUBLE PRECISION
+      type: TEXT
       verbose_name: null
     expressionType: SIMPLE
     hasCustomLabel: false
     isNew: false
-    label: SUM(last_yr_income)
-    optionName: metric_bgqj8nnvz8k_07w8bbh1bc6q
+    label: COUNT(school_degree)
+    optionName: metric_vsilrouxw3q_iactbbmvdv
     sqlExpression: null
-  number_format: SMART_NUMBER
   queryFields:
-    columns: groupby
     groupby: groupby
     metrics: metrics
-  slice_id: 1376
-  time_grain_sqla: null
+  query_mode: aggregate
+  row_limit: null
+  show_cell_bars: true
+  slice_id: 1369
+  table_timestamp_format: smart_date
+  time_grain_sqla: P1D
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: box_plot
-  whiskerOptions: Tukey
-  x_ticks_layout: "45\xB0"
+  viz_type: table
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 02f546ae-1bf4-bd26-8bc2-14b9279c8a62
+uuid: 208b8d07-faeb-43fb-839e-469c77dc4af1
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

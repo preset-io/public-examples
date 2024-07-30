@@ -1,46 +1,51 @@
-slice_name: Last Year Income Distribution
+slice_name: Preferred Employment Style
 description: null
 certified_by: null
 certification_details: null
-viz_type: histogram
+viz_type: treemap_v2
 params:
   adhoc_filters:
   - clause: WHERE
-    comparator: Currently A Developer
+    comparator: '0'
     expressionType: SIMPLE
-    filterOptionName: filter_fvi0jg9aii_2lekqrhy7qk
+    filterOptionName: filter_s1jzmdwgeg_p3er4w56uy
     isExtra: false
     isNew: false
     operator: ==
     sqlExpression: null
-    subject: developer_type
+    subject: is_software_dev
   - clause: WHERE
-    comparator: '100000'
+    comparator: 'NULL'
     expressionType: SIMPLE
-    filterOptionName: filter_khdc3iypzjg_3g6h02b4f2p
+    filterOptionName: filter_rdlajraxs0f_lgyfv4rvdh
     isExtra: false
     isNew: false
-    operator: <=
+    operator: '!='
     sqlExpression: null
-    subject: last_yr_income
-  all_columns_x:
-  - last_yr_income
+    subject: job_pref
   color_scheme: supersetColors
   datasource: 42__table
   granularity_sqla: time_start
-  groupby: []
+  groupby:
+  - job_pref
   label_colors: {}
-  link_length: '10'
+  metric: count
+  number_format: SMART_NUMBER
   queryFields:
     groupby: groupby
-  row_limit: null
+    metrics: metrics
+  row_limit: 10
+  slice_id: 1377
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
+  treemap_ratio: 1.618033988749895
   url_params: {}
-  viz_type: histogram
+  viz_type: treemap_v2
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: a2ec5256-94b4-43c4-b8c7-b83f70c5d4df
+uuid: 82f815a8-c295-4815-bf88-1b03d65f1da1
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

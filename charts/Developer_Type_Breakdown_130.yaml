@@ -31,7 +31,9 @@ params:
   - exclusive
   url_params: {}
   viz_type: table
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: b8386be8-f44e-6535-378c-2aa2ba461286
+uuid: defc1c38-5e5c-4a7b-918f-430b3cf3044c
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

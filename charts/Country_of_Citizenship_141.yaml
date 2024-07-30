@@ -1,0 +1,59 @@
+slice_name: Country of Citizenship
+description: null
+certified_by: null
+certification_details: null
+viz_type: world_map
+params:
+  adhoc_filters: []
+  color_picker:
+    a: 1
+    b: 135
+    g: 122
+    r: 0
+  country_fieldtype: name
+  datasource: 42__table
+  entity: country_citizen
+  granularity_sqla: time_start
+  linear_color_scheme: preset_div_1
+  max_bubble_size: '25'
+  metric: count
+  queryFields:
+    entity: groupby
+    metric: metrics
+    secondary_metric: metrics
+  row_limit: null
+  secondary_metric:
+    aggregate: COUNT
+    column:
+      column_name: country_live
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 1570
+      is_dttm: false
+      python_date_format: null
+      type: TEXT
+      verbose_name: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: COUNT(country_live)
+    optionName: metric_azxwoyei39f_d7xgzshjnw6
+    sqlExpression: null
+  show_bubbles: true
+  slice_id: 1388
+  time_range: No filter
+  time_range_endpoints:
+  - inclusive
+  - exclusive
+  url_params: {}
+  viz_type: world_map
+  annotation_layers: []
+query_context: '{"datasource":{"id":19,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","granularity":"time_start","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count",{"aggregate":"COUNT","column":{"column_name":"country_live","description":null,"expression":null,"filterable":true,"groupby":true,"id":1570,"is_dttm":false,"python_date_format":null,"type":"TEXT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"COUNT(country_live)","optionName":"metric_azxwoyei39f_d7xgzshjnw6","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_picker":{"a":1,"b":135,"g":122,"r":0},"country_fieldtype":"name","datasource":"19__table","entity":"country_citizen","granularity_sqla":"time_start","linear_color_scheme":"preset_div_1","max_bubble_size":"25","metric":"count","queryFields":{"entity":"groupby","metric":"metrics","secondary_metric":"metrics"},"row_limit":null,"secondary_metric":{"aggregate":"COUNT","column":{"column_name":"country_live","description":null,"expression":null,"filterable":true,"groupby":true,"id":1570,"is_dttm":false,"python_date_format":null,"type":"TEXT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"COUNT(country_live)","optionName":"metric_azxwoyei39f_d7xgzshjnw6","sqlExpression":null},"show_bubbles":true,"slice_id":141,"time_range":"No
+  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"world_map","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: db2ecafe-e954-499a-9015-bac7390bf61a
+version: 1.0.0
+dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

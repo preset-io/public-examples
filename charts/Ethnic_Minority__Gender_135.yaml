@@ -1,45 +1,49 @@
-slice_name: "\u2708\uFE0F Relocation ability"
+slice_name: Ethnic Minority & Gender
 description: null
 certified_by: null
 certification_details: null
-viz_type: pie
+viz_type: sankey
 params:
   adhoc_filters:
   - clause: WHERE
-    comparator: '0'
+    comparator: 'NULL'
     expressionType: SIMPLE
-    filterOptionName: filter_yccan09xctb_wjwt23qhknf
+    filterOptionName: filter_of9xf5uks2_5pisp1se9r5
     isExtra: false
     isNew: false
-    operator: ==
+    operator: '!='
     sqlExpression: null
-    subject: is_software_dev
+    subject: ethnic_minority
+  - clause: WHERE
+    comparator: 'NULL'
+    expressionType: SIMPLE
+    filterOptionName: filter_9ikn7htywfm_2579he7pk5x
+    isExtra: false
+    isNew: false
+    operator: '!='
+    sqlExpression: null
+    subject: gender
   color_scheme: supersetColors
   datasource: 42__table
-  donut: true
   granularity_sqla: time_start
   groupby:
-  - willing_to_relocate
-  innerRadius: 44
-  labels_outside: true
+  - ethnic_minority
+  - gender
+  label_colors: {}
   metric: count
-  number_format: SMART_NUMBER
-  outerRadius: 69
-  label_type: key
   queryFields:
     groupby: groupby
     metric: metrics
   row_limit: null
-  show_labels: true
-  show_legend: false
-  slice_id: 1365
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: pie
+  viz_type: sankey
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65
+uuid: d00c4a0d-aa71-4532-8ea5-5f7061cbef0d
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

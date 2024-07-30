@@ -1,10 +1,19 @@
-slice_name: Country of Citizenship
+slice_name: Location of Current Developers
 description: null
 certified_by: null
 certification_details: null
 viz_type: world_map
 params:
-  adhoc_filters: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: '1'
+    expressionType: SIMPLE
+    filterOptionName: filter_s1jzmdwgeg_p3er4w56uy
+    isExtra: false
+    isNew: false
+    operator: ==
+    sqlExpression: null
+    subject: is_software_dev
   color_picker:
     a: 1
     b: 135
@@ -12,16 +21,16 @@ params:
     r: 0
   country_fieldtype: name
   datasource: 42__table
-  entity: country_citizen
+  entity: country_live
   granularity_sqla: time_start
-  linear_color_scheme: preset_div_1
+  linear_color_scheme: superset_seq_1
   max_bubble_size: '25'
   metric: count
   queryFields:
     entity: groupby
     metric: metrics
     secondary_metric: metrics
-  row_limit: null
+  row_limit: 10000
   secondary_metric:
     aggregate: COUNT
     column:
@@ -39,17 +48,19 @@ params:
     hasCustomLabel: false
     isNew: false
     label: COUNT(country_live)
-    optionName: metric_azxwoyei39f_d7xgzshjnw6
+    optionName: metric_980jcnefhlk_ar87s15pwro
     sqlExpression: null
   show_bubbles: true
-  slice_id: 1388
+  slice_id: 3635
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
   viz_type: world_map
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 2ba66056-a756-d6a3-aaec-0c243fb7062e
+uuid: 38ff3cda-28de-4550-8b4f-4dc30721023f
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

@@ -1,4 +1,4 @@
-slice_name: First Time Developer?
+slice_name: "\u2708\uFE0F Relocation ability"
 description: null
 certified_by: null
 certification_details: null
@@ -6,21 +6,21 @@ viz_type: pie
 params:
   adhoc_filters:
   - clause: WHERE
-    comparator: Currently A Developer
+    comparator: '0'
     expressionType: SIMPLE
-    filterOptionName: filter_fvi0jg9aii_2lekqrhy7qk
+    filterOptionName: filter_yccan09xctb_wjwt23qhknf
     isExtra: false
     isNew: false
     operator: ==
     sqlExpression: null
-    subject: developer_type
+    subject: is_software_dev
   color_scheme: supersetColors
   datasource: 42__table
   donut: true
   granularity_sqla: time_start
   groupby:
-  - first_time_developer
-  innerRadius: 43
+  - willing_to_relocate
+  innerRadius: 44
   labels_outside: true
   metric: count
   number_format: SMART_NUMBER
@@ -32,14 +32,16 @@ params:
   row_limit: null
   show_labels: true
   show_legend: false
-  slice_id: 3632
+  slice_id: 1365
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
   viz_type: pie
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: edc75073-8f33-4123-a28d-cd6dfb33cade
+uuid: 3dfd670c-6038-47ba-b783-386d3e4d9ca7
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

@@ -1,47 +1,47 @@
-slice_name: Ethnic Minority & Gender
+slice_name: Work Location Preference
 description: null
 certified_by: null
 certification_details: null
-viz_type: sankey
+viz_type: pie
 params:
   adhoc_filters:
   - clause: WHERE
-    comparator: 'NULL'
+    comparator: '0'
     expressionType: SIMPLE
-    filterOptionName: filter_of9xf5uks2_5pisp1se9r5
+    filterOptionName: filter_qzz67uip1ue_jw3rr6tzo3a
     isExtra: false
     isNew: false
-    operator: '!='
+    operator: ==
     sqlExpression: null
-    subject: ethnic_minority
-  - clause: WHERE
-    comparator: 'NULL'
-    expressionType: SIMPLE
-    filterOptionName: filter_9ikn7htywfm_2579he7pk5x
-    isExtra: false
-    isNew: false
-    operator: '!='
-    sqlExpression: null
-    subject: gender
+    subject: is_software_dev
   color_scheme: supersetColors
   datasource: 42__table
+  donut: true
   granularity_sqla: time_start
   groupby:
-  - ethnic_minority
-  - gender
-  label_colors: {}
+  - job_location_preference
+  innerRadius: 44
+  labels_outside: true
   metric: count
+  number_format: SMART_NUMBER
+  outerRadius: 69
+  label_type: key
   queryFields:
     groupby: groupby
     metric: metrics
   row_limit: null
+  show_labels: true
+  show_legend: false
+  slice_id: 1370
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
-  viz_type: sankey
+  viz_type: pie
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 4880e4f4-b701-4be0-86f3-e7e89432e83b
+uuid: 792aea5b-2fc7-4ef7-8a53-a381cd79ee9f
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469
