@@ -6,8 +6,8 @@ css: ".dashboard {\n  background: white;\n}\n.dashboard-component-chart-holder {
 slug: null
 certified_by: ''
 certification_details: ''
-published: true
-uuid: 2d568e40-8e98-4d0e-b7be-cbde6eb6ca80
+published: false
+uuid: 8cc9b2c4-52de-4281-a4d0-238086c2c1d3
 position:
   CHART-EYIBwyUiHc:
     children: []
@@ -82,20 +82,6 @@ position:
     - GRID_ID
     - ROW-FFFBNmYpiv
     - COLUMN-7iH3XN6bfl
-    type: CHART
-  CHART-ej0FpkKxzj:
-    children: []
-    id: CHART-ej0FpkKxzj
-    meta:
-      chartId: 120
-      height: 69
-      sliceName: Cross Channel Relationship heatmap
-      uuid: f6198125-a3f9-4b32-a130-5c85bbd3782b
-      width: 8
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-PgcMF2PpB
     type: CHART
   CHART-f42-kMWQPd:
     children: []
@@ -212,7 +198,6 @@ position:
   ROW-PgcMF2PpB:
     children:
     - CHART-f42-kMWQPd
-    - CHART-ej0FpkKxzj
     id: ROW-PgcMF2PpB
     meta:
       '0': ROOT_ID
@@ -240,7 +225,6 @@ metadata:
         - 117
         - 118
         - 119
-        - 120
         - 121
     '118':
       id: 118
@@ -253,7 +237,6 @@ metadata:
         - 116
         - 117
         - 119
-        - 120
         - 121
     '119':
       id: 119
@@ -266,7 +249,6 @@ metadata:
         - 116
         - 117
         - 118
-        - 120
         - 121
   global_chart_configuration:
     scope:
@@ -281,10 +263,39 @@ metadata:
     - 117
     - 118
     - 119
-    - 120
     - 121
   cross_filters_enabled: true
   filter_bar_orientation: VERTICAL
-  shared_label_colors: {}
+  shared_label_colors:
+    beginners: '#0A0095'
+    general: '#9DCBFF'
+    support: '#006BE7'
+    apache-releases: '#4A9FFF'
+    introductions: '#0054B4'
+    dashboard-filters: '#006BE7'
+    dashboards: '#9DCBFF'
+    dashboard-level-access: '#76B6FF'
+    visualization_plugins: '#0054B4'
+    helm-k8-deployment: '#070061'
+    feature-requests: '#0A0095'
+    superset_prod_reports: '#0054B4'
+    commits: '#2289FF'
+    developers: '#BEDCFF'
+    announcements: '#DAEBFF'
+    globalnav_search: '#070061'
+    superset-champions: '#0A0095'
+    newsletter: '#006BE7'
+    community-feedback: '#2289FF'
+    cypress-tests: '#4A9FFF'
+    embedd-dashboards: '#76B6FF'
+    jobs: '#9DCBFF'
+    contributing: '#BEDCFF'
+    localization: '#DAEBFF'
+    github-notifications: '#070061'
+    design: '#2289FF'
+    product_feedback: '#4A9FFF'
+    superset_stage_alerts: '#76B6FF'
+    graduation: '#BEDCFF'
+    pull-requests: '#DAEBFF'
   color_scheme_domain: []
 version: 1.0.0

@@ -210,7 +210,7 @@ position:
     meta:
       code: "<b> \U0001F697 Vehicle Sales Dashboard</b> \n\n<span style=\"font-size:0.8em;\"\
         >\nThis example dashboard provides insight into the business operations of\
-        \ vehicle seller. The dataset powering this dashboard can be found \n[here\
+        \ vehicle seller. The dataset powering this dashboard can be found\n\n[here\
         \ on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\n\n</span></br>"
       height: 23
       width: 3

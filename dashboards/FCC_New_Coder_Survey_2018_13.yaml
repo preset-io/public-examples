@@ -4,8 +4,8 @@ css: ''
 slug: null
 certified_by: ''
 certification_details: ''
-published: true
-uuid: b11a0cc6-1932-44d6-bdcf-b73582f8b229
+published: false
+uuid: 235e487f-648a-4803-9928-15122fc69eae
 position:
   CHART--0GPGmD-pO:
     children: []
@@ -88,7 +88,7 @@ position:
     id: CHART-FKuVqq4kaA
     meta:
       chartId: 122
-      height: 50
+      height: 51
       sliceName: Work Location Preference
       sliceNameOverride: Work Location Preference
       uuid: 792aea5b-2fc7-4ef7-8a53-a381cd79ee9f
@@ -273,22 +273,6 @@ position:
     - ROW-y-GwJPgxLr
     - COLUMN-VtZDYpyVji
     type: CHART
-  CHART-lQVSAw0Or3:
-    children: []
-    id: CHART-lQVSAw0Or3
-    meta:
-      chartId: 132
-      height: 100
-      sliceName: How do you prefer to work?
-      sliceNameOverride: Preferred Employment Style vs Degree
-      uuid: 351c2179-ddbc-44e5-a106-3d1329c311b9
-      width: 4
-    parents:
-    - ROOT_ID
-    - TABS-L-d9eyOE-b
-    - TAB-YT6eNksV-
-    - ROW--BIzjz9F0
-    type: CHART
   CHART-o-JPAWMZK-:
     children: []
     id: CHART-o-JPAWMZK-
@@ -331,7 +315,7 @@ position:
       height: 104
       sliceName: Preferred Employment Style
       uuid: 82f815a8-c295-4815-bf88-1b03d65f1da1
-      width: 4
+      width: 6
     parents:
     - ROOT_ID
     - TABS-L-d9eyOE-b
@@ -345,7 +329,7 @@ position:
     id: COLUMN-IEKAo_QJlz
     meta:
       background: BACKGROUND_TRANSPARENT
-      width: 4
+      width: 6
     parents:
     - ROOT_ID
     - TABS-L-d9eyOE-b
@@ -412,6 +396,9 @@ position:
       code: '# Aspiring Developers
 
 
+        <span style="font-size:0.8em;">
+
+
         The mission of FreeCodeCamp is to "help people learn to code for free". With
         this in mind, it''s no surprise that ~83% of this survey''s respondents fall
         into the **Aspiring Developer** category.
@@ -429,7 +416,7 @@ position:
         - Distribution of highest degree held
 
         - Heatmap of highest degree held vs employment style preference'
-      height: 50
+      height: 51
       width: 4
     parents:
     - ROOT_ID
@@ -442,6 +429,9 @@ position:
     id: MARKDOWN-NQmSPDOtpl
     meta:
       code: '# Current Developers
+
+
+        <span style="font-size:0.8em;">
 
 
         While majority of the students on FCC are Aspiring developers, there''s a
@@ -538,7 +528,6 @@ position:
   ROW--BIzjz9F0:
     children:
     - COLUMN-IEKAo_QJlz
-    - CHART-lQVSAw0Or3
     - CHART-wxWVtlajRF
     id: ROW--BIzjz9F0
     meta:
@@ -718,7 +707,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -743,7 +731,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -768,7 +755,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -793,7 +779,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -818,7 +803,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -843,7 +827,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -868,7 +851,6 @@ metadata:
         - 128
         - 129
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -894,7 +876,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 134
         - 135
         - 136
@@ -919,7 +900,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 135
         - 136
@@ -944,7 +924,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -969,7 +948,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -994,7 +972,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -1019,7 +996,6 @@ metadata:
         - 129
         - 130
         - 131
-        - 132
         - 133
         - 134
         - 135
@@ -1045,7 +1021,6 @@ metadata:
     - 129
     - 130
     - 131
-    - 132
     - 133
     - 134
     - 135
