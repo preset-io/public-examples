@@ -1,18 +1,22 @@
 dashboard_title: Sales Dashboard
 description: null
-css: ''
+css: ".dashboard {\n  background: #f2f6fb;\n}\n.dashboard-component-chart-holder {\n\
+  \  border-radius: 16px !important;\n}"
 slug: null
-uuid: 04f79081-fb49-7bac-7f14-cc76cd2ad93b
+certified_by: ''
+certification_details: ''
+published: true
+uuid: e45d0025-063a-4f63-8d3a-fb7d697c048c
 position:
   CHART-1NOOLm5YPs:
     children: []
     id: CHART-1NOOLm5YPs
     meta:
-      chartId: 20
-      height: 25
+      chartId: 85
+      height: 32
       sliceName: Total Items Sold
       sliceNameOverride: Total Products Sold
-      uuid: c3d643cd-fd6f-4659-a5b7-59402487a8d0
+      uuid: cb93dc8f-2d4f-4f64-a177-7e5256566b87
       width: 2
     parents:
     - ROOT_ID
@@ -25,11 +29,11 @@ position:
     children: []
     id: CHART-6yE9sRgJyw
     meta:
-      chartId: 83
-      height: 63
+      chartId: 87
+      height: 43
       sliceName: Revenue by Deal Size
-      uuid: 33f35f63-58e3-4433-b888-375f2a34b8cd
-      width: 6
+      uuid: 60fd532b-54cc-49d3-8b20-e14e3918242a
+      width: 8
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
@@ -40,10 +44,10 @@ position:
     children: []
     id: CHART-AYpv8gFi_q
     meta:
-      chartId: 44
-      height: 91
+      chartId: 92
+      height: 47
       sliceName: Number of Deals (for each Combination)
-      uuid: bd20fc69-dd51-46c1-99b5-09e37a434bf1
+      uuid: 61ca81cb-db24-4f8d-8ccc-a2430db75131
       width: 5
     parents:
     - ROOT_ID
@@ -55,26 +59,26 @@ position:
     children: []
     id: CHART-Gsob8LEQ6y
     meta:
-      chartId: 81
-      height: 53
+      chartId: 89
+      height: 66
       sliceName: Quarterly Sales
-      uuid: 1c635914-3ae6-4098-a6ba-1380f860ec6f
-      width: 7
+      uuid: 4e5cbf58-ff79-4651-a5ce-baaa22c67dc0
+      width: 8
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
     - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
+    - ROW-oAtmu5grZ
     type: CHART
   CHART-OJ9aWDmn1q:
     children: []
     id: CHART-OJ9aWDmn1q
     meta:
-      chartId: 37
-      height: 91
+      chartId: 90
+      height: 47
       sliceName: Proportion of Revenue by Product Line
       sliceNameOverride: Proportion of Monthly Revenue by Product Line
-      uuid: 08aff161-f60c-4cb3-a225-dc9b1140d2e3
+      uuid: ea178dec-1f70-467b-84c6-a439ee3f76db
       width: 7
     parents:
     - ROOT_ID
@@ -86,11 +90,11 @@ position:
     children: []
     id: CHART-YFg-9wHE7s
     meta:
-      chartId: 25
-      height: 63
+      chartId: 86
+      height: 43
       sliceName: Seasonality of Revenue (per Product Line)
-      uuid: cf0da099-b3ab-4d94-ab62-cf353ac3c611
-      width: 6
+      uuid: 0eb953a3-b5e8-4e81-9f7e-b33b94801720
+      width: 4
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
@@ -101,44 +105,43 @@ position:
     children: []
     id: CHART-fVeJSgheRq
     meta:
-      chartId: 82
-      height: 75
+      chartId: 88
+      height: 66
       sliceName: Quarterly Sales (By Product Line)
-      uuid: 4a574e8f-4044-435d-a267-d4ad239182d2
+      uuid: 16b0afd5-a3cc-4dc5-b7be-b1e0c2d0760a
       width: 7
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
     - TAB-d-E0Zc1cTH
-    - ROW-oAtmu5grZ
+    - ROW-Tyv02UA_6W
     type: CHART
   CHART-id4RGv80N-:
     children: []
     id: CHART-id4RGv80N-
     meta:
-      chartId: 19
-      height: 75
+      chartId: 84
+      height: 36
       sliceName: Total Items Sold (By Product Line)
       sliceNameOverride: Total Products Sold (By Product Line)
-      uuid: b8b7ca30-6291-44b0-bc64-ba42e2892b86
-      width: 2
+      uuid: 10e7a1cf-d3d7-4545-a52b-bd7967530be6
+      width: 12
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
     - TAB-d-E0Zc1cTH
-    - ROW-oAtmu5grZ
-    - COLUMN-G6_2DvG8aK
+    - ROW-DdGk_XCf7
     type: CHART
   CHART-j24u8ve41b:
     children: []
     id: CHART-j24u8ve41b
     meta:
-      chartId: 42
-      height: 75
+      chartId: 91
+      height: 66
       sliceName: Overall Sales (By Product Line)
       sliceNameOverride: Total Revenue (By Product Line)
-      uuid: 09c497e0-f442-1121-c9e7-671e37750424
-      width: 3
+      uuid: 46914afc-f057-441e-bcc6-d02f91921fd9
+      width: 4
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
@@ -149,10 +152,10 @@ position:
     children: []
     id: CHART-lFanAaYKBK
     meta:
-      chartId: 18
-      height: 26
+      chartId: 83
+      height: 32
       sliceName: Total Revenue
-      uuid: 7b12a243-88e0-4dc5-ac33-9a840bb0ac5a
+      uuid: 75d88d4c-993b-4db1-917d-f1a6114200c5
       width: 3
     parents:
     - ROOT_ID
@@ -161,11 +164,11 @@ position:
     - ROW-Tyv02UA_6W
     - COLUMN-8Rp54B6ikC
     type: CHART
-  COLUMN-8Rp54B6ikC:
+  COLUMN-4w34yK0sSb:
     children:
-    - CHART-lFanAaYKBK
-    - CHART-1NOOLm5YPs
-    id: COLUMN-8Rp54B6ikC
+    - MARKDOWN--AtDSWnapE
+    - MARKDOWN-iYalz-QLM6
+    id: COLUMN-4w34yK0sSb
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 2
@@ -175,18 +178,19 @@ position:
     - TAB-d-E0Zc1cTH
     - ROW-Tyv02UA_6W
     type: COLUMN
-  COLUMN-G6_2DvG8aK:
+  COLUMN-8Rp54B6ikC:
     children:
-    - CHART-id4RGv80N-
-    id: COLUMN-G6_2DvG8aK
+    - CHART-lFanAaYKBK
+    - CHART-1NOOLm5YPs
+    id: COLUMN-8Rp54B6ikC
     meta:
       background: BACKGROUND_TRANSPARENT
-      width: 2
+      width: 3
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
     - TAB-d-E0Zc1cTH
-    - ROW-oAtmu5grZ
+    - ROW-Tyv02UA_6W
     type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
@@ -204,22 +208,39 @@ position:
     children: []
     id: MARKDOWN--AtDSWnapE
     meta:
-      code: "# \U0001F697 Vehicle Sales Dashboard \U0001F3CD\n\nThis example dashboard\
-        \ provides insight into the business operations of vehicle seller. The dataset\
-        \ powering this dashboard can be found [here on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\n\
-        \n### Timeline\n\nThe dataset contains data on all orders from the 2003 and\
-        \ 2004 fiscal years, and some orders from 2005.\n\n### Products Sold\n\nThis\
-        \ shop mainly sells the following products:\n\n- \U0001F697 Classic Cars\n\
-        - \U0001F3CE\uFE0F Vintage Cars\n- \U0001F3CD\uFE0F Motorcycles\n- \U0001F69A\
-        \ Trucks & Buses \U0001F68C\n- \U0001F6E9\uFE0F Planes\n- \U0001F6A2 Ships\n\
-        - \U0001F688 Trains"
-      height: 53
+      code: "<b> \U0001F697 Vehicle Sales Dashboard</b> \n\n<span style=\"font-size:0.8em;\"\
+        >\nThis example dashboard provides insight into the business operations of\
+        \ vehicle seller. The dataset powering this dashboard can be found\n\n[here\
+        \ on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\n\n</span></br>"
+      height: 23
       width: 3
     parents:
     - ROOT_ID
     - TABS-e5Ruro0cjP
     - TAB-d-E0Zc1cTH
     - ROW-Tyv02UA_6W
+    - COLUMN-4w34yK0sSb
+    type: MARKDOWN
+  MARKDOWN-iYalz-QLM6:
+    children: []
+    id: MARKDOWN-iYalz-QLM6
+    meta:
+      code: "<b> Timeline</b></br>\n<span style=\"font-size:0.8em;\">\nThe dataset\
+        \ contains data on all orders from the 2003 and 2004 fiscal years, and some\
+        \ orders from 2005.\n</span>\n\n<b> Products Sold </b></br>\n\n<span style=\"\
+        font-size:0.8em;\">\nThis shop mainly sells the following products:\n</span>\n\
+        \n<span style=\"font-size:0.7em;\">\n\n- \U0001F697 Classic Cars\n- \U0001F3CE\
+        \uFE0F Vintage Cars\n- \U0001F3CD\uFE0F Motorcycles\n- \U0001F69A Trucks &\
+        \ Buses \U0001F68C\n- \U0001F6E9\uFE0F Planes\n- \U0001F6A2 Ships\n- \U0001F688\
+        \ Trains\n\n</span> "
+      height: 41
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-e5Ruro0cjP
+    - TAB-d-E0Zc1cTH
+    - ROW-Tyv02UA_6W
+    - COLUMN-4w34yK0sSb
     type: MARKDOWN
   ROOT_ID:
     children:
@@ -238,6 +259,17 @@ position:
     - TABS-e5Ruro0cjP
     - TAB-4fthLQmdX
     type: ROW
+  ROW-DdGk_XCf7:
+    children:
+    - CHART-id4RGv80N-
+    id: ROW-DdGk_XCf7
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-e5Ruro0cjP
+    - TAB-d-E0Zc1cTH
+    type: ROW
   ROW-E7MDSGfnm:
     children:
     - CHART-YFg-9wHE7s
@@ -252,9 +284,9 @@ position:
     type: ROW
   ROW-Tyv02UA_6W:
     children:
+    - COLUMN-4w34yK0sSb
+    - CHART-fVeJSgheRq
     - COLUMN-8Rp54B6ikC
-    - CHART-Gsob8LEQ6y
-    - MARKDOWN--AtDSWnapE
     id: ROW-Tyv02UA_6W
     meta:
       background: BACKGROUND_TRANSPARENT
@@ -265,9 +297,8 @@ position:
     type: ROW
   ROW-oAtmu5grZ:
     children:
-    - COLUMN-G6_2DvG8aK
-    - CHART-fVeJSgheRq
     - CHART-j24u8ve41b
+    - CHART-Gsob8LEQ6y
     id: ROW-oAtmu5grZ
     meta:
       background: BACKGROUND_TRANSPARENT
@@ -291,6 +322,7 @@ position:
     children:
     - ROW-Tyv02UA_6W
     - ROW-oAtmu5grZ
+    - ROW-DdGk_XCf7
     id: TAB-d-E0Zc1cTH
     meta:
       text: "\U0001F3AF Sales Overview"
@@ -312,163 +344,122 @@ metadata:
   expanded_slices: {}
   refresh_frequency: 0
   default_filters: '{}'
-  color_scheme: supersetColors
-  label_colors:
-    Medium: '#1FA8C9'
-    Small: '#454E7C'
-    Large: '#5AC189'
-    SUM(SALES): '#1FA8C9'
-    Classic Cars: '#454E7C'
-    Vintage Cars: '#5AC189'
-    Motorcycles: '#FF7F44'
-    Trucks and Buses: '#666666'
-    Planes: '#E04355'
-    Ships: '#FCC700'
-    Trains: '#A868B7'
+  color_scheme: modernSunset
   chart_configuration:
-    '19':
-      id: 19
+    '84':
+      id: 84
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 37
-        - 42
-        - 44
-    '37':
-      id: 37
+        - 83
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+    '86':
+      id: 86
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 19
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 42
-        - 44
-    '42':
-      id: 42
+        - 83
+        - 84
+        - 85
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+    '87':
+      id: 87
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 19
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 37
-        - 44
-    '81':
-      id: 81
+        - 83
+        - 84
+        - 85
+        - 86
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+    '88':
+      id: 88
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 19
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 37
-        - 42
-        - 44
-    '82':
-      id: 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 89
+        - 90
+        - 91
+        - 92
+    '89':
+      id: 89
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 19
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 37
-        - 42
-        - 44
-    '83':
-      id: 83
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 90
+        - 91
+        - 92
+    '90':
+      id: 90
       crossFilters:
         scope: global
         chartsInScope:
-        - 8
-        - 18
-        - 19
-        - 20
-        - 25
-        - 31
-        - 34
-        - 35
-        - 37
-        - 42
-        - 44
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 91
+        - 92
+    '91':
+      id: 91
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 92
   global_chart_configuration:
     scope:
       rootPath:
       - ROOT_ID
       excluded: []
     chartsInScope:
-    - 8
-    - 18
-    - 19
-    - 20
-    - 25
-    - 31
-    - 34
-    - 35
-    - 37
-    - 42
-    - 44
-  color_scheme_domain:
-  - '#1FA8C9'
-  - '#454E7C'
-  - '#5AC189'
-  - '#FF7F44'
-  - '#666666'
-  - '#E04355'
-  - '#FCC700'
-  - '#A868B7'
-  - '#3CCCCB'
-  - '#A38F79'
-  - '#8FD3E4'
-  - '#A1A6BD'
-  - '#ACE1C4'
-  - '#FEC0A1'
-  - '#B2B2B2'
-  - '#EFA1AA'
-  - '#FDE380'
-  - '#D3B3DA'
-  - '#9EE5E5'
-  - '#D1C6BC'
-  shared_label_colors:
-    Classic Cars: '#454E7C'
-    Vintage Cars: '#5AC189'
-    Motorcycles: '#FF7F44'
-    Trucks and Buses: '#666666'
-    Planes: '#E04355'
-    Ships: '#FCC700'
-    Trains: '#A868B7'
-    SUM(Sales): '#1FA8C9'
-    Medium: '#1FA8C9'
-    Small: '#454E7C'
-    Large: '#5AC189'
+    - 83
+    - 84
+    - 85
+    - 86
+    - 87
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
   cross_filters_enabled: true
   native_filter_configuration:
   - id: NATIVE_FILTER-T7IJwzFpG
@@ -582,4 +573,19 @@ metadata:
     tabsInScope:
     - TAB-d-E0Zc1cTH
     - TAB-4fthLQmdX
+  label_colors: {}
+  filter_bar_orientation: HORIZONTAL
+  color_scheme_domain: []
+  shared_label_colors:
+    SUM(Sales): '#0080F6'
+    Classic Cars: '#0080F6'
+    Vintage Cars: '#254081'
+    Motorcycles: '#6C4592'
+    Trucks and Buses: '#A94693'
+    Planes: '#DC4180'
+    Ships: '#F35193'
+    Trains: '#FF7582'
+    Medium: '#0080F6'
+    Small: '#254081'
+    Large: '#6C4592'
 version: 1.0.0

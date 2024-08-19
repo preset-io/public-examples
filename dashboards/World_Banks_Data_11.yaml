@@ -1,17 +1,21 @@
 dashboard_title: World Bank's Data
 description: null
-css: ''
-slug: world_health
-uuid: d36ca1a6-bf3b-4160-a02d-f6f54affacdc
+css: ".dashboard {\n  background: #f4fdf4;\n}\n.dashboard-component-chart-holder {\n\
+  \  border: 3px #ebfceb solid;\n}"
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: 82ce24ce-d970-45fa-a7c0-21171836900b
 position:
   CHART-0fd0d252:
     children: []
     id: CHART-0fd0d252
     meta:
-      chartId: 52
+      chartId: 110
       height: 59
       sliceName: Life Expectancy VS Rural %
-      uuid: e947e868-2f65-45b0-b3d8-174da5a38c5b
+      uuid: 288053f4-91ed-4bcc-a8ff-5943ed9a145c
       width: 8
     parents:
     - ROOT_ID
@@ -22,10 +26,10 @@ position:
     children: []
     id: CHART-17e0f8d8
     meta:
-      chartId: 47
+      chartId: 109
       height: 128
       sliceName: Most Populated Countries
-      uuid: 301fee78-3a6e-4740-be8d-41ab1504b46b
+      uuid: be0a65e6-83be-4083-8d56-f81f3cc179a1
       width: 3
     parents:
     - ROOT_ID
@@ -36,10 +40,10 @@ position:
     children: []
     id: CHART-2d5b6871
     meta:
-      chartId: 29
+      chartId: 108
       height: 70
       sliceName: '% Rural'
-      uuid: d6c6b77c-e103-45d7-9280-4933e4a07c7e
+      uuid: bb584143-8731-4331-b674-aa23f2c06da0
       width: 7
     parents:
     - ROOT_ID
@@ -52,10 +56,10 @@ position:
     children: []
     id: CHART-37982887
     meta:
-      chartId: 2
+      chartId: 104
       height: 31
       sliceName: World's Population
-      uuid: 6e9c71ae-faae-4aff-8f08-e0c29e692e8c
+      uuid: 62691573-cb29-4b02-8ee6-dbc51ba00fb4
       width: 2
     parents:
     - ROOT_ID
@@ -69,10 +73,10 @@ position:
     children: []
     id: CHART-97f4cb48
     meta:
-      chartId: 28
+      chartId: 107
       height: 37
       sliceName: Rural Breakdown
-      uuid: 67cb721e-0b08-4131-b65e-8f8e37075e74
+      uuid: 0bd51d81-79ce-4f66-97fe-306451675239
       width: 2
     parents:
     - ROOT_ID
@@ -86,10 +90,10 @@ position:
     children: []
     id: CHART-IJ4DIWCVsM
     meta:
-      chartId: 79
+      chartId: 111
       height: 56
       sliceName: Country Growth Rate
-      uuid: 47a7f51d-7cd8-4388-b8b5-700edfb2f93f
+      uuid: 5cee9cff-f5d3-4e44-8889-0d13cd954d0b
       width: 9
     parents:
     - ROOT_ID
@@ -101,10 +105,10 @@ position:
     children: []
     id: CHART-a4808bba
     meta:
-      chartId: 16
+      chartId: 106
       height: 66
       sliceName: Treemap
-      uuid: f5858a60-39df-4260-a42e-0704beac0471
+      uuid: 62e8852f-b71a-43a2-bfcd-66c476be18b6
       width: 8
     parents:
     - ROOT_ID
@@ -115,10 +119,10 @@ position:
     children: []
     id: CHART-b5e05d6f
     meta:
-      chartId: 3
+      chartId: 105
       height: 59
       sliceName: World's Pop Growth
-      uuid: 48349bcc-90c0-48d9-8352-0b04e016a7fc
+      uuid: 8e7b8f10-d128-4d09-b0b6-830b4f235142
       width: 4
     parents:
     - ROOT_ID
@@ -129,10 +133,10 @@ position:
     children: []
     id: CHART-e76e9f5f
     meta:
-      chartId: 76
+      chartId: 112
       height: 66
       sliceName: Box plot
-      uuid: 228bc8c0-0a9b-457f-839c-47df43a6c213
+      uuid: e72e4989-cf37-438e-bfec-a67d57f3b683
       width: 4
     parents:
     - ROOT_ID
@@ -180,7 +184,7 @@ position:
   HEADER_ID:
     id: HEADER_ID
     meta:
-      text: World Bank's Data
+      text: World Bank's Data [Kasia]
     type: HEADER
   ROOT_ID:
     children:
@@ -235,107 +239,125 @@ position:
     type: ROW
 metadata:
   chart_configuration:
-    '3':
-      id: 3
+    '105':
+      id: 105
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 16
-        - 28
-        - 29
-        - 33
-        - 47
-        - 52
-        - 75
-        - 76
-    '16':
-      id: 16
+        - 104
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+    '106':
+      id: 106
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 3
-        - 28
-        - 29
-        - 33
-        - 47
-        - 52
-        - 75
-        - 76
-    '29':
-      id: 29
+        - 104
+        - 105
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+    '107':
+      id: 107
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 3
-        - 16
-        - 28
-        - 33
-        - 47
-        - 52
-        - 75
-        - 76
-    '47':
-      id: 47
+        - 104
+        - 105
+        - 106
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+    '108':
+      id: 108
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 3
-        - 16
-        - 28
-        - 29
-        - 33
-        - 52
-        - 75
-        - 76
-    '76':
-      id: 76
+        - 104
+        - 105
+        - 106
+        - 107
+        - 109
+        - 110
+        - 111
+        - 112
+    '109':
+      id: 109
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 3
-        - 16
-        - 28
-        - 29
-        - 33
-        - 47
-        - 52
-        - 75
-    '79':
-      id: 79
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 110
+        - 111
+        - 112
+    '110':
+      id: 110
       crossFilters:
         scope: global
         chartsInScope:
-        - 2
-        - 3
-        - 16
-        - 28
-        - 29
-        - 33
-        - 47
-        - 52
-        - 75
-        - 76
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 111
+        - 112
+    '111':
+      id: 111
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 112
+    '112':
+      id: 112
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
   global_chart_configuration:
     scope:
       rootPath:
       - ROOT_ID
       excluded: []
     chartsInScope:
-    - 2
-    - 3
-    - 16
-    - 28
-    - 29
-    - 33
-    - 47
-    - 52
-    - 75
-    - 76
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    - 110
+    - 111
+    - 112
   native_filter_configuration:
   - id: NATIVE_FILTER-Ddm5CC8Ec
     controlValues:
@@ -409,46 +431,47 @@ metadata:
     - 75
     - 76
     tabsInScope: []
-  color_scheme: ''
+  color_scheme: supersetAndPresetColors
   refresh_frequency: 0
-  shared_label_colors:
-    South Asia: '#1FA8C9'
-    Europe & Central Asia: '#5AC189'
-    Middle East & North Africa: '#666666'
-    Sub-Saharan Africa: '#FCC700'
-    Latin America & Caribbean: '#3CCCCB'
-    East Asia & Pacific: '#8FD3E4'
-    North America: '#ACE1C4'
-    China: '#A1A6BD'
-    India: '#EFA1AA'
-    United States: '#FF7F44'
-    Indonesia: '#A38F79'
-    Brazil: '#A868B7'
-    Russian Federation: '#9EE5E5'
-    Japan: '#D1C6BC'
-    Pakistan: '#FDE380'
-    Bangladesh: '#FF7F44'
-    Nigeria: '#EFA1AA'
-    Mexico: '#FEC0A1'
-    Germany: '#E04355'
-    Vietnam: '#666666'
-    Philippines: '#D3B3DA'
-    United Kingdom: '#5AC189'
-    France: '#9EE5E5'
-    Italy: '#D3B3DA'
-    Egypt, Arab Rep.: '#B2B2B2'
-    Thailand: '#D1C6BC'
-    Turkey: '#1FA8C9'
-    Ethiopia: '#FDE380'
-    Iran, Islamic Rep.: '#FEC0A1'
-    Ukraine: '#454E7C'
-    Korea, Rep.: '#ACE1C4'
-    Myanmar: '#B2B2B2'
-    sum__SP_POP_TOTL: '#454E7C'
-  color_scheme_domain: []
   expanded_slices: {}
   label_colors: {}
   timed_refresh_immune_slices: []
   cross_filters_enabled: true
   default_filters: '{}'
+  filter_bar_orientation: HORIZONTAL
+  shared_label_colors:
+    sum__SP_POP_TOTL: '#004960'
+    Europe & Central Asia: '#20A7C9'
+    Latin America & Caribbean: '#7DCDE1'
+    Middle East & North Africa: '#C6ECE1'
+    Sub-Saharan Africa: '#5CC0DA'
+    East Asia & Pacific: '#004960'
+    South Asia: '#2893B3'
+    North America: '#A9D3E1'
+    China: '#004960'
+    India: '#2893B3'
+    United States: '#20A7C9'
+    Indonesia: '#5CC0DA'
+    Brazil: '#7DCDE1'
+    Russian Federation: '#A9D3E1'
+    Japan: '#C6ECE1'
+    Pakistan: '#AAE2D2'
+    Bangladesh: '#71CFB4'
+    Nigeria: '#2FC096'
+    Mexico: '#178F7A'
+    Germany: '#067162'
+    Vietnam: '#004960'
+    Philippines: '#2893B3'
+    United Kingdom: '#20A7C9'
+    France: '#5CC0DA'
+    Italy: '#7DCDE1'
+    Egypt, Arab Rep.: '#A9D3E1'
+    Thailand: '#C6ECE1'
+    Turkey: '#AAE2D2'
+    Ethiopia: '#71CFB4'
+    Iran, Islamic Rep.: '#2FC096'
+    Ukraine: '#178F7A'
+    Korea, Rep.: '#067162'
+    Myanmar: '#004960'
+  color_scheme_domain: []
 version: 1.0.0

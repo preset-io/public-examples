@@ -24,7 +24,9 @@ params:
   - exclusive
   until: now
   viz_type: treemap_v2
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: f5858a60-39df-4260-a42e-0704beac0471
+uuid: 62e8852f-b71a-43a2-bfcd-66c476be18b6
 version: 1.0.0
 dataset_uuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168

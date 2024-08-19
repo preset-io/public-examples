@@ -294,21 +294,33 @@ description: "<!--\nLicensed to the Apache Software Foundation (ASF) under one\n
 default_endpoint: null
 offset: 0
 cache_timeout: null
-schema: null
+schema: public
 sql: null
 params: null
 template_params: null
 filter_select_enabled: true
 fetch_values_predicate: null
 extra: null
+normalize_columns: false
+always_filter_main_dttm: false
 uuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
 metrics:
+- metric_name: sum__SP_POP_TOTL
+  verbose_name: Population Total
+  metric_type: null
+  expression: sum("SP_POP_TOTL")
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
 - metric_name: sum__SP_DYN_LE00_IN
   verbose_name: null
   metric_type: null
   expression: sum("SP_DYN_LE00_IN")
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 - metric_name: sum__SH_DYN_AIDS
@@ -317,14 +329,7 @@ metrics:
   expression: sum("SH_DYN_AIDS")
   description: null
   d3format: null
-  extra: null
-  warning_text: null
-- metric_name: sum__SP_POP_TOTL
-  verbose_name: Population Total
-  metric_type: null
-  expression: sum("SP_POP_TOTL")
-  description: null
-  d3format: null
+  currency: null
   extra: null
   warning_text: null
 - metric_name: sum__SP_RUR_TOTL_ZS
@@ -333,6 +338,7 @@ metrics:
   expression: sum("SP_RUR_TOTL_ZS")
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 - metric_name: sum__SP_RUR_TOTL
@@ -341,6 +347,7 @@ metrics:
   expression: sum("SP_RUR_TOTL")
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 - metric_name: count
@@ -349,6 +356,7 @@ metrics:
   expression: COUNT(*)
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 columns:
@@ -357,3281 +365,3937 @@ columns:
   is_dttm: true
   is_active: true
   type: TIMESTAMP WITHOUT TIME ZONE
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0004_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0004_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0004_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0004_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0014_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0014_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_0014
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0014_TO_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0014_TO
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0509_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0509_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0509_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_0509_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG00_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_LE00_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG00_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_LE00_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_LE00_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1014_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1014_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1014_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1014_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG01_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG10_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG01_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG10_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2024_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2024_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2024_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2024_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG02_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG20_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG02_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG20_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3034_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3034_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3034_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3034_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG03_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG03_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4044_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4044_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4044_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4044_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5054_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5054_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5054_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5054_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6064_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6064_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7074_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7074_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6064_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6064_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7074_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7074_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG04_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG04_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_80UP_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_80UP_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG05_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG05_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG06_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG06_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG07_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG07_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG08_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG08_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_80UP_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_80UP_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG09_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG09_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1519_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1519_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1519_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1519_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_MTR_1519_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG11_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG11_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_1524_LT_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_CON_1524_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_1524_LT_FM_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_1524_LT_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_1524_KW_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_1524_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_CON_1524_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_1524_KW_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_1524_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG12_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG21_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG12_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG21_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG13_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG13_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1564_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1564_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1564_TO_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_1564_TO
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG14_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG14_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG15_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OW15_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG15_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OW15_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OW15_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG16_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG16_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG17_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG17_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG18_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG18_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG19_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG19_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2529_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2529_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2529_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_2529_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG22_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG22_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG23_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG23_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG24_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG24_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG25_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_AG25_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_H2O_SAFE_RU_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_H2O_SAFE_UR_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_H2O_SAFE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MLR_SPF2_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3539_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3539_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3539_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_3539_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_HIB3
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MED_CMHW_P3
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MED_NUMW_P3
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_POL3
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4549_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4549_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4549_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_4549_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ANV4_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5559_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5559_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5559_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_5559_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6569_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6569_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7579_MA_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7579_FE_5Y
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6569_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_6569_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_TO65_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_65UP_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_TO65_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_65UP_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_65UP_TO_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_65UP_TO
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7579_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_7579_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MALN_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_WAST_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_DIAB_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_CON_AIDS_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ARIC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ACSN_RU
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ACSN_UR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ANVC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ACSN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_LITR_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_SMAM_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_AMRT_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MALN_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_WAST_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OWGH_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MALN_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MALR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_STNT_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_SVR_WAST_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_WAST_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_BRTC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_BFED_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_BRTW_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: NY_GNP_PCAP_CD
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PCAP_PP_KD
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_CON_AIDS_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_ANM_CHLD_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PCAP
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_NENR_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_ENRR_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_CMPT_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_IYCF_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ORCF_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_PRG_ARTC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_ARTC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SI_POV_NAHC
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_PNVC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_VAC_TTNS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_AIDS_DH
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_AIDS_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_AIDS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_AIDS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_LITR_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_SMAM_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_AMRT_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ADT_LITR_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_ADO_TFRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_MORT_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_IMRT_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_NENR_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_ENRR_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OWGH_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_HOU_FEMA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_STNT_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_SVR_WAST_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MMR_WAGE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_PRG_ANEM
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_MEAS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MMRT_NE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_UEM_TOTL_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_FPL_SATI_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_OWGH_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_ANM_NPRG_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_KNOW_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_ORTH
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_PRV_SMOK_MA
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_MMRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_STA_STNT_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_SVR_WAST_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SN_ITK_VITA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SN_ITK_SALT_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_TOTL_MA_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_TOTL_MA_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_TBS_DTEC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_TBS_INCD
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_CBRT_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_TBS_CURE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_IBCG
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MED_BEDS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PUBL_GX_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PUBL_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PUBL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_REG_BRTH_RU_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_REG_BRTH_UR_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_REG_BRTH_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_HEPB
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_TBS_PREV
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_BRTH_MF
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_URB_GROW
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_TBS_MORT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_URB_TOTL_IN_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_URB_TOTL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_TOTL_CD
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_CDRT_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SN_ITK_DEFC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SN_ITK_DEFC
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_COMM_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_NCOM_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_OOPC_TO_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_OOPC_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_CONU_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_NENR_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_ENRR_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_NENR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_SEC_ENRR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_CMPT_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_CMPT_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SI_POV_RUHC
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SI_POV_URHC
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_XPD_TOTL_GD_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_DPND_YG
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_DPND_OL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_DPND
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_MORT_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_IMRT_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_REG_DTHS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MED_PHYS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_EXTR_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_TFRT_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_WFRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_INJR_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_IMRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MMR_DTHS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_NMRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DTH_MORT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_IMM_IDPT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PRIV_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_PRIV
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_XPD_TOTL_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_NMRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_DYN_MORT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_DYN_IMRT_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_TER_ENRR_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_NENR_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_ENRR_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_TER_ENRR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_EMP_INSV_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_UEM_TOTL_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MMR_LEVE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_ENR_ORPH
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_NENR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SE_PRM_ENRR
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_TLF_TOTL_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_KNOW_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_PRV_SMOK_FE
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_TOTL_FE_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_TOTL_FE_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MLR_PREG_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MLR_NETS_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MLR_TRET_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_UEM_TOTL_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SM_POP_NETM
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SL_TLF_TOTL_IN
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_UWT_TFRT
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_PRG_SYPH_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_RUR_TOTL_ZG
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_GROW
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_ORPH
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_HIV_TOTL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MMR_RISK_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SH_MMR_RISK
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_POP_TOTL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_RUR_TOTL_ZS
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: SP_RUR_TOTL
   verbose_name: null
   is_dttm: false
   is_active: true
   type: DOUBLE PRECISION
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: country_name
   verbose_name: null
   is_dttm: false
   is_active: true
   type: VARCHAR(255)
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: region
   verbose_name: null
   is_dttm: false
   is_active: true
   type: VARCHAR(255)
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 - column_name: country_code
   verbose_name: null
   is_dttm: false
   is_active: true
   type: VARCHAR(3)
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: ''
   description: null
   python_date_format: null
+  extra: null
 version: 1.0.0
 database_uuid: a2dc77af-e654-49bb-b321-40f6b559a1ee
 data: https://raw.githubusercontent.com/preset-io/public-examples/master/data/world_bank_health_data.csv.gz

@@ -72,7 +72,9 @@ params:
   treemap_ratio: 1.618033988749895
   url_params: {}
   viz_type: treemap_v2
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 2b69887b-23e3-b46d-d38c-8ea11856c555
+uuid: 2aec7bc1-fd87-4545-947e-99b231f29d49
 version: 1.0.0
 dataset_uuid: 53d47c0c-c03d-47f0-b9ac-81225f808283

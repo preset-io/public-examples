@@ -4,13 +4,15 @@ certified_by: null
 certification_details: null
 viz_type: table
 params:
-  adhoc_filters: []
-  all_columns: []
-  color_pn: true
-  datasource: 23__table
-  granularity_sqla: order_date
+  datasource: 3__table
+  viz_type: table
+  slice_id: 84
+  query_mode: aggregate
   groupby:
   - product_line
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    order_date: true
   metrics:
   - aggregate: SUM
     column:
@@ -31,25 +33,50 @@ params:
     label: '# of Products Sold'
     optionName: metric_skdbciwba6g_z1r5w1pxlqj
     sqlExpression: null
-  order_by_cols: []
-  order_desc: true
+  all_columns: []
   percent_metrics: null
-  queryFields:
-    groupby: groupby
-    metrics: metrics
-  query_mode: aggregate
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  time_comparison: r
+  adhoc_custom:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_by_cols: []
   row_limit: null
-  show_cell_bars: true
-  slice_id: 2807
+  server_page_length: 10
+  order_desc: true
   table_timestamp_format: smart_date
-  time_grain_sqla: P1D
-  time_range: No filter
-  time_range_endpoints:
-  - inclusive
-  - exclusive
-  url_params: {}
-  viz_type: table
+  column_config:
+    '# of Products Sold':
+      colorPositiveNegative: true
+  show_cell_bars: true
+  align_pn: false
+  color_pn: true
+  comparison_color_scheme: Green
+  conditional_formatting:
+  - column: '# of Products Sold'
+    colorScheme: '#ACE1C4'
+    operator: None
+  extra_form_data: {}
+  dashboards:
+  - 9
+query_context: '{"datasource":{"id":3,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["product_line"],"metrics":[{"aggregate":"SUM","column":{"column_name":"quantity_ordered","description":null,"expression":null,"filterable":true,"groupby":true,"id":914,"is_dttm":false,"optionName":"_col_QuantityOrdered","python_date_format":null,"type":"BIGINT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":true,"isNew":false,"label":"#
+  of Products Sold","optionName":"metric_skdbciwba6g_z1r5w1pxlqj","sqlExpression":null}],"orderby":[[{"aggregate":"SUM","column":{"column_name":"quantity_ordered","description":null,"expression":null,"filterable":true,"groupby":true,"id":914,"is_dttm":false,"optionName":"_col_QuantityOrdered","python_date_format":null,"type":"BIGINT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":true,"isNew":false,"label":"#
+  of Products Sold","optionName":"metric_skdbciwba6g_z1r5w1pxlqj","sqlExpression":null},false]],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"3__table","viz_type":"table","slice_id":84,"query_mode":"aggregate","groupby":["product_line"],"time_grain_sqla":"P1D","temporal_columns_lookup":{"order_date":true},"metrics":[{"aggregate":"SUM","column":{"column_name":"quantity_ordered","description":null,"expression":null,"filterable":true,"groupby":true,"id":914,"is_dttm":false,"optionName":"_col_QuantityOrdered","python_date_format":null,"type":"BIGINT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":true,"isNew":false,"label":"#
+  of Products Sold","optionName":"metric_skdbciwba6g_z1r5w1pxlqj","sqlExpression":null}],"all_columns":[],"percent_metrics":null,"adhoc_filters":[{"clause":"WHERE","subject":"order_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"time_comparison":"r","adhoc_custom":[{"clause":"WHERE","subject":"order_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"order_by_cols":[],"row_limit":null,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","column_config":{"#
+  of Products Sold":{"colorPositiveNegative":true}},"show_cell_bars":true,"align_pn":false,"color_pn":true,"comparison_color_scheme":"Green","conditional_formatting":[{"column":"#
+  of Products Sold","colorScheme":"#ACE1C4","operator":"None"}],"extra_form_data":{},"dashboards":[9],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: b8b7ca30-6291-44b0-bc64-ba42e2892b86
+uuid: 10e7a1cf-d3d7-4545-a52b-bd7967530be6
 version: 1.0.0
 dataset_uuid: e8623bb9-5e00-f531-506a-19607f5f8005

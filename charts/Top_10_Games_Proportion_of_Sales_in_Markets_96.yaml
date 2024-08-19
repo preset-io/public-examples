@@ -134,7 +134,8 @@ params:
   tooltipTimeFormat: smart_date
   extra_form_data: {}
   dashboards: []
+query_context: null
 cache_timeout: null
-uuid: f770a369-8dfe-4133-8ecc-559c0db5703d
+uuid: 82991665-979f-4406-9d0d-4fb747fb5b14
 version: 1.0.0
 dataset_uuid: 53d47c0c-c03d-47f0-b9ac-81225f808283

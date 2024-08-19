@@ -4,7 +4,16 @@ certified_by: null
 certification_details: null
 viz_type: table
 params:
-  adhoc_filters: []
+  datasource: 2__table
+  viz_type: table
+  slice_id: 98
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    year: true
+  metrics:
+  - count
   all_columns:
   - rank
   - name
@@ -13,32 +22,41 @@ params:
   - genre
   - publisher
   - year
-  color_pn: false
-  datasource: 21__table
-  granularity_sqla: year
-  groupby: []
-  metrics:
-  - count
-  order_by_cols: []
-  order_desc: true
-  page_length: null
   percent_metrics: []
-  queryFields:
-    groupby: groupby
-    metrics: metrics
-  query_mode: raw
+  adhoc_filters:
+  - clause: WHERE
+    subject: year
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  time_comparison: r
+  adhoc_custom:
+  - clause: WHERE
+    subject: year
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_by_cols: []
   row_limit: 10
-  show_cell_bars: false
-  slice_id: 657
+  server_page_length: 10
+  order_desc: true
   table_timestamp_format: smart_date
-  time_grain_sqla: P1D
-  time_range: No filter
-  time_range_endpoints:
-  - inclusive
-  - exclusive
-  url_params: {}
-  viz_type: table
+  page_length: null
+  show_cell_bars: false
+  color_pn: false
+  comparison_color_scheme: Green
+  conditional_formatting:
+  - column: global_sales
+    colorScheme: '#ACE1C4'
+    operator: None
+  extra_form_data: {}
+  dashboards:
+  - 10
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"year","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["rank","name","global_sales","platform","genre","publisher","year"],"orderby":[],"annotation_layers":[],"row_limit":10,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"2__table","viz_type":"table","slice_id":98,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"year":true},"metrics":["count"],"all_columns":["rank","name","global_sales","platform","genre","publisher","year"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"time_comparison":"r","adhoc_custom":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"order_by_cols":[],"row_limit":10,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","page_length":null,"show_cell_bars":false,"color_pn":false,"comparison_color_scheme":"Green","conditional_formatting":[{"column":"global_sales","colorScheme":"#ACE1C4","operator":"None"}],"extra_form_data":{},"dashboards":[10],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: d20b7324-3b80-24d4-37e2-3bd583b66713
+uuid: 6190c96e-b564-4f0a-b24a-c45d4651089b
 version: 1.0.0
 dataset_uuid: 53d47c0c-c03d-47f0-b9ac-81225f808283

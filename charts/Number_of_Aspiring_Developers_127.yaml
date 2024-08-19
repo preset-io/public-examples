@@ -29,7 +29,9 @@ params:
   url_params: {}
   viz_type: big_number_total
   y_axis_format: SMART_NUMBER
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: a0e5329f-224e-6fc8-efd2-d37d0f546ee8
+uuid: c8069370-c08c-47a7-b473-d0e674e33917
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

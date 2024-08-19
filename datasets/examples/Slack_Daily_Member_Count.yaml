@@ -4,7 +4,7 @@ description: null
 default_endpoint: null
 offset: 0
 cache_timeout: null
-schema: null
+schema: public
 sql: SELECT date, total_membership - lag(total_membership) OVER (ORDER BY date) AS
   new_members FROM "Slack Exported Metrics"
 params: null
@@ -12,6 +12,8 @@ template_params: null
 filter_select_enabled: true
 fetch_values_predicate: null
 extra: null
+normalize_columns: false
+always_filter_main_dttm: false
 uuid: 9dd99cda-ff6b-4575-9a74-684d06e871ab
 metrics:
 - metric_name: count
@@ -20,6 +22,7 @@ metrics:
   expression: count(*)
   description: null
   d3format: null
+  currency: null
   extra: null
   warning_text: null
 columns:
@@ -28,20 +31,24 @@ columns:
   is_dttm: true
   is_active: true
   type: DATETIME
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: null
   description: null
   python_date_format: null
+  extra: null
 - column_name: new_members
   verbose_name: null
   is_dttm: false
   is_active: true
   type: LONGLONG
+  advanced_data_type: null
   groupby: true
   filterable: true
   expression: null
   description: null
   python_date_format: null
+  extra: null
 version: 1.0.0
 database_uuid: a2dc77af-e654-49bb-b321-40f6b559a1ee

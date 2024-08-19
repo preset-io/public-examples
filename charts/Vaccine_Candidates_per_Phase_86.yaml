@@ -44,7 +44,8 @@ params:
   extra_form_data: {}
   dashboards:
   - 7
+query_context: '{"datasource":{"id":20,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"clinical_stage","label":"clinical_stage","expressionType":"SQL"}],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["clinical_stage"],"columns":[],"aggregates":{"count":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_scheme":"supersetColors","comparison_type":"values","dashboards":[7],"datasource":"20__table","extra_form_data":{},"forecastInterval":0.8,"forecastPeriods":10,"groupby":[],"legendOrientation":"top","legendType":"scroll","metrics":["count"],"only_total":true,"order_desc":true,"orientation":"vertical","rich_tooltip":true,"row_limit":10000,"show_empty_columns":true,"show_legend":false,"slice_id":75,"sort_series_type":"sum","tooltipTimeFormat":"smart_date","truncate_metric":true,"viz_type":"echarts_timeseries_bar","xAxisLabelRotation":45,"x_axis":"clinical_stage","x_axis_sort_asc":true,"x_axis_sort_series":"name","x_axis_sort_series_ascending":true,"x_axis_time_format":"smart_date","x_axis_title_margin":15,"y_axis_bounds":[null,null],"y_axis_format":"SMART_NUMBER","y_axis_title_margin":15,"y_axis_title_position":"Left","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: 712a6404-d281-4ad2-9c50-73526c745243
+uuid: 638287c5-aa2b-4f26-b7ca-fa624913b768
 version: 1.0.0
 dataset_uuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0

@@ -58,7 +58,9 @@ params:
   - exclusive
   url_params: {}
   viz_type: world_map
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 5596e0f6-78a9-465d-8325-7139c794a06a
+uuid: 38ff3cda-28de-4550-8b4f-4dc30721023f
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

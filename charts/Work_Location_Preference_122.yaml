@@ -1,4 +1,4 @@
-slice_name: "\u2708\uFE0F Relocation ability"
+slice_name: Work Location Preference
 description: null
 certified_by: null
 certification_details: null
@@ -8,7 +8,7 @@ params:
   - clause: WHERE
     comparator: '0'
     expressionType: SIMPLE
-    filterOptionName: filter_yccan09xctb_wjwt23qhknf
+    filterOptionName: filter_qzz67uip1ue_jw3rr6tzo3a
     isExtra: false
     isNew: false
     operator: ==
@@ -19,7 +19,7 @@ params:
   donut: true
   granularity_sqla: time_start
   groupby:
-  - willing_to_relocate
+  - job_location_preference
   innerRadius: 44
   labels_outside: true
   metric: count
@@ -32,14 +32,16 @@ params:
   row_limit: null
   show_labels: true
   show_legend: false
-  slice_id: 1365
+  slice_id: 1370
   time_range: No filter
   time_range_endpoints:
   - inclusive
   - exclusive
   url_params: {}
   viz_type: pie
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: a6dd2d5a-2cdc-c8ec-f30c-85920f4f8a65
+uuid: 792aea5b-2fc7-4ef7-8a53-a381cd79ee9f
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

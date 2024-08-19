@@ -26,7 +26,12 @@ params:
   viz_type: box_plot
   whisker_options: Min/max (no outliers)
   x_ticks_layout: staggered
+  annotation_layers: []
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"time_range":"1960-01-01
+  : now","granularity":"year","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["year","region"],"metrics":["sum__SP_POP_TOTL"],"annotation_layers":[],"row_limit":5000,"series_columns":["region"],"series_limit":25,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"annotation_layers":[],"compare_lag":"10","compare_suffix":"o10Y","country_fieldtype":"cca3","datasource":"1__table","entity":"country_code","granularity_sqla":"year","groupby":["region"],"limit":"25","markup_type":"markdown","metrics":["sum__SP_POP_TOTL"],"row_limit":5000,"show_bubbles":true,"slice_id":112,"time_range":"1960-01-01
+  : now","time_range_endpoints":["inclusive","exclusive"],"viz_type":"box_plot","whisker_options":"Min/max
+  (no outliers)","x_ticks_layout":"staggered","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: 228bc8c0-0a9b-457f-839c-47df43a6c213
+uuid: e72e4989-cf37-438e-bfec-a67d57f3b683
 version: 1.0.0
 dataset_uuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168

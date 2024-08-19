@@ -51,7 +51,11 @@ params:
   - null
   y_axis_format: SMART_NUMBER
   yscale_interval: null
+  annotation_layers: []
+query_context: '{"datasource":{"id":14,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":"SUM","column":{"column_name":"cnt","description":null,"expression":null,"filterable":true,"groupby":true,"id":1777,"is_dttm":false,"optionName":"_col_cnt","python_date_format":null,"type":"INT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(cnt)","optionName":"metric_i1djbl8i2y_2vdl690dkyu","sqlExpression":null}],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"all_columns_x":"channel_1","all_columns_y":"channel_2","annotation_layers":[],"bottom_margin":"auto","canvas_image_rendering":"pixelated","datasource":"14__table","left_margin":"auto","linear_color_scheme":"schemeBlues","metric":{"aggregate":"SUM","column":{"column_name":"cnt","description":null,"expression":null,"filterable":true,"groupby":true,"id":1777,"is_dttm":false,"optionName":"_col_cnt","python_date_format":null,"type":"INT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(cnt)","optionName":"metric_i1djbl8i2y_2vdl690dkyu","sqlExpression":null},"normalize_across":"heatmap","row_limit":1000,"show_legend":true,"show_perc":false,"show_values":true,"slice_id":120,"sort_x_axis":"alpha_asc","sort_y_axis":"alpha_asc","time_range":"No
+  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"heatmap","xscale_interval":null,"y_axis_bounds":[null,null],"y_axis_format":"SMART_NUMBER","yscale_interval":null,"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: 6cb43397-5c62-4f32-bde2-95344c412b5a
+uuid: f6198125-a3f9-4b32-a130-5c85bbd3782b
 version: 1.0.0
 dataset_uuid: 473d6113-b44a-48d8-a6ae-e0ef7e2aebb0

@@ -31,7 +31,9 @@ params:
   - exclusive
   url_params: {}
   viz_type: pie
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 0f6b447c-828c-e71c-87ac-211bc412b214
+uuid: 215f8a20-6fc5-47a8-aa58-01cd3ce52692
 version: 1.0.0
 dataset_uuid: d95a2865-53ce-1f82-a53d-8e3c89331469

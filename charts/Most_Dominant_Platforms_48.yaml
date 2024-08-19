@@ -59,7 +59,13 @@ params:
   - exclusive
   url_params: {}
   viz_type: pie
+  annotation_layers: []
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","granularity":"year","filters":[{"col":"rank","op":"<=","val":"25"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["publisher"],"metrics":[{"aggregate":"SUM","column":{"column_name":"global_sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":887,"is_dttm":false,"optionName":"_col_Global_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(Global_Sales)","optionName":"metric_k2rqz0zqhkf_49hu4kq9h3u","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"25","expressionType":"SIMPLE","filterOptionName":"filter_znxs4o61aod_n5blgxo29r","isExtra":false,"isNew":false,"operator":"<=","sqlExpression":null,"subject":"rank"}],"annotation_layers":[],"color_scheme":"supersetColors","datasource":"2__table","donut":true,"granularity_sqla":"year","groupby":["publisher"],"innerRadius":45,"label_line":true,"label_type":"key","labels_outside":true,"metric":{"aggregate":"SUM","column":{"column_name":"global_sales","description":null,"expression":null,"filterable":true,"groupby":true,"id":887,"is_dttm":false,"optionName":"_col_Global_Sales","python_date_format":null,"type":"DOUBLE
+  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(Global_Sales)","optionName":"metric_k2rqz0zqhkf_49hu4kq9h3u","sqlExpression":null},"number_format":"SMART_NUMBER","outerRadius":67,"queryFields":{"groupby":"groupby","metric":"metrics"},"row_limit":null,"show_labels":true,"show_legend":false,"slice_id":100,"time_range":"No
+  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"pie","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: 1810975a-f6d4-07c3-495c-c3b535d01f21
+uuid: b7246f70-7920-4747-87bd-73bf6c08f701
 version: 1.0.0
 dataset_uuid: 53d47c0c-c03d-47f0-b9ac-81225f808283

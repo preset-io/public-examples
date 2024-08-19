@@ -2,42 +2,46 @@ slice_name: Number of Deals (for each Combination)
 description: null
 certified_by: null
 certification_details: null
-viz_type: heatmap
+viz_type: heatmap_v2
 params:
-  adhoc_filters: []
-  all_columns_x: deal_size
-  all_columns_y: product_line
-  bottom_margin: 100
-  canvas_image_rendering: pixelated
-  datasource: 23__table
-  granularity_sqla: order_date
-  left_margin: 75
-  linear_color_scheme: schemePuBuGn
+  datasource: 3__table
+  viz_type: heatmap_v2
+  slice_id: 92
+  x_axis: deal_size
+  groupby: product_line
   metric: count
-  normalize_across: heatmap
-  normalized: true
-  queryFields:
-    metric: metrics
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
   row_limit: null
-  show_legend: true
-  show_perc: true
-  show_values: true
-  slice_id: 2810
   sort_x_axis: alpha_asc
   sort_y_axis: alpha_asc
-  time_range: No filter
-  time_range_endpoints:
-  - inclusive
-  - exclusive
-  url_params: {}
-  viz_type: heatmap
+  normalize_across: heatmap
+  legend_type: continuous
+  linear_color_scheme: schemePuBuGn
   xscale_interval: null
-  y_axis_bounds:
+  yscale_interval: null
+  left_margin: auto
+  bottom_margin: auto
+  value_bounds:
   - null
   - null
   y_axis_format: SMART_NUMBER
-  yscale_interval: null
+  x_axis_time_format: smart_date
+  show_legend: true
+  show_percentage: true
+  show_values: true
+  normalized: true
+  extra_form_data: {}
+  dashboards:
+  - 9
+query_context: '{"datasource":{"id":3,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"deal_size","label":"deal_size","expressionType":"SQL"},"product_line"],"metrics":["count"],"orderby":[["deal_size",true],["product_line",true]],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"rank","options":{"metric":"count"}}]}],"form_data":{"datasource":"3__table","viz_type":"heatmap_v2","slice_id":92,"x_axis":"deal_size","groupby":"product_line","metric":"count","adhoc_filters":[{"clause":"WHERE","subject":"order_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":null,"sort_x_axis":"alpha_asc","sort_y_axis":"alpha_asc","normalize_across":"heatmap","legend_type":"continuous","linear_color_scheme":"schemePuBuGn","xscale_interval":null,"yscale_interval":null,"left_margin":"auto","bottom_margin":"auto","value_bounds":[null,null],"y_axis_format":"SMART_NUMBER","x_axis_time_format":"smart_date","show_legend":true,"show_percentage":true,"show_values":true,"normalized":true,"extra_form_data":{},"dashboards":[9],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
-uuid: bd20fc69-dd51-46c1-99b5-09e37a434bf1
+uuid: 61ca81cb-db24-4f8d-8ccc-a2430db75131
 version: 1.0.0
 dataset_uuid: e8623bb9-5e00-f531-506a-19607f5f8005

@@ -25,7 +25,9 @@ params:
   - exclusive
   until: now
   viz_type: echarts_area
+  annotation_layers: []
+query_context: null
 cache_timeout: null
-uuid: 48349bcc-90c0-48d9-8352-0b04e016a7fc
+uuid: 8e7b8f10-d128-4d09-b0b6-830b4f235142
 version: 1.0.0
 dataset_uuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
