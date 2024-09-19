@@ -51,9 +51,6 @@ params:
   url_params: {}
   viz_type: sankey
   annotation_layers: []
-query_context: '{"datasource":{"id":19,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[{"col":"is_software_dev","op":"==","val":"1"},{"col":"first_time_developer","op":"!=","val":"NULL"},{"col":"communite_time","op":"!=","val":"NULL"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["first_time_developer","communite_time"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"1","expressionType":"SIMPLE","filterOptionName":"filter_9hkcdqhiqor_84pk01t2k9","isExtra":false,"isNew":false,"operator":"==","sqlExpression":null,"subject":"is_software_dev"},{"clause":"WHERE","comparator":"NULL","expressionType":"SIMPLE","filterOptionName":"filter_d5l1qwsthl_okyuouvmors","isExtra":false,"isNew":false,"operator":"!=","sqlExpression":null,"subject":"first_time_developer"},{"clause":"WHERE","comparator":"NULL","expressionType":"SIMPLE","filterOptionName":"filter_95548uvadi_f990s8nzl4","isExtra":false,"isNew":false,"operator":"!=","sqlExpression":null,"subject":"communite_time"}],"annotation_layers":[],"color_scheme":"supersetColors","datasource":"19__table","granularity_sqla":"time_start","groupby":["first_time_developer","communite_time"],"label_colors":{},"metric":"count","queryFields":{"groupby":"groupby","metric":"metrics"},"row_limit":10000,"slice_id":136,"time_range":"No
-  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"sankey","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 638db144-6fb4-4876-b91a-a3b2f4740f46
 version: 1.0.0

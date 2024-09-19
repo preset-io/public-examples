@@ -48,13 +48,6 @@ params:
   viz_type: big_number_total
   y_axis_format: SMART_NUMBER
   annotation_layers: []
-query_context: '{"datasource":{"id":19,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[{"col":"developer_type","op":"==","val":"Currently
-  A Developer"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":"COUNT","column":{"column_name":"is_software_dev","description":null,"expression":null,"filterable":true,"groupby":true,"id":1463,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
-  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"COUNT(is_software_dev)","optionName":"metric_9i1kctig9yr_sizo6ihd2o","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"Currently
-  A Developer","expressionType":"SIMPLE","filterOptionName":"filter_fvi0jg9aii_2lekqrhy7qk","isExtra":false,"isNew":false,"operator":"==","sqlExpression":null,"subject":"developer_type"}],"annotation_layers":[],"datasource":"19__table","granularity_sqla":"time_start","header_font_size":0.4,"metric":{"aggregate":"COUNT","column":{"column_name":"is_software_dev","description":null,"expression":null,"filterable":true,"groupby":true,"id":1463,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
-  PRECISION","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"COUNT(is_software_dev)","optionName":"metric_9i1kctig9yr_sizo6ihd2o","sqlExpression":null},"queryFields":{"metric":"metrics"},"slice_id":139,"subheader_font_size":0.15,"time_range":"No
-  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"big_number_total","y_axis_format":"SMART_NUMBER","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: bd2892ad-701b-469b-bbbd-4391fc9247e6
 version: 1.0.0

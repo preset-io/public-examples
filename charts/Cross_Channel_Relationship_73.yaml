@@ -42,9 +42,6 @@ params:
   viz_type: chord
   y_axis_format: SMART_NUMBER
   annotation_layers: []
-query_context: '{"datasource":{"id":14,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["channel_2","channel_1"],"metrics":[{"aggregate":"SUM","column":{"column_name":"cnt","description":null,"expression":null,"filterable":true,"groupby":true,"id":1777,"is_dttm":false,"optionName":"_col_cnt","python_date_format":null,"type":"INT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(cnt)","optionName":"metric_i1djbl8i2y_2vdl690dkyu","sqlExpression":null}],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_scheme":"supersetColors","columns":"channel_2","datasource":"14__table","groupby":"channel_1","label_colors":{},"metric":{"aggregate":"SUM","column":{"column_name":"cnt","description":null,"expression":null,"filterable":true,"groupby":true,"id":1777,"is_dttm":false,"optionName":"_col_cnt","python_date_format":null,"type":"INT","verbose_name":null},"expressionType":"SIMPLE","hasCustomLabel":false,"isNew":false,"label":"SUM(cnt)","optionName":"metric_i1djbl8i2y_2vdl690dkyu","sqlExpression":null},"queryFields":{"columns":"groupby","groupby":"groupby","metric":"metrics"},"row_limit":1000,"slice_id":121,"time_range":"No
-  filter","time_range_endpoints":["inclusive","exclusive"],"viz_type":"chord","y_axis_format":"SMART_NUMBER","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: b7ea8375-b944-4ebe-b725-101b91237f42
 version: 1.0.0

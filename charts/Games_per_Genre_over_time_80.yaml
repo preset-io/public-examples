@@ -55,11 +55,6 @@ params:
   - null
   extra_form_data: {}
   dashboards: []
-query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"year","op":"TEMPORAL_RANGE","val":"No
-  filter"}],"extras":{"time_grain_sqla":null,"having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":null,"columnType":"BASE_AXIS","sqlExpression":"year","label":"year","expressionType":"SQL"},"genre"],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"series_columns":["genre"],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["year"],"columns":["genre"],"aggregates":{"count":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"rename","options":{"columns":{"count":null},"level":0,"inplace":true}},{"operation":"flatten"}]}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"No
-  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"year"}],"annotation_layers":[],"color_scheme":"supersetColors","comparison_type":"values","dashboards":[],"datasource":"2__table","extra_form_data":{},"forecastInterval":0.8,"forecastPeriods":10,"groupby":["genre"],"legendOrientation":"top","legendType":"scroll","markerSize":6,"metrics":["count"],"only_total":true,"opacity":0.2,"order_desc":true,"rich_tooltip":true,"rolling_type":null,"row_limit":null,"seriesType":"line","show_empty_columns":true,"show_legend":true,"slice_id":101,"sort_series_type":"sum","time_grain_sqla":null,"tooltipTimeFormat":"smart_date","truncate_metric":true,"viz_type":"echarts_timeseries_line","x_axis":"year","x_axis_sort_asc":true,"x_axis_sort_series":"name","x_axis_sort_series_ascending":true,"x_axis_time_format":"smart_date","x_axis_title":"Year
-  Published","x_axis_title_margin":30,"y_axis_bounds":[null,null],"y_axis_format":"SMART_NUMBER","y_axis_title":"#
-  of Games Published","y_axis_title_margin":50,"y_axis_title_position":"Left","zoomable":true,"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 242c48f4-da00-45b9-a180-c9ee15bab4ee
 version: 1.0.0

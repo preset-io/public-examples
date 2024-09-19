@@ -24,7 +24,6 @@ params:
   url_params: {}
   viz_type: sunburst_v2
   annotation_layers: []
-query_context: '{"datasource":{"id":20,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["product_category","clinical_stage"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"annotation_layers":[],"color_scheme":"supersetColors","columns":["product_category","clinical_stage"],"datasource":"20__table","linear_color_scheme":"schemeYlOrBr","metric":"count","queryFields":{"groupby":"groupby","metric":"metrics","secondary_metric":"metrics"},"row_limit":10000,"slice_id":77,"time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"sunburst_v2","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 6cae1766-ef85-450b-925d-e8f8c79f9b80
 version: 1.0.0

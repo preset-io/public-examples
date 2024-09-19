@@ -41,9 +41,6 @@ params:
   url_params: {}
   viz_type: table
   annotation_layers: []
-query_context: '{"datasource":{"id":19,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[{"col":"lang_at_home","op":"!=","val":"NULL"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["lang_at_home"],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"row_limit":15,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"NULL","expressionType":"SIMPLE","filterOptionName":"filter_ameaka2efjv_rfv1et5nwng","isExtra":false,"isNew":false,"operator":"!=","sqlExpression":null,"subject":"lang_at_home"}],"all_columns":[],"annotation_layers":[],"color_pn":true,"datasource":"19__table","granularity_sqla":"time_start","groupby":["lang_at_home"],"metrics":["count"],"order_by_cols":[],"order_desc":true,"percent_metrics":[],"queryFields":{"groupby":"groupby","metrics":"metrics"},"query_mode":"aggregate","row_limit":"15","show_cell_bars":true,"slice_id":123,"table_timestamp_format":"smart_date","time_grain_sqla":"P1D","time_range":"No
-  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"table","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: c3b4dcdb-45f8-4242-b618-b7cabefa8f56
 version: 1.0.0

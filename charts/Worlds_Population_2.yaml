@@ -32,10 +32,6 @@ params:
   extra_form_data: {}
   dashboards:
   - 11
-query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"year","op":"TEMPORAL_RANGE","val":"2000
-  : 2014-01-02"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"year","label":"year","expressionType":"SQL"}],"metrics":["sum__SP_POP_TOTL"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["year"],"columns":[],"aggregates":{"sum__SP_POP_TOTL":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"1__table","viz_type":"big_number","slice_id":104,"x_axis":"year","metric":"sum__SP_POP_TOTL","adhoc_filters":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"2000
-  : 2014-01-02","expressionType":"SIMPLE"}],"compare_lag":"10","compare_suffix":"over
-  10Y","show_trend_line":true,"start_y_axis_at_zero":true,"color_picker":{"r":0,"g":50,"b":135,"a":1},"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","rolling_type":"None","extra_form_data":{},"dashboards":[11],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 62691573-cb29-4b02-8ee6-dbc51ba00fb4
 version: 1.0.0

@@ -52,10 +52,6 @@ params:
   extra_form_data: {}
   dashboards:
   - 10
-query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"year","op":"TEMPORAL_RANGE","val":"No
-  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["rank","name","global_sales","platform","genre","publisher","year"],"orderby":[],"annotation_layers":[],"row_limit":10,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"2__table","viz_type":"table","slice_id":98,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"year":true},"metrics":["count"],"all_columns":["rank","name","global_sales","platform","genre","publisher","year"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"No
-  filter","expressionType":"SIMPLE"}],"time_comparison":"r","adhoc_custom":[{"clause":"WHERE","subject":"year","operator":"TEMPORAL_RANGE","comparator":"No
-  filter","expressionType":"SIMPLE"}],"order_by_cols":[],"row_limit":10,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","page_length":null,"show_cell_bars":false,"color_pn":false,"comparison_color_scheme":"Green","conditional_formatting":[{"column":"global_sales","colorScheme":"#ACE1C4","operator":"None"}],"extra_form_data":{},"dashboards":[10],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 6190c96e-b564-4f0a-b24a-c45d4651089b
 version: 1.0.0

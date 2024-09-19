@@ -34,9 +34,6 @@ params:
   extra_form_data: {}
   dashboards:
   - 12
-query_context: '{"datasource":{"id":8,"type":"table"},"force":false,"queries":[{"filters":[{"col":"ts","op":"TEMPORAL_RANGE","val":"No
-  filter"}],"extras":{"time_grain_sqla":"P1W","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1W","columnType":"BASE_AXIS","sqlExpression":"ts","label":"ts","expressionType":"SQL"}],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["ts"],"columns":[],"aggregates":{"count":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"8__table","viz_type":"big_number","slice_id":114,"x_axis":"ts","time_grain_sqla":"P1W","metric":"count","adhoc_filters":[{"clause":"WHERE","subject":"ts","operator":"TEMPORAL_RANGE","comparator":"No
-  filter","expressionType":"SIMPLE"}],"compare_lag":1,"compare_suffix":"WoW","show_trend_line":true,"start_y_axis_at_zero":true,"time_range_fixed":false,"color_picker":{"r":88,"g":78,"b":160,"a":1},"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","rolling_type":"None","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: fa7e8998-3852-459b-9a10-550293926455
 version: 1.0.0
