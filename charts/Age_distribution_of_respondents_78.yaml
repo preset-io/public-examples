@@ -26,9 +26,6 @@ params:
   x_axis_label: age
   y_axis_label: count
   annotation_layers: []
-query_context: '{"datasource":{"id":19,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","granularity":"time_start","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[],"all_columns_x":["age"],"annotation_layers":[],"color_scheme":"supersetColors","datasource":"19__table","granularity_sqla":"time_start","groupby":null,"label_colors":{},"link_length":"25","queryFields":{"groupby":"groupby"},"row_limit":10000,"slice_id":140,"time_range":"No
-  filter","time_range_endpoints":["inclusive","exclusive"],"url_params":{},"viz_type":"histogram","x_axis_label":"age","y_axis_label":"count","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 6c611338-3711-4dd3-ace0-a157878217df
 version: 1.0.0

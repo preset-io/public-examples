@@ -34,9 +34,6 @@ params:
   extra_form_data: {}
   dashboards:
   - 12
-query_context: '{"datasource":{"id":6,"type":"table"},"force":false,"queries":[{"filters":[{"col":"ts","op":"TEMPORAL_RANGE","val":"2020-08-05T00:00:00
-  : 2020-09-06T00:00:00"}],"extras":{"time_grain_sqla":"P1W","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1W","columnType":"BASE_AXIS","sqlExpression":"ts","label":"ts","expressionType":"SQL"}],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["ts"],"columns":[],"aggregates":{"count":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"6__table","viz_type":"big_number","slice_id":113,"x_axis":"ts","time_grain_sqla":"P1W","metric":"count","adhoc_filters":[{"clause":"WHERE","comparator":"2020-08-05T00:00:00
-  : 2020-09-06T00:00:00","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"ts"}],"compare_lag":1,"compare_suffix":"WoW","show_trend_line":true,"start_y_axis_at_zero":true,"time_range_fixed":false,"color_picker":{"r":6,"g":70,"b":248,"a":1},"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","rolling_type":"None","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: 33a351c2-0f7c-4f6f-9a74-d1d05bdce100
 version: 1.0.0
