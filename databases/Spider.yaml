@@ -1,0 +1,16 @@
+database_name: ai_assist_examples
+sqlalchemy_uri: spider://
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_csv_upload: false
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_csv_upload: []
+uuid: 4a8e60d1-307f-aa55-9a38-894f2ee7c58b
+version: 1.0.0
