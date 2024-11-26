@@ -1,6 +1,7 @@
 dashboard_title: Slack Dashboard
 description: null
-css: ".dashboard {\n  background: white;\n}\n.dashboard-component-chart-holder {\n\
+css:
+  ".dashboard {\n  background: white;\n}\n.dashboard-component-chart-holder {\n\
   \  border: 1px #ededed solid;\n}\n\n\n.dashboard-filter-panel a {\n  background:\
   \ white !important;\n}\n\n.css-z133oh {\n  background: white !important;\n}\n"
 slug: null
@@ -19,9 +20,9 @@ position:
       uuid: 0161513a-79d4-4dc6-94f7-5c6cbf9e5cff
       width: 8
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-CtzyKB2OD
+      - ROOT_ID
+      - GRID_ID
+      - ROW-CtzyKB2OD
     type: CHART
   CHART-FwpJA_o1-n:
     children: []
@@ -33,10 +34,10 @@ position:
       uuid: 0eb3637f-6b5f-49e3-aecd-0a6effb6fe4a
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
-    - COLUMN-7iH3XN6bfl
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
+      - COLUMN-7iH3XN6bfl
     type: CHART
   CHART-JhE-Y0xxgi:
     children: []
@@ -49,9 +50,9 @@ position:
       uuid: a96a2be6-1a3f-415e-9f8f-e36192f2e824
       width: 4
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-CtzyKB2OD
+      - ROOT_ID
+      - GRID_ID
+      - ROW-CtzyKB2OD
     type: CHART
   CHART-RbxP2Dl7Ad:
     children: []
@@ -63,10 +64,10 @@ position:
       uuid: fa7e8998-3852-459b-9a10-550293926455
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
-    - COLUMN-krziEpc18M
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
+      - COLUMN-krziEpc18M
     type: CHART
   CHART-cj9KtCNRq3:
     children: []
@@ -78,10 +79,10 @@ position:
       uuid: f1557914-e431-47cb-8a92-da1b41a0263e
       width: 3
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
-    - COLUMN-7iH3XN6bfl
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
+      - COLUMN-7iH3XN6bfl
     type: CHART
   CHART-f42-kMWQPd:
     children: []
@@ -93,9 +94,9 @@ position:
       uuid: b7ea8375-b944-4ebe-b725-101b91237f42
       width: 4
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-PgcMF2PpB
+      - ROOT_ID
+      - GRID_ID
+      - ROW-PgcMF2PpB
     type: CHART
   CHART-tMLHDtzb67:
     children: []
@@ -107,9 +108,9 @@ position:
       uuid: 166256fd-571a-4a2e-ac83-deba242510b2
       width: 8
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
     type: CHART
   CHART-vIvrauAMxV:
     children: []
@@ -121,46 +122,46 @@ position:
       uuid: 33a351c2-0f7c-4f6f-9a74-d1d05bdce100
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
-    - COLUMN-krziEpc18M
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
+      - COLUMN-krziEpc18M
     type: CHART
   COLUMN-7iH3XN6bfl:
     children:
-    - CHART-cj9KtCNRq3
-    - CHART-FwpJA_o1-n
+      - CHART-cj9KtCNRq3
+      - CHART-FwpJA_o1-n
     id: COLUMN-7iH3XN6bfl
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
     type: COLUMN
   COLUMN-krziEpc18M:
     children:
-    - CHART-vIvrauAMxV
-    - CHART-RbxP2Dl7Ad
+      - CHART-vIvrauAMxV
+      - CHART-RbxP2Dl7Ad
     id: COLUMN-krziEpc18M
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-FFFBNmYpiv
+      - ROOT_ID
+      - GRID_ID
+      - ROW-FFFBNmYpiv
     type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children:
-    - ROW-FFFBNmYpiv
-    - ROW-CtzyKB2OD
-    - ROW-PgcMF2PpB
+      - ROW-FFFBNmYpiv
+      - ROW-CtzyKB2OD
+      - ROW-PgcMF2PpB
     id: GRID_ID
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: GRID
   HEADER_ID:
     id: HEADER_ID
@@ -169,42 +170,42 @@ position:
     type: HEADER
   ROOT_ID:
     children:
-    - GRID_ID
+      - GRID_ID
     id: ROOT_ID
     type: ROOT
   ROW-CtzyKB2OD:
     children:
-    - CHART-EYIBwyUiHc
-    - CHART-JhE-Y0xxgi
+      - CHART-EYIBwyUiHc
+      - CHART-JhE-Y0xxgi
     id: ROW-CtzyKB2OD
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
   ROW-FFFBNmYpiv:
     children:
-    - COLUMN-7iH3XN6bfl
-    - COLUMN-krziEpc18M
-    - CHART-tMLHDtzb67
+      - COLUMN-7iH3XN6bfl
+      - COLUMN-krziEpc18M
+      - CHART-tMLHDtzb67
     id: ROW-FFFBNmYpiv
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
   ROW-PgcMF2PpB:
     children:
-    - CHART-f42-kMWQPd
+      - CHART-f42-kMWQPd
     id: ROW-PgcMF2PpB
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
 metadata:
   timed_refresh_immune_slices: []
@@ -219,83 +220,85 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 113
-        - 114
-        - 116
-        - 117
-        - 118
-        - 119
-        - 121
+          - 113
+          - 114
+          - 116
+          - 117
+          - 118
+          - 119
+          - 121
     '118':
       id: 118
       crossFilters:
         scope: global
         chartsInScope:
-        - 113
-        - 114
-        - 115
-        - 116
-        - 117
-        - 119
-        - 121
+          - 113
+          - 114
+          - 115
+          - 116
+          - 117
+          - 119
+          - 121
     '119':
       id: 119
       crossFilters:
         scope: global
         chartsInScope:
-        - 113
-        - 114
-        - 115
-        - 116
-        - 117
-        - 118
-        - 121
+          - 113
+          - 114
+          - 115
+          - 116
+          - 117
+          - 118
+          - 121
   global_chart_configuration:
     scope:
       rootPath:
-      - ROOT_ID
+        - ROOT_ID
       excluded: []
     chartsInScope:
-    - 113
-    - 114
-    - 115
-    - 116
-    - 117
-    - 118
-    - 119
-    - 121
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 121
   cross_filters_enabled: true
   filter_bar_orientation: VERTICAL
   shared_label_colors:
-    beginners: '#0A0095'
-    general: '#9DCBFF'
-    support: '#006BE7'
-    apache-releases: '#4A9FFF'
-    introductions: '#0054B4'
-    dashboard-filters: '#006BE7'
-    dashboards: '#9DCBFF'
-    dashboard-level-access: '#76B6FF'
-    visualization_plugins: '#0054B4'
-    helm-k8-deployment: '#070061'
-    feature-requests: '#0A0095'
-    superset_prod_reports: '#0054B4'
-    commits: '#2289FF'
-    developers: '#BEDCFF'
-    announcements: '#DAEBFF'
-    globalnav_search: '#070061'
-    superset-champions: '#0A0095'
-    newsletter: '#006BE7'
-    community-feedback: '#2289FF'
-    cypress-tests: '#4A9FFF'
-    embedd-dashboards: '#76B6FF'
-    jobs: '#9DCBFF'
-    contributing: '#BEDCFF'
-    localization: '#DAEBFF'
-    github-notifications: '#070061'
-    design: '#2289FF'
-    product_feedback: '#4A9FFF'
-    superset_stage_alerts: '#76B6FF'
-    graduation: '#BEDCFF'
-    pull-requests: '#DAEBFF'
+    [
+      'beginners',
+      'general',
+      'support',
+      'apache-releases',
+      'introductions',
+      'dashboard-filters',
+      'dashboards',
+      'dashboard-level-access',
+      'visualization_plugins',
+      'helm-k8-deployment',
+      'feature-requests',
+      'superset_prod_reports',
+      'commits',
+      'developers',
+      'announcements',
+      'globalnav_search',
+      'superset-champions',
+      'newsletter',
+      'community-feedback',
+      'cypress-tests',
+      'embedd-dashboards',
+      'jobs',
+      'contributing',
+      'localization',
+      'github-notifications',
+      'design',
+      'product_feedback',
+      'superset_stage_alerts',
+      'graduation',
+      'pull-requests',
+    ]
   color_scheme_domain: []
 version: 1.0.0

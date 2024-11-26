@@ -17,10 +17,10 @@ position:
       uuid: 24fcb734-1b2e-433e-b7fb-a856fead24bc
       width: 5
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
-    - ROW-yP9SB89PZ
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
+      - ROW-yP9SB89PZ
     type: CHART
   CHART-8OG3UJX-Tn:
     children: []
@@ -33,10 +33,10 @@ position:
       uuid: 2aec7bc1-fd87-4545-947e-99b231f29d49
       width: 5
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-Gt_PgGzxB
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-Gt_PgGzxB
     type: CHART
   CHART-LXFq6K7idm:
     children: []
@@ -48,10 +48,10 @@ position:
       uuid: f03d64b3-eaa1-4f75-ad8b-f4fe4be3747b
       width: 12
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
-    - ROW-P9Ejc98q3
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
+      - ROW-P9Ejc98q3
     type: CHART
   CHART-W02beJK7ms:
     children: []
@@ -64,11 +64,11 @@ position:
       uuid: 6190c96e-b564-4f0a-b24a-c45d4651089b
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-qgbcVY2gUS
-    - COLUMN-VZXUbkPyZi
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-qgbcVY2gUS
+      - COLUMN-VZXUbkPyZi
     type: CHART
   CHART-XFag0yZdLk:
     children: []
@@ -81,10 +81,10 @@ position:
       uuid: b7246f70-7920-4747-87bd-73bf6c08f701
       width: 5
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-7kAf1blYU
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-7kAf1blYU
     type: CHART
   CHART-XVIYTeubZh:
     children: []
@@ -96,10 +96,10 @@ position:
       uuid: 7b79d4b1-0f1a-464f-9e96-b34617bba92c
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
-    - ROW-yP9SB89PZ
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
+      - ROW-yP9SB89PZ
     type: CHART
   CHART-_sx22yawJO:
     children: []
@@ -111,10 +111,10 @@ position:
       uuid: a964c204-14ea-441b-9e46-64c7a65e521c
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-Gt_PgGzxB
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-Gt_PgGzxB
     type: CHART
   CHART-u0_Ge0ebIP:
     children: []
@@ -126,10 +126,10 @@ position:
       uuid: 242c48f4-da00-45b9-a180-c9ee15bab4ee
       width: 12
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
-    - ROW-fjg6YQBkH
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
+      - ROW-fjg6YQBkH
     type: CHART
   CHART-wW9Ctlmehl:
     children: []
@@ -141,10 +141,10 @@ position:
       uuid: 82991665-979f-4406-9d0d-4fb747fb5b14
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-7kAf1blYU
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-7kAf1blYU
     type: CHART
   CHART-wt6ZO8jRXZ:
     children: []
@@ -157,31 +157,31 @@ position:
       uuid: a80b15d9-24d2-494b-a994-f09b9fd97a98
       width: 8
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-qgbcVY2gUS
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-qgbcVY2gUS
     type: CHART
   COLUMN-VZXUbkPyZi:
     children:
-    - MARKDOWN-JOZKOjVc3a
-    - CHART-W02beJK7ms
+      - MARKDOWN-JOZKOjVc3a
+      - CHART-W02beJK7ms
     id: COLUMN-VZXUbkPyZi
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 4
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-qgbcVY2gUS
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-qgbcVY2gUS
     type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children: []
     id: GRID_ID
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: GRID
   HEADER_ID:
     id: HEADER_ID
@@ -192,127 +192,128 @@ position:
     children: []
     id: MARKDOWN-JOZKOjVc3a
     meta:
-      code: "### \U0001F3AEVideo Game Sales\n\n<span style=\"font-size:0.8em;\">\n\
+      code:
+        "### \U0001F3AEVideo Game Sales\n\n<span style=\"font-size:0.8em;\">\n\
         This dashboard visualizes sales & platform data on video games that sold more\
         \ than 100k copies. The data was last updated in early 2017.\n\n[Original\
         \ dataset](https://www.kaggle.com/gregorut/videogamesales)\n\n</span>"
       height: 18
       width: 4
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
-    - ROW-qgbcVY2gUS
-    - COLUMN-VZXUbkPyZi
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
+      - ROW-qgbcVY2gUS
+      - COLUMN-VZXUbkPyZi
     type: MARKDOWN
   ROOT_ID:
     children:
-    - TABS-97PVJa11D_
+      - TABS-97PVJa11D_
     id: ROOT_ID
     type: ROOT
   ROW-7kAf1blYU:
     children:
-    - CHART-XFag0yZdLk
-    - CHART-wW9Ctlmehl
+      - CHART-XFag0yZdLk
+      - CHART-wW9Ctlmehl
     id: ROW-7kAf1blYU
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
     type: ROW
   ROW-Gt_PgGzxB:
     children:
-    - CHART-_sx22yawJO
-    - CHART-8OG3UJX-Tn
+      - CHART-_sx22yawJO
+      - CHART-8OG3UJX-Tn
     id: ROW-Gt_PgGzxB
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
     type: ROW
   ROW-P9Ejc98q3:
     children:
-    - CHART-LXFq6K7idm
+      - CHART-LXFq6K7idm
     id: ROW-P9Ejc98q3
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
     type: ROW
   ROW-fjg6YQBkH:
     children:
-    - CHART-u0_Ge0ebIP
+      - CHART-u0_Ge0ebIP
     id: ROW-fjg6YQBkH
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
     type: ROW
   ROW-qgbcVY2gUS:
     children:
-    - COLUMN-VZXUbkPyZi
-    - CHART-wt6ZO8jRXZ
+      - COLUMN-VZXUbkPyZi
+      - CHART-wt6ZO8jRXZ
     id: ROW-qgbcVY2gUS
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-lg-5ymUDgm
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-lg-5ymUDgm
     type: ROW
   ROW-yP9SB89PZ:
     children:
-    - CHART-XVIYTeubZh
-    - CHART-7mKdnU7OUJ
+      - CHART-XVIYTeubZh
+      - CHART-7mKdnU7OUJ
     id: ROW-yP9SB89PZ
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
-    - TAB-2_QXp8aNq
+      - ROOT_ID
+      - TABS-97PVJa11D_
+      - TAB-2_QXp8aNq
     type: ROW
   TAB-2_QXp8aNq:
     children:
-    - ROW-yP9SB89PZ
-    - ROW-fjg6YQBkH
-    - ROW-P9Ejc98q3
+      - ROW-yP9SB89PZ
+      - ROW-fjg6YQBkH
+      - ROW-P9Ejc98q3
     id: TAB-2_QXp8aNq
     meta:
       text: "\U0001F93F Explore Trends"
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
+      - ROOT_ID
+      - TABS-97PVJa11D_
     type: TAB
   TAB-lg-5ymUDgm:
     children:
-    - ROW-qgbcVY2gUS
-    - ROW-7kAf1blYU
-    - ROW-Gt_PgGzxB
+      - ROW-qgbcVY2gUS
+      - ROW-7kAf1blYU
+      - ROW-Gt_PgGzxB
     id: TAB-lg-5ymUDgm
     meta:
       text: Overview
     parents:
-    - ROOT_ID
-    - TABS-97PVJa11D_
+      - ROOT_ID
+      - TABS-97PVJa11D_
     type: TAB
   TABS-97PVJa11D_:
     children:
-    - TAB-lg-5ymUDgm
-    - TAB-2_QXp8aNq
+      - TAB-lg-5ymUDgm
+      - TAB-2_QXp8aNq
     id: TABS-97PVJa11D_
     meta: {}
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: TABS
 metadata:
   timed_refresh_immune_slices: []
@@ -326,348 +327,350 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 95
-        - 96
-        - 97
-        - 98
-        - 99
-        - 100
-        - 101
-        - 102
-        - 103
+          - 95
+          - 96
+          - 97
+          - 98
+          - 99
+          - 100
+          - 101
+          - 102
+          - 103
     '95':
       id: 95
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 96
-        - 97
-        - 98
-        - 99
-        - 100
-        - 101
-        - 102
-        - 103
+          - 94
+          - 96
+          - 97
+          - 98
+          - 99
+          - 100
+          - 101
+          - 102
+          - 103
     '96':
       id: 96
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 97
-        - 98
-        - 99
-        - 100
-        - 101
-        - 102
-        - 103
+          - 94
+          - 95
+          - 97
+          - 98
+          - 99
+          - 100
+          - 101
+          - 102
+          - 103
     '97':
       id: 97
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 98
-        - 99
-        - 100
-        - 101
-        - 102
-        - 103
+          - 94
+          - 95
+          - 96
+          - 98
+          - 99
+          - 100
+          - 101
+          - 102
+          - 103
     '98':
       id: 98
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 97
-        - 99
-        - 100
-        - 101
-        - 102
-        - 103
+          - 94
+          - 95
+          - 96
+          - 97
+          - 99
+          - 100
+          - 101
+          - 102
+          - 103
     '100':
       id: 100
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 97
-        - 98
-        - 99
-        - 101
-        - 102
-        - 103
+          - 94
+          - 95
+          - 96
+          - 97
+          - 98
+          - 99
+          - 101
+          - 102
+          - 103
     '101':
       id: 101
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 97
-        - 98
-        - 99
-        - 100
-        - 102
-        - 103
+          - 94
+          - 95
+          - 96
+          - 97
+          - 98
+          - 99
+          - 100
+          - 102
+          - 103
     '102':
       id: 102
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 97
-        - 98
-        - 99
-        - 100
-        - 101
-        - 103
+          - 94
+          - 95
+          - 96
+          - 97
+          - 98
+          - 99
+          - 100
+          - 101
+          - 103
     '103':
       id: 103
       crossFilters:
         scope: global
         chartsInScope:
-        - 94
-        - 95
-        - 96
-        - 97
-        - 98
-        - 99
-        - 100
-        - 101
-        - 102
+          - 94
+          - 95
+          - 96
+          - 97
+          - 98
+          - 99
+          - 100
+          - 101
+          - 102
   global_chart_configuration:
     scope:
       rootPath:
-      - ROOT_ID
+        - ROOT_ID
       excluded: []
     chartsInScope:
-    - 94
-    - 95
-    - 96
-    - 97
-    - 98
-    - 99
-    - 100
-    - 101
-    - 102
-    - 103
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
   cross_filters_enabled: true
   native_filter_configuration:
-  - id: NATIVE_FILTER-nxhnW0THq
-    controlValues:
-      enableEmptyFilter: false
-    name: Time Range
-    filterType: filter_time
-    targets:
-    - {}
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 1
-    - 7
-    - 17
-    - 23
-    - 30
-    - 36
-    - 39
-    - 48
-    - 60
-    - 61
-    - 62
-    tabsInScope:
-    - TAB-lg-5ymUDgm
-    - TAB-2_QXp8aNq
-  - id: NATIVE_FILTER-pi-F0-v7S
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Platform
-    filterType: filter_select
-    targets:
-    - column:
-        name: platform
-      datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 1
-    - 7
-    - 17
-    - 23
-    - 30
-    - 36
-    - 39
-    - 48
-    - 60
-    - 61
-    - 62
-    tabsInScope:
-    - TAB-lg-5ymUDgm
-    - TAB-2_QXp8aNq
-  - id: NATIVE_FILTER--gSkU7aD7
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Genre
-    filterType: filter_select
-    targets:
-    - column:
-        name: genre
-      datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 1
-    - 7
-    - 17
-    - 23
-    - 30
-    - 36
-    - 39
-    - 48
-    - 60
-    - 61
-    - 62
-    tabsInScope:
-    - TAB-lg-5ymUDgm
-    - TAB-2_QXp8aNq
-  - id: NATIVE_FILTER-Xfp3ynbxo
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Publisher
-    filterType: filter_select
-    targets:
-    - column:
-        name: publisher
-      datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 1
-    - 7
-    - 17
-    - 23
-    - 30
-    - 36
-    - 39
-    - 48
-    - 60
-    - 61
-    - 62
-    tabsInScope:
-    - TAB-lg-5ymUDgm
-    - TAB-2_QXp8aNq
+    - id: NATIVE_FILTER-nxhnW0THq
+      controlValues:
+        enableEmptyFilter: false
+      name: Time Range
+      filterType: filter_time
+      targets:
+        - {}
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 1
+        - 7
+        - 17
+        - 23
+        - 30
+        - 36
+        - 39
+        - 48
+        - 60
+        - 61
+        - 62
+      tabsInScope:
+        - TAB-lg-5ymUDgm
+        - TAB-2_QXp8aNq
+    - id: NATIVE_FILTER-pi-F0-v7S
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Platform
+      filterType: filter_select
+      targets:
+        - column:
+            name: platform
+          datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 1
+        - 7
+        - 17
+        - 23
+        - 30
+        - 36
+        - 39
+        - 48
+        - 60
+        - 61
+        - 62
+      tabsInScope:
+        - TAB-lg-5ymUDgm
+        - TAB-2_QXp8aNq
+    - id: NATIVE_FILTER--gSkU7aD7
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Genre
+      filterType: filter_select
+      targets:
+        - column:
+            name: genre
+          datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 1
+        - 7
+        - 17
+        - 23
+        - 30
+        - 36
+        - 39
+        - 48
+        - 60
+        - 61
+        - 62
+      tabsInScope:
+        - TAB-lg-5ymUDgm
+        - TAB-2_QXp8aNq
+    - id: NATIVE_FILTER-Xfp3ynbxo
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Publisher
+      filterType: filter_select
+      targets:
+        - column:
+            name: publisher
+          datasetUuid: 53d47c0c-c03d-47f0-b9ac-81225f808283
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 1
+        - 7
+        - 17
+        - 23
+        - 30
+        - 36
+        - 39
+        - 48
+        - 60
+        - 61
+        - 62
+      tabsInScope:
+        - TAB-lg-5ymUDgm
+        - TAB-2_QXp8aNq
   filter_bar_orientation: HORIZONTAL
   label_colors: {}
   color_scheme_domain: []
   shared_label_colors:
-    '2600': '#ffec43'
-    count: '#2fc096'
-    PS2: '#2fc096'
-    X360: '#01dfff'
-    PS3: '#153ae0'
-    Wii: '#850ad6'
-    DS: '#ff4a96'
-    PS: '#f40000'
-    GBA: '#ff8901'
-    PSP: '#ffbc0a'
-    PS4: '#ffec43'
-    PC: '#41ed86'
-    GB: '#2fc096'
-    XB: '#01dfff'
-    NES: '#153ae0'
-    3DS: '#850ad6'
-    N64: '#ff4a96'
-    SNES: '#f40000'
-    GC: '#ff8901'
-    XOne: '#ffbc0a'
-    WiiU: '#41ed86'
-    PSV: '#2fc096'
-    SAT: '#01dfff'
-    GEN: '#153ae0'
-    DC: '#850ad6'
-    SCD: '#ff4a96'
-    NG: '#f40000'
-    WS: '#ff8901'
-    TG16: '#ffbc0a'
-    3DO: '#ffec43'
-    GG: '#41ed86'
-    PCFX: '#2fc096'
-    Nintendo: '#2fc096'
-    Take-Two Interactive: '#01dfff'
-    Microsoft Game Studios: '#153ae0'
-    North America: '#2fc096'
-    Europe: '#01dfff'
-    Japan: '#153ae0'
-    Other: '#850ad6'
-    Action: '#2fc096'
-    Sports: '#01dfff'
-    Misc: '#153ae0'
-    Role-Playing: '#850ad6'
-    Shooter: '#ff4a96'
-    Adventure: '#f40000'
-    Racing: '#ff8901'
-    Platform: '#ffbc0a'
-    Simulation: '#ffec43'
-    Fighting: '#41ed86'
-    Strategy: '#2fc096'
-    Puzzle: '#01dfff'
+    [
+      '2600',
+      'count',
+      'PS2',
+      'X360',
+      'PS3',
+      'Wii',
+      'DS',
+      'PS',
+      'GBA',
+      'PSP',
+      'PS4',
+      'PC',
+      'GB',
+      'XB',
+      'NES',
+      '3DS',
+      'N64',
+      'SNES',
+      'GC',
+      'XOne',
+      'WiiU',
+      'PSV',
+      'SAT',
+      'GEN',
+      'DC',
+      'SCD',
+      'NG',
+      'WS',
+      'TG16',
+      '3DO',
+      'GG',
+      'PCFX',
+      'Nintendo',
+      'Take-Two Interactive',
+      'Microsoft Game Studios',
+      'North America',
+      'Europe',
+      'Japan',
+      'Other',
+      'Action',
+      'Sports',
+      'Misc',
+      'Role-Playing',
+      'Shooter',
+      'Adventure',
+      'Racing',
+      'Platform',
+      'Simulation',
+      'Fighting',
+      'Strategy',
+      'Puzzle',
+    ]
 version: 1.0.0

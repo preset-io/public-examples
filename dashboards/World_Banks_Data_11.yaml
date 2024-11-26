@@ -1,6 +1,7 @@
 dashboard_title: World Bank's Data
 description: null
-css: ".dashboard {\n  background: #f4fdf4;\n}\n.dashboard-component-chart-holder {\n\
+css:
+  ".dashboard {\n  background: #f4fdf4;\n}\n.dashboard-component-chart-holder {\n\
   \  border: 3px #ebfceb solid;\n}"
 slug: null
 certified_by: ''
@@ -18,9 +19,9 @@ position:
       uuid: 288053f4-91ed-4bcc-a8ff-5943ed9a145c
       width: 8
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-3fa26c5d
+      - ROOT_ID
+      - GRID_ID
+      - ROW-3fa26c5d
     type: CHART
   CHART-17e0f8d8:
     children: []
@@ -32,9 +33,9 @@ position:
       uuid: be0a65e6-83be-4083-8d56-f81f3cc179a1
       width: 3
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
     type: CHART
   CHART-2d5b6871:
     children: []
@@ -46,11 +47,11 @@ position:
       uuid: bb584143-8731-4331-b674-aa23f2c06da0
       width: 7
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
-    - ROW-1e064e3c
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
+      - ROW-1e064e3c
     type: CHART
   CHART-37982887:
     children: []
@@ -62,12 +63,12 @@ position:
       uuid: 62691573-cb29-4b02-8ee6-dbc51ba00fb4
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
-    - ROW-1e064e3c
-    - COLUMN-fe3914b8
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
+      - ROW-1e064e3c
+      - COLUMN-fe3914b8
     type: CHART
   CHART-97f4cb48:
     children: []
@@ -79,12 +80,12 @@ position:
       uuid: 0bd51d81-79ce-4f66-97fe-306451675239
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
-    - ROW-1e064e3c
-    - COLUMN-fe3914b8
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
+      - ROW-1e064e3c
+      - COLUMN-fe3914b8
     type: CHART
   CHART-IJ4DIWCVsM:
     children: []
@@ -96,10 +97,10 @@ position:
       uuid: 5cee9cff-f5d3-4e44-8889-0d13cd954d0b
       width: 9
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
     type: CHART
   CHART-a4808bba:
     children: []
@@ -111,9 +112,9 @@ position:
       uuid: 62e8852f-b71a-43a2-bfcd-66c476be18b6
       width: 8
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-812b3f13
+      - ROOT_ID
+      - GRID_ID
+      - ROW-812b3f13
     type: CHART
   CHART-b5e05d6f:
     children: []
@@ -125,9 +126,9 @@ position:
       uuid: 8e7b8f10-d128-4d09-b0b6-830b4f235142
       width: 4
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-3fa26c5d
+      - ROOT_ID
+      - GRID_ID
+      - ROW-3fa26c5d
     type: CHART
   CHART-e76e9f5f:
     children: []
@@ -139,47 +140,47 @@ position:
       uuid: e72e4989-cf37-438e-bfec-a67d57f3b683
       width: 4
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-812b3f13
+      - ROOT_ID
+      - GRID_ID
+      - ROW-812b3f13
     type: CHART
   COLUMN-071bbbad:
     children:
-    - ROW-1e064e3c
-    - CHART-IJ4DIWCVsM
+      - ROW-1e064e3c
+      - CHART-IJ4DIWCVsM
     id: COLUMN-071bbbad
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 9
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
     type: COLUMN
   COLUMN-fe3914b8:
     children:
-    - CHART-37982887
-    - CHART-97f4cb48
+      - CHART-37982887
+      - CHART-97f4cb48
     id: COLUMN-fe3914b8
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 2
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
-    - ROW-1e064e3c
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
+      - ROW-1e064e3c
     type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children:
-    - ROW-m883-IAm5
-    - ROW-3fa26c5d
-    - ROW-812b3f13
+      - ROW-m883-IAm5
+      - ROW-3fa26c5d
+      - ROW-812b3f13
     id: GRID_ID
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: GRID
   HEADER_ID:
     id: HEADER_ID
@@ -188,54 +189,54 @@ position:
     type: HEADER
   ROOT_ID:
     children:
-    - GRID_ID
+      - GRID_ID
     id: ROOT_ID
     type: ROOT
   ROW-1e064e3c:
     children:
-    - COLUMN-fe3914b8
-    - CHART-2d5b6871
+      - COLUMN-fe3914b8
+      - CHART-2d5b6871
     id: ROW-1e064e3c
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-m883-IAm5
-    - COLUMN-071bbbad
+      - ROOT_ID
+      - GRID_ID
+      - ROW-m883-IAm5
+      - COLUMN-071bbbad
     type: ROW
   ROW-3fa26c5d:
     children:
-    - CHART-b5e05d6f
-    - CHART-0fd0d252
+      - CHART-b5e05d6f
+      - CHART-0fd0d252
     id: ROW-3fa26c5d
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
   ROW-812b3f13:
     children:
-    - CHART-a4808bba
-    - CHART-e76e9f5f
+      - CHART-a4808bba
+      - CHART-e76e9f5f
     id: ROW-812b3f13
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
   ROW-m883-IAm5:
     children:
-    - COLUMN-071bbbad
-    - CHART-17e0f8d8
+      - COLUMN-071bbbad
+      - CHART-17e0f8d8
     id: ROW-m883-IAm5
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - GRID_ID
+      - ROOT_ID
+      - GRID_ID
     type: ROW
 metadata:
   chart_configuration:
@@ -244,193 +245,193 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 106
-        - 107
-        - 108
-        - 109
-        - 110
-        - 111
-        - 112
+          - 104
+          - 106
+          - 107
+          - 108
+          - 109
+          - 110
+          - 111
+          - 112
     '106':
       id: 106
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 107
-        - 108
-        - 109
-        - 110
-        - 111
-        - 112
+          - 104
+          - 105
+          - 107
+          - 108
+          - 109
+          - 110
+          - 111
+          - 112
     '107':
       id: 107
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 108
-        - 109
-        - 110
-        - 111
-        - 112
+          - 104
+          - 105
+          - 106
+          - 108
+          - 109
+          - 110
+          - 111
+          - 112
     '108':
       id: 108
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 107
-        - 109
-        - 110
-        - 111
-        - 112
+          - 104
+          - 105
+          - 106
+          - 107
+          - 109
+          - 110
+          - 111
+          - 112
     '109':
       id: 109
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 107
-        - 108
-        - 110
-        - 111
-        - 112
+          - 104
+          - 105
+          - 106
+          - 107
+          - 108
+          - 110
+          - 111
+          - 112
     '110':
       id: 110
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 107
-        - 108
-        - 109
-        - 111
-        - 112
+          - 104
+          - 105
+          - 106
+          - 107
+          - 108
+          - 109
+          - 111
+          - 112
     '111':
       id: 111
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 107
-        - 108
-        - 109
-        - 110
-        - 112
+          - 104
+          - 105
+          - 106
+          - 107
+          - 108
+          - 109
+          - 110
+          - 112
     '112':
       id: 112
       crossFilters:
         scope: global
         chartsInScope:
-        - 104
-        - 105
-        - 106
-        - 107
-        - 108
-        - 109
-        - 110
-        - 111
+          - 104
+          - 105
+          - 106
+          - 107
+          - 108
+          - 109
+          - 110
+          - 111
   global_chart_configuration:
     scope:
       rootPath:
-      - ROOT_ID
+        - ROOT_ID
       excluded: []
     chartsInScope:
-    - 104
-    - 105
-    - 106
-    - 107
-    - 108
-    - 109
-    - 110
-    - 111
-    - 112
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
   native_filter_configuration:
-  - id: NATIVE_FILTER-Ddm5CC8Ec
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Region
-    filterType: filter_select
-    targets:
-    - column:
-        name: region
-      datasetUuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 2
-    - 3
-    - 16
-    - 28
-    - 29
-    - 33
-    - 47
-    - 52
-    - 75
-    - 76
-    tabsInScope: []
-  - id: NATIVE_FILTER-ufki3sgbA
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Country Name
-    filterType: filter_select
-    targets:
-    - column:
-        name: country_name
-      datasetUuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 2
-    - 3
-    - 16
-    - 28
-    - 29
-    - 33
-    - 47
-    - 52
-    - 75
-    - 76
-    tabsInScope: []
+    - id: NATIVE_FILTER-Ddm5CC8Ec
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Region
+      filterType: filter_select
+      targets:
+        - column:
+            name: region
+          datasetUuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 2
+        - 3
+        - 16
+        - 28
+        - 29
+        - 33
+        - 47
+        - 52
+        - 75
+        - 76
+      tabsInScope: []
+    - id: NATIVE_FILTER-ufki3sgbA
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Country Name
+      filterType: filter_select
+      targets:
+        - column:
+            name: country_name
+          datasetUuid: a29e44bc-dd2e-41dd-9ba9-b97af441d168
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 2
+        - 3
+        - 16
+        - 28
+        - 29
+        - 33
+        - 47
+        - 52
+        - 75
+        - 76
+      tabsInScope: []
   color_scheme: supersetAndPresetColors
   refresh_frequency: 0
   expanded_slices: {}
@@ -440,38 +441,40 @@ metadata:
   default_filters: '{}'
   filter_bar_orientation: HORIZONTAL
   shared_label_colors:
-    sum__SP_POP_TOTL: '#004960'
-    Europe & Central Asia: '#20A7C9'
-    Latin America & Caribbean: '#7DCDE1'
-    Middle East & North Africa: '#C6ECE1'
-    Sub-Saharan Africa: '#5CC0DA'
-    East Asia & Pacific: '#004960'
-    South Asia: '#2893B3'
-    North America: '#A9D3E1'
-    China: '#004960'
-    India: '#2893B3'
-    United States: '#20A7C9'
-    Indonesia: '#5CC0DA'
-    Brazil: '#7DCDE1'
-    Russian Federation: '#A9D3E1'
-    Japan: '#C6ECE1'
-    Pakistan: '#AAE2D2'
-    Bangladesh: '#71CFB4'
-    Nigeria: '#2FC096'
-    Mexico: '#178F7A'
-    Germany: '#067162'
-    Vietnam: '#004960'
-    Philippines: '#2893B3'
-    United Kingdom: '#20A7C9'
-    France: '#5CC0DA'
-    Italy: '#7DCDE1'
-    Egypt, Arab Rep.: '#A9D3E1'
-    Thailand: '#C6ECE1'
-    Turkey: '#AAE2D2'
-    Ethiopia: '#71CFB4'
-    Iran, Islamic Rep.: '#2FC096'
-    Ukraine: '#178F7A'
-    Korea, Rep.: '#067162'
-    Myanmar: '#004960'
+    [
+      'sum__SP_POP_TOTL',
+      'Europe & Central Asia',
+      'Latin America & Caribbean',
+      'Middle East & North Africa',
+      'Sub-Saharan Africa',
+      'East Asia & Pacific',
+      'South Asia',
+      'North America',
+      'China',
+      'India',
+      'United States',
+      'Indonesia',
+      'Brazil',
+      'Russian Federation',
+      'Japan',
+      'Pakistan',
+      'Bangladesh',
+      'Nigeria',
+      'Mexico',
+      'Germany',
+      'Vietnam',
+      'Philippines',
+      'United Kingdom',
+      'France',
+      'Italy',
+      'Egypt, Arab Rep.',
+      'Thailand',
+      'Turkey',
+      'Ethiopia',
+      'Iran, Islamic Rep.',
+      'Ukraine',
+      'Korea, Rep.',
+      'Myanmar',
+    ]
   color_scheme_domain: []
 version: 1.0.0
