@@ -1,5 +1,5 @@
 database_name: File Uploads
-sqlalchemy_uri: preset://
+sqlalchemy_uri: uploads://
 cache_timeout: null
 expose_in_sqllab: true
 allow_run_async: false
