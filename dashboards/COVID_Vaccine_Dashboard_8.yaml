@@ -1,6 +1,7 @@
 dashboard_title: COVID Vaccine Dashboard
 description: null
-css: ".dashboard {\n  background: #f9f9f9;\n}\n.dashboard-component-chart-holder {\n\
+css:
+  ".dashboard {\n  background: #f9f9f9;\n}\n.dashboard-component-chart-holder {\n\
   \  border: 1px #ededed double;\n  border-radius: 8px !important;\n}"
 slug: null
 certified_by: ''
@@ -19,10 +20,10 @@ position:
       uuid: 2183ab84-4989-4954-8787-4447b1204964
       width: 6
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-q6T8yo-7J
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-q6T8yo-7J
     type: CHART
   CHART-RjD_ygqtwH:
     children: []
@@ -35,10 +36,10 @@ position:
       uuid: 29e87a11-f990-45d5-bca1-601d0e1b586e
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-q6T8yo-7J
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-q6T8yo-7J
     type: CHART
   CHART-UbgsKjj3Jv:
     children: []
@@ -50,10 +51,10 @@ position:
       uuid: 638287c5-aa2b-4f26-b7ca-fa624913b768
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-q6T8yo-7J
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-q6T8yo-7J
     type: CHART
   CHART-dCUpAcPsji:
     children: []
@@ -66,10 +67,10 @@ position:
       uuid: 269a8a87-f568-481d-a532-248d8846bd46
       width: 12
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-_lvutt7mi
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-_lvutt7mi
     type: CHART
   CHART-explore-82-1:
     children: []
@@ -82,10 +83,10 @@ position:
       uuid: a5275e43-042b-446a-8ad1-ed4ab2c5d279
       width: 9
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-zhOlQLQnB
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-zhOlQLQnB
     type: CHART
   CHART-fYo7IyvKZQ:
     children: []
@@ -98,10 +99,10 @@ position:
       uuid: 6cae1766-ef85-450b-925d-e8f8c79f9b80
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-xSeNAspgw
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-xSeNAspgw
     type: CHART
   CHART-j4hUvP5dDD:
     children: []
@@ -114,17 +115,17 @@ position:
       uuid: 04042714-db44-4798-8557-cc0bf251a15d
       width: 5
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-xSeNAspgw
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-xSeNAspgw
     type: CHART
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children: []
     id: GRID_ID
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: GRID
   HEADER_ID:
     id: HEADER_ID
@@ -135,7 +136,8 @@ position:
     children: []
     id: MARKDOWN-VjQQ5SFj5v
     meta:
-      code: "### \U0001F489 COVID-19 Vaccine Dashboard\n\n<span style=\"font-size:0.8rem;\"\
+      code:
+        "### \U0001F489 COVID-19 Vaccine Dashboard\n\n<span style=\"font-size:0.8rem;\"\
         >\nEverywhere you look, you see negative news about COVID-19. This is to be\
         \ expected; it''s been a brutal year and this disease is no joke. This dashboard\
         \ hopes to use visualization to inject some optimism about the coming return\
@@ -154,86 +156,86 @@ position:
       height: 63
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
-    - ROW-zhOlQLQnB
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
+      - ROW-zhOlQLQnB
     type: MARKDOWN
   ROOT_ID:
     children:
-    - TABS-wUKya7eQ0Z
+      - TABS-wUKya7eQ0Z
     id: ROOT_ID
     type: ROOT
   ROW-_lvutt7mi:
     children:
-    - CHART-dCUpAcPsji
+      - CHART-dCUpAcPsji
     id: ROW-_lvutt7mi
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
     type: ROW
   ROW-q6T8yo-7J:
     children:
-    - CHART-UbgsKjj3Jv
-    - CHART-RjD_ygqtwH
-    - CHART-F-fkth0Dnv
+      - CHART-UbgsKjj3Jv
+      - CHART-RjD_ygqtwH
+      - CHART-F-fkth0Dnv
     id: ROW-q6T8yo-7J
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
     type: ROW
   ROW-xSeNAspgw:
     children:
-    - CHART-j4hUvP5dDD
-    - CHART-fYo7IyvKZQ
+      - CHART-j4hUvP5dDD
+      - CHART-fYo7IyvKZQ
     id: ROW-xSeNAspgw
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
     type: ROW
   ROW-zhOlQLQnB:
     children:
-    - MARKDOWN-VjQQ5SFj5v
-    - CHART-explore-82-1
+      - MARKDOWN-VjQQ5SFj5v
+      - CHART-explore-82-1
     id: ROW-zhOlQLQnB
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
-    - TAB-BCIJF4NvgQ
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
+      - TAB-BCIJF4NvgQ
     type: ROW
   TAB-BCIJF4NvgQ:
     children:
-    - ROW-zhOlQLQnB
-    - ROW-q6T8yo-7J
-    - ROW-xSeNAspgw
-    - ROW-_lvutt7mi
+      - ROW-zhOlQLQnB
+      - ROW-q6T8yo-7J
+      - ROW-xSeNAspgw
+      - ROW-_lvutt7mi
     id: TAB-BCIJF4NvgQ
     meta:
       text: Overview
     parents:
-    - ROOT_ID
-    - TABS-wUKya7eQ0Z
+      - ROOT_ID
+      - TABS-wUKya7eQ0Z
     type: TAB
   TABS-wUKya7eQ0Z:
     children:
-    - TAB-BCIJF4NvgQ
+      - TAB-BCIJF4NvgQ
     id: TABS-wUKya7eQ0Z
     meta: {}
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: TABS
 metadata:
   timed_refresh_immune_slices: []
@@ -246,178 +248,178 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 75
-        - 76
-        - 77
-        - 78
-        - 79
-        - 82
+          - 75
+          - 76
+          - 77
+          - 78
+          - 79
+          - 82
     '75':
       id: 75
       crossFilters:
         scope: global
         chartsInScope:
-        - 74
-        - 76
-        - 77
-        - 78
-        - 79
-        - 82
+          - 74
+          - 76
+          - 77
+          - 78
+          - 79
+          - 82
     '77':
       id: 77
       crossFilters:
         scope: global
         chartsInScope:
-        - 74
-        - 75
-        - 76
-        - 78
-        - 79
-        - 82
+          - 74
+          - 75
+          - 76
+          - 78
+          - 79
+          - 82
     '78':
       id: 78
       crossFilters:
         scope: global
         chartsInScope:
-        - 74
-        - 75
-        - 76
-        - 77
-        - 79
-        - 82
+          - 74
+          - 75
+          - 76
+          - 77
+          - 79
+          - 82
     '82':
       id: 82
       crossFilters:
         scope: global
         chartsInScope:
-        - 74
-        - 75
-        - 76
-        - 77
-        - 78
-        - 79
+          - 74
+          - 75
+          - 76
+          - 77
+          - 78
+          - 79
   global_chart_configuration:
     scope:
       rootPath:
-      - ROOT_ID
+        - ROOT_ID
       excluded: []
     chartsInScope:
-    - 74
-    - 75
-    - 76
-    - 77
-    - 78
-    - 79
-    - 82
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 82
   cross_filters_enabled: true
   native_filter_configuration:
-  - id: NATIVE_FILTER-8jS1fx4hl
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Country
-    filterType: filter_select
-    targets:
-    - column:
-        name: country_name
-      datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
-    - 66
-    tabsInScope:
-    - TAB-BCIJF4NvgQ
-  - id: NATIVE_FILTER-3_1wEdKkP
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Vaccine Approach
-    filterType: filter_select
-    targets:
-    - column:
-        name: product_category
-      datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
-    - 66
-    tabsInScope:
-    - TAB-BCIJF4NvgQ
-  - id: NATIVE_FILTER-EWNH3M70z
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Clinical Stage
-    filterType: filter_select
-    targets:
-    - column:
-        name: clinical_stage
-      datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
-    - 66
-    tabsInScope:
-    - TAB-BCIJF4NvgQ
+    - id: NATIVE_FILTER-8jS1fx4hl
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Country
+      filterType: filter_select
+      targets:
+        - column:
+            name: country_name
+          datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 66
+      tabsInScope:
+        - TAB-BCIJF4NvgQ
+    - id: NATIVE_FILTER-3_1wEdKkP
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Vaccine Approach
+      filterType: filter_select
+      targets:
+        - column:
+            name: product_category
+          datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 66
+      tabsInScope:
+        - TAB-BCIJF4NvgQ
+    - id: NATIVE_FILTER-EWNH3M70z
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Clinical Stage
+      filterType: filter_select
+      targets:
+        - column:
+            name: clinical_stage
+          datasetUuid: 974b7a1c-22ea-49cb-9214-97b7dbd511e0
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 66
+      tabsInScope:
+        - TAB-BCIJF4NvgQ
   color_scheme: blue-to-green--test-
   label_colors: {}
   color_scheme_domain: []
-  shared_label_colors: {}
+  shared_label_colors: []
 version: 1.0.0

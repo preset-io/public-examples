@@ -1,6 +1,7 @@
 dashboard_title: Sales Dashboard
 description: null
-css: ".dashboard {\n  background: #f2f6fb;\n}\n.dashboard-component-chart-holder {\n\
+css:
+  ".dashboard {\n  background: #f2f6fb;\n}\n.dashboard-component-chart-holder {\n\
   \  border-radius: 16px !important;\n}"
 slug: null
 certified_by: ''
@@ -19,11 +20,11 @@ position:
       uuid: cb93dc8f-2d4f-4f64-a177-7e5256566b87
       width: 2
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
-    - COLUMN-8Rp54B6ikC
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
+      - COLUMN-8Rp54B6ikC
     type: CHART
   CHART-6yE9sRgJyw:
     children: []
@@ -35,10 +36,10 @@ position:
       uuid: 60fd532b-54cc-49d3-8b20-e14e3918242a
       width: 8
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
-    - ROW-E7MDSGfnm
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
+      - ROW-E7MDSGfnm
     type: CHART
   CHART-AYpv8gFi_q:
     children: []
@@ -50,10 +51,10 @@ position:
       uuid: 61ca81cb-db24-4f8d-8ccc-a2430db75131
       width: 5
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
-    - ROW-0l1WcDzW3
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
+      - ROW-0l1WcDzW3
     type: CHART
   CHART-Gsob8LEQ6y:
     children: []
@@ -65,10 +66,10 @@ position:
       uuid: 4e5cbf58-ff79-4651-a5ce-baaa22c67dc0
       width: 8
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-oAtmu5grZ
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-oAtmu5grZ
     type: CHART
   CHART-OJ9aWDmn1q:
     children: []
@@ -81,10 +82,10 @@ position:
       uuid: ea178dec-1f70-467b-84c6-a439ee3f76db
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
-    - ROW-0l1WcDzW3
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
+      - ROW-0l1WcDzW3
     type: CHART
   CHART-YFg-9wHE7s:
     children: []
@@ -96,10 +97,10 @@ position:
       uuid: 0eb953a3-b5e8-4e81-9f7e-b33b94801720
       width: 4
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
-    - ROW-E7MDSGfnm
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
+      - ROW-E7MDSGfnm
     type: CHART
   CHART-fVeJSgheRq:
     children: []
@@ -111,10 +112,10 @@ position:
       uuid: 16b0afd5-a3cc-4dc5-b7be-b1e0c2d0760a
       width: 7
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
     type: CHART
   CHART-id4RGv80N-:
     children: []
@@ -127,10 +128,10 @@ position:
       uuid: 10e7a1cf-d3d7-4545-a52b-bd7967530be6
       width: 12
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-DdGk_XCf7
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-DdGk_XCf7
     type: CHART
   CHART-j24u8ve41b:
     children: []
@@ -143,10 +144,10 @@ position:
       uuid: 46914afc-f057-441e-bcc6-d02f91921fd9
       width: 4
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-oAtmu5grZ
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-oAtmu5grZ
     type: CHART
   CHART-lFanAaYKBK:
     children: []
@@ -158,46 +159,46 @@ position:
       uuid: 75d88d4c-993b-4db1-917d-f1a6114200c5
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
-    - COLUMN-8Rp54B6ikC
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
+      - COLUMN-8Rp54B6ikC
     type: CHART
   COLUMN-4w34yK0sSb:
     children:
-    - MARKDOWN--AtDSWnapE
-    - MARKDOWN-iYalz-QLM6
+      - MARKDOWN--AtDSWnapE
+      - MARKDOWN-iYalz-QLM6
     id: COLUMN-4w34yK0sSb
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 2
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
     type: COLUMN
   COLUMN-8Rp54B6ikC:
     children:
-    - CHART-lFanAaYKBK
-    - CHART-1NOOLm5YPs
+      - CHART-lFanAaYKBK
+      - CHART-1NOOLm5YPs
     id: COLUMN-8Rp54B6ikC
     meta:
       background: BACKGROUND_TRANSPARENT
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
     type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children: []
     id: GRID_ID
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: GRID
   HEADER_ID:
     id: HEADER_ID
@@ -208,24 +209,26 @@ position:
     children: []
     id: MARKDOWN--AtDSWnapE
     meta:
-      code: "<b> \U0001F697 Vehicle Sales Dashboard</b> \n\n<span style=\"font-size:0.8em;\"\
+      code:
+        "<b> \U0001F697 Vehicle Sales Dashboard</b> \n\n<span style=\"font-size:0.8em;\"\
         >\nThis example dashboard provides insight into the business operations of\
         \ vehicle seller. The dataset powering this dashboard can be found\n\n[here\
         \ on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\n\n</span></br>"
       height: 23
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
-    - COLUMN-4w34yK0sSb
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
+      - COLUMN-4w34yK0sSb
     type: MARKDOWN
   MARKDOWN-iYalz-QLM6:
     children: []
     id: MARKDOWN-iYalz-QLM6
     meta:
-      code: "<b> Timeline</b></br>\n<span style=\"font-size:0.8em;\">\nThe dataset\
+      code:
+        "<b> Timeline</b></br>\n<span style=\"font-size:0.8em;\">\nThe dataset\
         \ contains data on all orders from the 2003 and 2004 fiscal years, and some\
         \ orders from 2005.\n</span>\n\n<b> Products Sold </b></br>\n\n<span style=\"\
         font-size:0.8em;\">\nThis shop mainly sells the following products:\n</span>\n\
@@ -236,108 +239,108 @@ position:
       height: 41
       width: 3
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
-    - ROW-Tyv02UA_6W
-    - COLUMN-4w34yK0sSb
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
+      - ROW-Tyv02UA_6W
+      - COLUMN-4w34yK0sSb
     type: MARKDOWN
   ROOT_ID:
     children:
-    - TABS-e5Ruro0cjP
+      - TABS-e5Ruro0cjP
     id: ROOT_ID
     type: ROOT
   ROW-0l1WcDzW3:
     children:
-    - CHART-OJ9aWDmn1q
-    - CHART-AYpv8gFi_q
+      - CHART-OJ9aWDmn1q
+      - CHART-AYpv8gFi_q
     id: ROW-0l1WcDzW3
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
     type: ROW
   ROW-DdGk_XCf7:
     children:
-    - CHART-id4RGv80N-
+      - CHART-id4RGv80N-
     id: ROW-DdGk_XCf7
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
     type: ROW
   ROW-E7MDSGfnm:
     children:
-    - CHART-YFg-9wHE7s
-    - CHART-6yE9sRgJyw
+      - CHART-YFg-9wHE7s
+      - CHART-6yE9sRgJyw
     id: ROW-E7MDSGfnm
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-4fthLQmdX
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-4fthLQmdX
     type: ROW
   ROW-Tyv02UA_6W:
     children:
-    - COLUMN-4w34yK0sSb
-    - CHART-fVeJSgheRq
-    - COLUMN-8Rp54B6ikC
+      - COLUMN-4w34yK0sSb
+      - CHART-fVeJSgheRq
+      - COLUMN-8Rp54B6ikC
     id: ROW-Tyv02UA_6W
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
     type: ROW
   ROW-oAtmu5grZ:
     children:
-    - CHART-j24u8ve41b
-    - CHART-Gsob8LEQ6y
+      - CHART-j24u8ve41b
+      - CHART-Gsob8LEQ6y
     id: ROW-oAtmu5grZ
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
-    - TAB-d-E0Zc1cTH
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
+      - TAB-d-E0Zc1cTH
     type: ROW
   TAB-4fthLQmdX:
     children:
-    - ROW-0l1WcDzW3
-    - ROW-E7MDSGfnm
+      - ROW-0l1WcDzW3
+      - ROW-E7MDSGfnm
     id: TAB-4fthLQmdX
     meta:
       text: "\U0001F9ED Exploratory"
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
     type: TAB
   TAB-d-E0Zc1cTH:
     children:
-    - ROW-Tyv02UA_6W
-    - ROW-oAtmu5grZ
-    - ROW-DdGk_XCf7
+      - ROW-Tyv02UA_6W
+      - ROW-oAtmu5grZ
+      - ROW-DdGk_XCf7
     id: TAB-d-E0Zc1cTH
     meta:
       text: "\U0001F3AF Sales Overview"
     parents:
-    - ROOT_ID
-    - TABS-e5Ruro0cjP
+      - ROOT_ID
+      - TABS-e5Ruro0cjP
     type: TAB
   TABS-e5Ruro0cjP:
     children:
-    - TAB-d-E0Zc1cTH
-    - TAB-4fthLQmdX
+      - TAB-d-E0Zc1cTH
+      - TAB-4fthLQmdX
     id: TABS-e5Ruro0cjP
     meta: {}
     parents:
-    - ROOT_ID
+      - ROOT_ID
     type: TABS
 metadata:
   timed_refresh_immune_slices: []
@@ -351,241 +354,243 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 85
-        - 86
-        - 87
-        - 88
-        - 89
-        - 90
-        - 91
-        - 92
+          - 83
+          - 85
+          - 86
+          - 87
+          - 88
+          - 89
+          - 90
+          - 91
+          - 92
     '86':
       id: 86
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 87
-        - 88
-        - 89
-        - 90
-        - 91
-        - 92
+          - 83
+          - 84
+          - 85
+          - 87
+          - 88
+          - 89
+          - 90
+          - 91
+          - 92
     '87':
       id: 87
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 86
-        - 88
-        - 89
-        - 90
-        - 91
-        - 92
+          - 83
+          - 84
+          - 85
+          - 86
+          - 88
+          - 89
+          - 90
+          - 91
+          - 92
     '88':
       id: 88
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 86
-        - 87
-        - 89
-        - 90
-        - 91
-        - 92
+          - 83
+          - 84
+          - 85
+          - 86
+          - 87
+          - 89
+          - 90
+          - 91
+          - 92
     '89':
       id: 89
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 86
-        - 87
-        - 88
-        - 90
-        - 91
-        - 92
+          - 83
+          - 84
+          - 85
+          - 86
+          - 87
+          - 88
+          - 90
+          - 91
+          - 92
     '90':
       id: 90
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 86
-        - 87
-        - 88
-        - 89
-        - 91
-        - 92
+          - 83
+          - 84
+          - 85
+          - 86
+          - 87
+          - 88
+          - 89
+          - 91
+          - 92
     '91':
       id: 91
       crossFilters:
         scope: global
         chartsInScope:
-        - 83
-        - 84
-        - 85
-        - 86
-        - 87
-        - 88
-        - 89
-        - 90
-        - 92
+          - 83
+          - 84
+          - 85
+          - 86
+          - 87
+          - 88
+          - 89
+          - 90
+          - 92
   global_chart_configuration:
     scope:
       rootPath:
-      - ROOT_ID
+        - ROOT_ID
       excluded: []
     chartsInScope:
-    - 83
-    - 84
-    - 85
-    - 86
-    - 87
-    - 88
-    - 89
-    - 90
-    - 91
-    - 92
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
   cross_filters_enabled: true
   native_filter_configuration:
-  - id: NATIVE_FILTER-T7IJwzFpG
-    controlValues:
-      enableEmptyFilter: false
-    name: Time Range
-    filterType: filter_time
-    targets:
-    - {}
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 8
-    - 18
-    - 19
-    - 20
-    - 25
-    - 31
-    - 34
-    - 35
-    - 37
-    - 42
-    - 44
-    tabsInScope:
-    - TAB-d-E0Zc1cTH
-    - TAB-4fthLQmdX
-  - id: NATIVE_FILTER-ZlY01siIV
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Product Line
-    filterType: filter_select
-    targets:
-    - column:
-        name: product_line
-      datasetUuid: e8623bb9-5e00-f531-506a-19607f5f8005
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 8
-    - 18
-    - 19
-    - 20
-    - 25
-    - 31
-    - 34
-    - 35
-    - 37
-    - 42
-    - 44
-    tabsInScope:
-    - TAB-d-E0Zc1cTH
-    - TAB-4fthLQmdX
-  - id: NATIVE_FILTER-mn6Kc7z3G
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    name: Deal Size
-    filterType: filter_select
-    targets:
-    - column:
-        name: deal_size
-      datasetUuid: e8623bb9-5e00-f531-506a-19607f5f8005
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
-    type: NATIVE_FILTER
-    description: ''
-    chartsInScope:
-    - 8
-    - 18
-    - 19
-    - 20
-    - 25
-    - 31
-    - 34
-    - 35
-    - 37
-    - 42
-    - 44
-    tabsInScope:
-    - TAB-d-E0Zc1cTH
-    - TAB-4fthLQmdX
+    - id: NATIVE_FILTER-T7IJwzFpG
+      controlValues:
+        enableEmptyFilter: false
+      name: Time Range
+      filterType: filter_time
+      targets:
+        - {}
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 8
+        - 18
+        - 19
+        - 20
+        - 25
+        - 31
+        - 34
+        - 35
+        - 37
+        - 42
+        - 44
+      tabsInScope:
+        - TAB-d-E0Zc1cTH
+        - TAB-4fthLQmdX
+    - id: NATIVE_FILTER-ZlY01siIV
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Product Line
+      filterType: filter_select
+      targets:
+        - column:
+            name: product_line
+          datasetUuid: e8623bb9-5e00-f531-506a-19607f5f8005
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 8
+        - 18
+        - 19
+        - 20
+        - 25
+        - 31
+        - 34
+        - 35
+        - 37
+        - 42
+        - 44
+      tabsInScope:
+        - TAB-d-E0Zc1cTH
+        - TAB-4fthLQmdX
+    - id: NATIVE_FILTER-mn6Kc7z3G
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: false
+        inverseSelection: false
+      name: Deal Size
+      filterType: filter_select
+      targets:
+        - column:
+            name: deal_size
+          datasetUuid: e8623bb9-5e00-f531-506a-19607f5f8005
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+          - ROOT_ID
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+        - 8
+        - 18
+        - 19
+        - 20
+        - 25
+        - 31
+        - 34
+        - 35
+        - 37
+        - 42
+        - 44
+      tabsInScope:
+        - TAB-d-E0Zc1cTH
+        - TAB-4fthLQmdX
   label_colors: {}
   filter_bar_orientation: HORIZONTAL
   color_scheme_domain: []
   shared_label_colors:
-    SUM(Sales): '#0080F6'
-    Classic Cars: '#0080F6'
-    Vintage Cars: '#254081'
-    Motorcycles: '#6C4592'
-    Trucks and Buses: '#A94693'
-    Planes: '#DC4180'
-    Ships: '#F35193'
-    Trains: '#FF7582'
-    Medium: '#0080F6'
-    Small: '#254081'
-    Large: '#6C4592'
+    [
+      'SUM(Sales)',
+      'Classic Cars',
+      'Vintage Cars',
+      'Motorcycles',
+      'Trucks and Buses',
+      'Planes',
+      'Ships',
+      'Trains',
+      'Medium',
+      'Small',
+      'Large',
+    ]
 version: 1.0.0
