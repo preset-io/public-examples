@@ -1,8 +1,6 @@
 dashboard_title: Sales Dashboard
 description: null
-css:
-  ".dashboard {\n  background: #f2f6fb;\n}\n.dashboard-component-chart-holder {\n\
-  \  border-radius: 16px !important;\n}"
+css: ".dashboard-component-chart-holder {\n  border-radius: 16px !important;\n}"
 slug: null
 certified_by: ''
 certification_details: ''
