@@ -1,8 +1,6 @@
 dashboard_title: World Bank's Data
 description: null
-css:
-  ".dashboard {\n  background: #f4fdf4;\n}\n.dashboard-component-chart-holder {\n\
-  \  border: 3px #ebfceb solid;\n}"
+css: ''
 slug: null
 certified_by: ''
 certification_details: ''

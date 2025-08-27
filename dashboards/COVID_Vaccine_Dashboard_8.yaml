@@ -1,8 +1,6 @@
 dashboard_title: COVID Vaccine Dashboard
 description: null
-css:
-  ".dashboard {\n  background: #f9f9f9;\n}\n.dashboard-component-chart-holder {\n\
-  \  border: 1px #ededed double;\n  border-radius: 8px !important;\n}"
+css: ".dashboard-component-chart-holder {\n  border-radius: 8px !important;\n}"
 slug: null
 certified_by: ''
 certification_details: ''

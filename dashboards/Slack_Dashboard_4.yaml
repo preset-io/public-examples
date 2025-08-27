@@ -1,9 +1,8 @@
 dashboard_title: Slack Dashboard
 description: null
-css:
-  ".dashboard {\n  background: white;\n}\n.dashboard-component-chart-holder {\n\
-  \  border: 1px #ededed solid;\n}\n\n\n.dashboard-filter-panel a {\n  background:\
-  \ white !important;\n}\n\n.css-z133oh {\n  background: white !important;\n}\n"
+css: ".dashboard-component-chart-holder {\n  border: 1px #ededed solid;\n}\n\n\n.dashboard-filter-panel\
+  \ a {\n  background: white !important;\n}\n\n.css-z133oh {\n  background: white\
+  \ !important;\n}\n"
 slug: null
 certified_by: ''
 certification_details: ''
